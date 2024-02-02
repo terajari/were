@@ -30,7 +30,7 @@ jobs:
           go install
           cd ../
           mkdir dist
-          tweego solom.twee -o dist/index.html
+          tweego were.twee -o dist/index.html
       
       - name: Copy assets
         run: cp -r assets dist/
