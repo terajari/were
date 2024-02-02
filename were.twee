@@ -165,7 +165,7 @@ Kamu menyapa walikota dengan sopan, dan si anjing meletakan kepalanya di dagunya
 
 Dia menggambarkan masalah yang dihadapinya: tentang pembunuh keji. Penjaga kota tidak ada masalah jika menghadapi bandit atau pencuri domba, tapi ini kasus yang berbeda sehingga butuh orang yang berbeda untuk menanganinya. Seorang gadis malang ditemukan tewas tercabik-cabik seperti dimangsa oleh binatang buas. Masalahnya, dia ditemukan di dalam kota. Disamping itu, Eboy sudah menjaga hutan supaya terbebas dari monster dan makhluk klenik yang bermasalah.
 
-"Dan selain itu," jelasnya, "kamu adalah orang luar sehingga kamu dikecualikan. Juga adalah peran walikota untuk menjaga warganya dan tidak membiarkan orang asing berkeliaran di dalam kota."
+"Dan selain itu," jelasnya, "kamu adalah orang luar sehingga kamu dikecualikan dari daftar tersangka. Juga adalah tugas walikota untuk menjaga warganya dan tidak membiarkan orang asing berkeliaran di dalam kota."
 
 Kota Were akan membayar 300 keping emas jika berhasil menumpas ancaman kota. Tidak ada negosiasi. Walikota memberi kesan bahwa kamu tidak akan baik-baik saja jika melakukannya.
 
@@ -189,7 +189,7 @@ Terang saja kamu kalah jumlah. Kamu dapat mencoba [[bertarung dengan mereka|33]]
 
 
 :: 24 {"position":"612.5,2600","size":"100,100"}
-Doa pada ayat-ayat yang dibacakan sangatlah menyentuh, tapi kamu merasa bahwa Ispasir beberapa kali melakukan membenarkan kesalahan membacanya.
+Doa pada ayat-ayat yang dibacakan sangatlah menyentuh, tapi kamu merasa bahwa Ispasir beberapa kali membenarkan bacaannya.
 
 <<linkreplace ">>>>>">><<if $roll20Agama gte 10>><<notify 5s>>roll agama berhasil!<</notify>>[[>>>>>|16]]<<else>><<notify 5s>>roll agama gagal!<</notify>>[[>>>>>|7]]<</if>>
 <</linkreplace>>
@@ -298,7 +298,7 @@ Saat dia masuk, kamu mendengar suara orang lain saling mengobrol, meskipun nadan
 
 
 :: 30 {"position":"862.5,3225","size":"100,100"}
-"Kamu seorang musafir, betul?" tanyanya. Setelah kamu menjawab iya, dia melanjutkan, "ah, kalau begitu saya yakin kamu akan melakukannya. Untuk saat ini."
+"Kamu seorang musafir, betul?" tanyanya. Setelah kamu menjawab iya, dia melanjutkan, "ah, kalau begitu saya yakin kamu akan melakukannya."
 
 Dia menggumamkan aksen siluman kucingnya berikut dengan ekspresi wajahnya. Tidak mungkin untuk kamu mengetahui apa yang dia pikirkan tentang dirimu.
 
@@ -308,15 +308,15 @@ Pria botak itu menatapmu kemudian mengangguk. Walikota Esti menghampirimu dan me
 
 Kamu bertanya kenapa dia menyewamu.
 
-"Saya sangat mengenal orang-orang sejenimu. Musafir, Pendekar bayaran, atau apapun kamu menyebutnya. Yang jelas, orang-orang kota sedang ketakutan dan butuh seseorang, itulah kenapa saya menyewamu. Lagipula kamu orang luar, jika kamu gagal maka tidak akan berakibat buruk dengan hubungan warga kota."
+"Saya sangat mengenal orang-orang sejenismu. Musafir, Pendekar bayaran, atau apapun kamu menyebutnya. Yang jelas, orang-orang kota sedang ketakutan dan butuh seseorang, itulah kenapa saya menyewamu. Lagipula kamu orang luar, jika kamu gagal maka tidak akan berakibat buruk dengan hubungan warga kota."
 
 Kamu hendak berterima kasih kepadanya, tapi dia sudah keburu memotong bicaramu.
 
-"Saat ini saya belum mengenalmu," ucapnya sambil menyilangkan lengan. "Dan mungkin tidak akan sempat jika si pembunuh mengincarmu. Alasanmu di sini untuk para warga dan saya, jadi selama kamu menyelidiki kasus pembunuhan gadis ini, kami akan membayar tempat tinggalmu dan makananmu. Temui saya besok di kantor walikota, malam ini bukan waktu yang tepat untuk membicarakan detail kasus ini. Selamat malam." 
+"Saat ini saya belum memberitahukanmu," ucapnya sambil menyilangkan lengan. "Dan mungkin tidak akan sempat jika si pembunuh mengincarmu. Alasanmu di sini untuk para warga dan saya, jadi selama kamu menyelidiki kasus pembunuhan gadis ini, kami akan membayar tempat tinggalmu dan makananmu. Temui saya besok di kantor walikota, malam ini bukan waktu yang tepat untuk membicarakan detail kasus ini. Selamat malam." 
 
 Dia mengangguk sekali, tidak jelas apakah itu bentuk keramahtamahannya atau bukan. Kemudian dia kembali ke tugasnya dalam upacara pemakaman.
 
-Sesaat kamu tercengang sampai seseorang dari kerumunan menghampirimu. Dia Kenny, ahli ramuan kota sekaligus tunangan mendiang Riri.
+Sejenak kamu tercengang sampai seseorang dari kerumunan menghampirimu. Dia Kenny, ahli ramuan kota sekaligus tunangan mendiang Riri.
 
 "Hai," sapanya, tatapan matanya mempesona. "Saya tidak mengenalmu, apa kamu mengenal Riri?"
 
@@ -349,9 +349,9 @@ Keduanya di-sssttt... oleh wanita yang tampak seperti istrinya. Kedua wanita tad
 
 "Calon pengantin saya merupakan sosok yang sederhana," ucap Kenny. "Dia menyukai bunga berwarna ungu seperti yang saya pegang sekarang, dan menyukai apapun yang terbuat dari sutra. Dia seperti tidak butuh apapun lagi jika mendapatkannya."
 
-Walau Kenny sedang berduka, kedua pria tadi masih saja berkasak-kusuk dengan tawaan yang menyebalkan. Dua wanita yang duduk di dekatnya melihat mereka dengan wajah jengkel. Disaat kamu  gagal fokus karena mereka berdua, Kenny menutup matanya, menghela nafas panjang, lalu melanjutkan.
+Walau Kenny sedang berduka, kedua pria tadi masih saja berkasak-kusuk dengan tawa yang menyebalkan. Dua wanita yang duduk di dekatnya melihat mereka dengan wajah jengkel. Disaat kamu  gagal fokus karena mereka berdua, Kenny menutup matanya, menghela nafas panjang, lalu melanjutkan.
 
-"Kematian Riri menyisakan luka yang mendalam di hati saya, dan saya ragu dapat mengobatinya, tapi saya akan berusaha. Dengan bekerja pasti membantu. Dan membalas apa yang telah banyak kalian lakukan pada saya, teruatama di saat gelap seperti sekarang. Yang dapat saya lakukan hanyalah membalas kebaikan kalian. Saya sangat menyayangi kalian, saya akan menyambut kalian di rumah kapanpun itu."
+"Kematian Riri menyisakan luka yang mendalam di hati saya, dan saya ragu dapat mengobatinya, tapi saya akan berusaha. Dengan bekerja pasti membantu. Dan membalas apa yang telah banyak kalian perbuat kepada saya, terutama di saat gelap seperti sekarang. Yang dapat saya lakukan hanyalah membalas kebaikan kalian. Saya sangat menyayangi kalian, saya akan menyambut kalian di rumah kapanpun itu."
 
 Para pendengar bertepuk tangan penuh hormat, dan mengucapkan bela sungkawa. Tapi bagaimanapun, kamu merasa ada yang ganjil.
 <<nobr>>
@@ -420,7 +420,7 @@ Pria pemabuk itu pergi meninggalkan kedai dengan sempoyongan. Kamu hendak mengat
 
 
 :: 37 {"position":"737.5,2975","size":"100,100"}
-Sepertinya kamu ingat dengat kejadian yang diceritakan oleh Esti.
+Sepertinya kamu ingat dengan kejadian yang diceritakan oleh Esti.
 
 <<nobr>>
 <<linkreplace ">>>>>">>
@@ -573,9 +573,9 @@ Mungkin kamu dapat mencari lebih lanjut saat dia datang [[menghampirimu|30]].
 :: 48 {"position":"862.5,3600","size":"100,100"}
 "Sempurna," ucapnya dengan nada puas. "Mari kita mulai, pertama, temui tunangan Riri. Dia seorang ahli ramuan yang tinggal di ujung barat kota di mana dia merawat kebunnya dan membuat ramuan dan obat untuk para warga.
 
-Kamu berterimak kasih dan bersiap untuk pergi, tapi dia menahanmu.
+Kamu berterima kasih dan bersiap untuk pergi, tapi dia menahanmu.
 
-"Tunggu dulu. Saya juga sudah menghubungi pemilik toko sebar ada. Kamu bisa mencari barang yang sekiranya kamu butuhkan di sana, meskipun tidak selengkap toko-toko di kota besar, tapi yang jelas, barang di sini lebih murah dengan kualitas yang sama baiknya. Dan ini uang muka untuk kamu membeli kebutuhanmu."
+"Tunggu dulu. Saya juga sudah menghubungi pemilik toko serba ada. Kamu bisa mencari barang yang sekiranya kamu butuhkan di sana, meskipun tidak selengkap toko-toko di kota besar, tapi yang jelas, barang di sini lebih murah dengan kualitas yang sama baiknya. Dan ini uang muka untuk kamu membeli kebutuhanmu."
 
 Kamu berterima kasih kepada walikota atas kemuarahan hatinya, dia hanya menjawab "hmm..".
 
@@ -764,7 +764,6 @@ Kenny bergerak minggir, mempersilahkan [[pria cebol berjanggut merah berbicara k
 <</if>>
 </li>
 
-<li><<link 'Misi'>><<goals>><</link>></li>
 <li><<link "Catatan">><<notes>><</link>></li>
 <li><<link "Credits">>
 <<dialog "Credits">>
@@ -882,7 +881,7 @@ drop: jatuhkan
 empty: Tas kosong
 
 
-:: karakter [noreturn] {"position":"475,125","size":"100,100"}
+:: karakter [noreturn] {"position":"475,100","size":"100,100"}
 ''Informasi Umum''
 
 Nama: $player.nama
@@ -1491,6 +1490,12 @@ Ketahanan: $pustakawan.atribut.ketahanan [$pustakawan.mod.ketahanan]
 <<update>>
 <</button>>
 <</nobr>>
+
+<<nobr>>
+<<if $totalPoint gt 0>>
+<<button "Mulai petualanganmu">><<notify 5s>> Kamu perlu mendistribusikan semua poin<</notify>><</button>>
+<<else>>
+<<button [[Mulai petualanganmu|intro]]>>
 <<nobr>>
 <<set $player.mod.atletis to Math.trunc(($player.atribut.kekuatan - dice('1d10'))/2)>>
 <<set $player.mod.akrobat to Math.trunc(($player.atribut.ketangkasan - dice('1d10'))/2)>>
@@ -1514,11 +1519,6 @@ Ketahanan: $pustakawan.atribut.ketahanan [$pustakawan.mod.ketahanan]
 <<set $player.hp to dice('3d10') + $player.mod.ketahanan>>
 <<set $player.maxHp to $player.hp>>
 <</nobr>>
-<<nobr>>
-<<if $totalPoint gt 0>>
-<<button "Mulai petualanganmu">><<notify 5s>> Kamu perlu mendistribusikan semua poin<</notify>><</button>>
-<<else>>
-<<button [[Mulai petualanganmu|intro]]>>
 <</button>>
 <</if>>
 <</nobr>>
