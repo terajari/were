@@ -54,7 +54,7 @@ Kamu yakin ada yang kamu lewatkan di sini. Jadi kamu memusatkan perhatianmu untu
 
 <<linkreplace ">>>>>">><<if $roll20Investigasi gte 10>>
 <<notify 5s>>roll investigasi berhasil!<</notify>>
-[[>>>>>|9]]
+<<link [[>>>>>|9]]>><<set $player.mod.investigasi++>><</link>>
 <<else>>
 <<notify 5s>>roll investigasi gagal!<</notify>>
 [[>>>>>|18]]
@@ -86,19 +86,19 @@ Kamu dapat menggunakan [[ilmu klenik|38]] atau [[persepsi|14]] untuk mendapatkan
 Kamu fokus memperhatikan si kuncen berjanggut tebal, terutama perubahan anehnya ketika sedang bersin.
 
 <<linkreplace ">>>>>">> 
-<<if $roll20Persepsi gte 10>><<notify 5s>>roll persepsi berhasil!<</notify>>[[>>>>>|42]]<<else>><<notify 5s>>roll persepsi gagal!<</notify>>[[>>>>>|10]]<</if>>
+<<if $roll20Persepsi gte 10>><<notify 5s>>roll persepsi berhasil!<</notify>><<link [[>>>>>|42]]>><<set $player.mod.persepsi++>><</link>><<else>><<notify 5s>>roll persepsi gagal!<</notify>>[[>>>>>|10]]<</if>>
 <</linkreplace>>
 
 
 :: 15 {"position":"800,1350","size":"100,100"}
-<<set $player.mod.intimidasi += 1>><<notify 5s>>Kamu mendapat +1 mod Intimidasi sebagai inspirasi<</notify>>
+<<notify 5s>>Kamu mendapat +1 mod Intimidasi sebagai inspirasi<</notify>>
 Dia meninggalkanmu saat kamu memberikan tatapan kepadanya setajam belati. Para pengunjung lain tertawa kecil tapi pria mabuk ini mengabaikan olokan tersebut.
 
 Saat pria pemabuk itu sudah pergi, wanita siluman kucing yang tadi berdebat dengannya [[menghampirimu|44]].
 
 
 :: 16 {"position":"612.5,2725","size":"100,100"}
-<<set $player.mod.agama++>><<notify 5s>>Kamu mendapat 1 mod Agama sebagai inspirasi<</notify>>
+<<notify 5s>>Kamu mendapat 1 mod Agama sebagai inspirasi<</notify>>
 Ayat-ayat pemakaman pada kitab Wacana hanyalah teks biasa yang diajarkan di agama manapun yang menjelaskan prosedur pemakaman masyarakat umum. Tapi bagaimanapun, tidak ada doa-doa pada ayat tersebut, hanya deskripsi mengenai proses pemakaman.
 
 Kamu tidak tahu pasti ayat apa yang digunakan oleh Ispasir, tapi bisa jadi itu  ajaran dari  Istana Tinta Cair. Mengingat mereka hanyalah sekte kecil, kemungkinan ajarannya hanya untuk kalangan mereka sendiri.
@@ -107,7 +107,7 @@ Walikota berdiri di belakang Ispasir, menanti sang imam menyadari keberadaannya.
 
 
 :: 17 {"position":"737.5,3100","size":"100,100"}
-<<set $player.mod.sejarah++>><<notify 5s>>Kamu mendapat 1 mod sejarah sebagai inspirasi<</notify>>
+<<notify 5s>>Kamu mendapat 1 mod sejarah sebagai inspirasi<</notify>>
 Sang walikota salah dalam menjelaskan peperangan yang dia ikuti.
 
 Perang Agni bukanlah perang mempertahankan diri dari serangan ras Goganmagu, justru sebaliknya, ini adalah perang antara aliansi negeri Javat dan Borneov dalam menumpas faksi Terea, terlepas faksi Terea merupakan faksi terkuat ras Goganmagu.
@@ -136,7 +136,7 @@ Kamu mengikuti pelayan tersebut masuk ke [[kedai|34]].
 
 
 :: 2 {"position":"550,1350","size":"100,100"}
-<<set $player.mod.persuasif += 1>><<notify 5s>>Kamu mendapat +1 mod Bujuk Rayu sebagai inspirasi<</notify>>
+<<notify 5s>>Kamu mendapat +1 mod Bujuk Rayu sebagai inspirasi<</notify>>
 Pria tua itu mulai tenang lalu meninggalkanmu sambil menggurutu tentang niat buruk para musafir. Dia mengambil segelas arak dari nampan, dan meminumnya.
 
 Saat pria tua itu sudah pergi, seorang wanita siluman kucing [[menghampirimu|44]].
@@ -149,7 +149,7 @@ Kamu mengambil sikap agresif dengan tatapan mata yang tajam ke arahnya, lalu men
 <<linkreplace ">>>>>">>
 <<if $roll20Intimidasi gte 10>>
 <<notify 5s>>roll intimidasi berhasil!<</notify>>
-[[>>>>>|15]]
+<<link [[>>>>>|15]]>><<set $player.mod.intimidasi += 1>><</link>>
 <<else>>
 <<notify 5s>>roll intimidasi gagal!<</notify>>
 [[>>>>>|36]]
@@ -191,7 +191,7 @@ Terang saja kamu kalah jumlah. Kamu dapat mencoba [[bertarung dengan mereka|33]]
 :: 24 {"position":"612.5,2600","size":"100,100"}
 Doa pada ayat-ayat yang dibacakan sangatlah menyentuh, tapi kamu merasa bahwa Ispasir beberapa kali membenarkan bacaannya.
 
-<<linkreplace ">>>>>">><<if $roll20Agama gte 10>><<notify 5s>>roll agama berhasil!<</notify>>[[>>>>>|16]]<<else>><<notify 5s>>roll agama gagal!<</notify>>[[>>>>>|7]]<</if>>
+<<linkreplace ">>>>>">><<if $roll20Agama gte 10>><<notify 5s>>roll agama berhasil!<</notify>><<link [[>>>>>|16]]>><<set $player.mod.agama++>><</link>><<else>><<notify 5s>>roll agama gagal!<</notify>>[[>>>>>|7]]<</if>>
 <</linkreplace>>
 
 
@@ -275,7 +275,7 @@ Orang tua mendiang bergeser ke sisi podium, mempersilahkan [[tunangan Riri untuk
 
 
 :: 29 {"position":"800,1975","size":"100,100"}
-<<set $player.mod.wawasan++>><<notify 5s>>kamu mendapat +1 mod wawasan sebagai inspirasi<</notify>>
+<<notify 5s>>kamu mendapat +1 mod wawasan sebagai inspirasi<</notify>>
 Meskipun kedukaan Kenny begitu tulus, tetapi tergambar perasaan lega atau mungkin kegembiraan darinya.
 
 Dan jumlah wanita yang menghadiri prosesi pemakaman, saling berbisik satu sama lain, dengan senyuman sambil melirik ke arah Kenny. Dan para istri yang jengkel dengan perasaan malu yang terpendam karena suami mereka saling melempar lelucon rahasia  dengan harap Kenny sadar dan mengalihkan perhatiannya kepada para istri-istri kota Were yang membosankan.
@@ -328,7 +328,7 @@ Setelah obrolan sesaat, kamu mengucapkan selamat malam kepada pria yang tengah b
 
 
 :: 31 {"position":"487.5,2350","size":"100,100"}
-<<set $player.mod.sihir++>><<notify 5s>>Kamu mendapat 1 mod ilmu klenik sebagai inspirasi<</notify>>
+<<notify 5s>>Kamu mendapat 1 mod ilmu klenik sebagai inspirasi<</notify>>
 Kamu ingat bahwa seorang kuncen dapat berubah menjadi hewan. Ini menjelaskan kenapa suara dia terdengar seperti geraman hewan.
 
 Tapi dia tidak dapat mengendalikan perubahannya ketika bersin. Mungkin ini bagian dari penyakit klenik?
@@ -426,7 +426,7 @@ Sepertinya kamu ingat dengan kejadian yang diceritakan oleh Esti.
 <<linkreplace ">>>>>">>
 <<if $roll20Sejarah gte 10>>
 <<notify 5s>>roll sejarah berhasil!<</notify>>
-[[>>>>>|17]]
+<<link [[>>>>>|17]]>><<set $player.mod.sejarah++>><</link>>
 <<else>>
 <<notify 5s>>roll sejarah gagal!<</notify>>
 [[>>>>>|47]]
@@ -439,7 +439,7 @@ Sepertinya kamu ingat dengan kejadian yang diceritakan oleh Esti.
 Jelas ini adalah perkara klenik. Kamu memikirkan kembali apa yang kamu ketahui tentang ilmu klenik.
 
 <<linkreplace ">>>>>">> 
-<<if $roll20Sihir gte 10>><<notify 5s>>roll ilmu klenik berhasil!<</notify>>[[>>>>>|31]]<<else>><<notify 5s>>roll ilmu klenik gagal!<</notify>>[[>>>>>|10]]<</if>>
+<<if $roll20Sihir gte 10>><<notify 5s>>roll ilmu klenik berhasil!<</notify>><<link [[>>>>>|31]]>><<set $player.mod.sihir++>><</link>><<else>><<notify 5s>>roll ilmu klenik gagal!<</notify>>[[>>>>>|10]]<</if>>
 <</linkreplace>>
 
 
@@ -504,7 +504,7 @@ Kamu mengangkat tangan dan memegang pundak pria itu dan meyakinkannya bahwa ada 
 <<linkreplace ">>>>>">>
 <<if $roll20Persuasif gte 12>>
 <<notify 5s>>Roll Bujuk rayu berhasil!<</notify>>
-[[>>>>>|2]]
+<<link [[>>>>>|2]]>><<set $player.mod.persuasif += 1>><</link>>
 <<else>>
 <<notify 5s>>Roll Bujuk rayu gagal!<</notify>>
 [[>>>>>|36]]
@@ -514,7 +514,7 @@ Kamu mengangkat tangan dan memegang pundak pria itu dan meyakinkannya bahwa ada 
 
 
 :: 42 {"position":"737.5,2350","size":"100,100"}
-<<set $player.mod.persepsi++>><<notify 5s>>kamu mendapat 1 mod persepsi sebagai inspirasi<</notify>>
+<<notify 5s>>kamu mendapat 1 mod persepsi sebagai inspirasi<</notify>>
 Wajah dan hidung kuncen terlihat kemerahan, pria cebol itu tidak terlihat sedang mabuk.
 
 Dengan bersin dan suaranya yang serak, dia tampak tidak enak badan. Dan itu tidak terlihat seperti mempengaruhi tenaganya, tapi yang jelas itu mempengaruhi suatu perubahannya.
@@ -556,7 +556,7 @@ Orang-orang berkelakuan aneh, tapi tidak yakin apa yang aneh.
 
 <<linkreplace ">>>>>">><<if $roll20Wawasan gte 10>>
 <<notify 5s>>roll wawasan berhasil!<</notify>>
-[[>>>>>|29]]
+<<link [[>>>>>|29]]>><<set $player.mod.wawasan++>><</link>>
 <<else>>
 <<notify 5s>>roll wawasan gagal!<</notify>>
 [[>>>>>|18]]
@@ -626,7 +626,7 @@ Walikota turut mengantar sampai gerbang, dan mempersilahkanmu untuk pergi.
 
 
 :: 9 {"position":"487.5,1975","size":"100,100"}
-<<set $player.mod.investigasi++>><<notify 5s>>kamu mendapat +1 mod investigasi sebagai inspirasi<</notify>>
+<<notify 5s>>kamu mendapat +1 mod investigasi sebagai inspirasi<</notify>>
 Saat Kenny berbicara, beberapa gadis dan wanita paruh baya tersenyum dan saling berbisik. Tidak ada yang terlihat bahagia atas kematian Riri, hanya saja para perempuan cantik ini tidak sesedih yang lain.
 
 Juga, sudah jelas bahwa Kenny adalah ahli ramuan dan jamu di kota ini.
