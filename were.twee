@@ -1,0 +1,4196 @@
+:: StoryTitle
+Musafir di Kota Were
+
+
+:: StoryData
+{
+  "ifid": "1475dade-98ec-4773-a44e-24ecf577438b",
+  "format": "SugarCube",
+  "format-version": "2.36.1",
+  "start": "perkenalan",
+  "tag-colors": {
+    "widget": "red",
+    "bookmark": "green",
+    "noreturn": "purple",
+    "nobr": "yellow"
+  },
+  "zoom": 1
+}
+
+
+:: 1 {"position":"550,850","size":"100,100"}
+Kamu merasa kecewa karena harapanmu tentang makanan yang hangat atau teman mengobrol telah hilang karena  kamu tidak menemukan apa yang kamu cari di daerah pasar tempatmu kini berada.
+
+Sepi, hanya ada keheningan yang melankolis. Toko-toko tutup dengan jendela tertutup rapat. Lampu-lampu bersinar memenuhi daerah ini  dengan cahaya yang hangat, tapi semuanya terasa muram dan menyedihkan.
+
+Saat kamu mencari kehadiran seseorang, kamu melihat sosok berjubah putih yang muncul di salah satu sisi jalan. Dia tersandung dan  hampir saja menjatuhkan tumpukan kertas yang dibawanya.
+
+Tudung jubah itu turun dan memperlihatkan seorang wanita muda dengan rambut pirang terang. Jubahnya memiliki desain semburat cahaya matahari di bagian kerah, dan sebuah lambang emas tergantung di lehernya. Tampaknya dia seorang imam dari sebuah aliran kepercayaan.
+
+''Apa yang akan kamu lakukan?''
+
+*[[Temui dia|27]]
+*[[Buntuti dia|3]]
+
+
+:: 10 {"position":"612.5,2350","size":"100,100"}
+Sang kuncen memang berperilaku aneh, tapi itu dapat dijelaskan karena situasi kedai saat ini. Dia terlihat senang, tenang, tapi kadang terlihat bingung.
+
+Pembicara selanjutnya di upacara pemakaman telah datang. Seorang manusia, perempuan muda, dan memakai jubah keagamaan maju ke depan kerumuman untuk [[berbicara|39]].
+
+
+:: 11 {"position":"675,475","size":"100,100"}
+Kamu terus berjalan menyusuri hutan dengan rasa takut. Kamu tidak melihat apapun di sisi-sisi hutan selain pohon dan semak belukar.
+
+Kamu berhenti sejenak untuk mencoba mendengarkan suara-suara di dekatmu. Tanpa suara langkah kakimu, kini kamu bisa mendengar dengan jelas, ada suara geraman dengan nafas yang berat di sekelilingmu.
+
+Seekor serigala besar muncul di depanmu, cahaya bulan menyinari bulunya yang berwarna abu tua. Kamu menoleh ke sekelilingmu, dan sudah ada banyak serigala yang menatapmu.
+
+Kamu dikelilingi kawanan serigala yang lapar. Keadaan ini jelas tidak menguntungkanmu, tapi setidaknya kamu bisa [[melawannya|33]].
+
+
+:: 12 {"position":"550,1850","size":"100,100"}
+Kamu yakin ada yang kamu lewatkan di sini. Jadi kamu memusatkan perhatianmu untuk mencari tau apa yang ada di sekitarmu.
+
+<<linkreplace ">>>>>">><<if $roll20Investigasi gte 10>>
+<<notify 5s>>roll investigasi berhasil!<</notify>>
+[[>>>>>|9]]
+<<else>>
+<<notify 5s>>roll investigasi gagal!<</notify>>
+[[>>>>>|18]]
+<</if>>
+<</linkreplace>>
+
+
+:: 13 {"position":"487.5,2100","size":"100,100"}
+Pria cebol mengenakan pakaian sederhana dari kulit hewan yang dijahit sendiri. Rambut dan janggutnya seperti berusaha menyeruak dari kain yang dia kenakan untuk merapihkannya.
+
+"Selamat datang para hadirin warga Were sekalian," ucapnya dengan senyum hangat dan mata berbinar."Saya bersedih melihat Riri kembali ke tanah, tapi saya ingin mengingatkan bahwa Were lah yang memilih kehidupan. Seperti kalian tahu, saya sangat bersyukur menjadi bagian dari Were."
+
+Kasak-kusuk terdengar di antara para hadirin dan beberapa mengangkat gelas. "Dan kalian semua membuatnya lebih mudah, kalian menghormati hutan beserta penghuninya. Sebagai balasannya, saya dengan senang hati membimbing roh alam yang ada di sekitar kita. Saya mengundang kalian semua dalam kedukaan atas kehilangan anggota komunitas kita yang sangat luar biasa. Dan saya berharap kalian bergabung dengan saya untuk menyambut dia kembali dalam lingkaran kehidupan."
+
+Dia berkomat-kamit, dan di tangannya mulai memancarkan cahaya kehijauan. Tapi terhenti oleh bersinnya yang membuat janggutnya berantakan. Setelah merapikan janggut, dia mendapatkan kembali ketenangannya.
+
+"Permisi," ucapnya dengan suara dalam yang menggeram. Setelah membenarkan suaranya dengan "ehem..."  dia menyelesaikan mantranya yang menyebabkan percikan cahaya berbentuk bunga liar dari podium sampai ke peti mati.
+
+Dia mengangguk lalu menoleh ke arah para hadirin, mengangkat gelas, dan tersenyum lebar, "untuk kehidupan!"
+<<nobr>>
+<<set $roll20Sihir to dice('1d20') + $player.mod.sihir>>
+<<set $roll20Persepsi to dice('1d20') + $player.mod.persepsi>>
+<</nobr>>
+Dia turun dari podium dan bergabung dengan para pengunjung, tapi kamu lebih tertarik dengan reaksi aneh dari kuncen lokal yang pilek ini.
+Kamu dapat menggunakan [[ilmu klenik|38]] atau [[persepsi|14]] untuk mendapatkan pemahaman lebih baik dari yang kamu lihat.
+
+
+:: 14 {"position":"612.5,2225","size":"100,100"}
+Kamu fokus memperhatikan si kuncen berjanggut tebal, terutama perubahan anehnya ketika sedang bersin.
+
+<<linkreplace ">>>>>">> 
+<<if $roll20Persepsi gte 10>><<notify 5s>>roll persepsi berhasil!<</notify>>[[>>>>>|42]]<<else>><<notify 5s>>roll persepsi gagal!<</notify>>[[>>>>>|10]]<</if>>
+<</linkreplace>>
+
+
+:: 15 {"position":"800,1350","size":"100,100"}
+<<set $player.mod.intimidasi += 1>><<notify 5s>>Kamu mendapat +1 mod Intimidasi sebagai inspirasi<</notify>>
+Dia meninggalkanmu saat kamu memberikan tatapan kepadanya setajam belati. Para pengunjung lain tertawa kecil tapi pria mabuk ini mengabaikan olokan tersebut.
+
+Saat pria pemabuk itu sudah pergi, wanita siluman kucing yang tadi berdebat dengannya [[menghampirimu|44]].
+
+
+:: 16 {"position":"612.5,2725","size":"100,100"}
+<<set $player.mod.agama++>><<notify 5s>>Kamu mendapat 1 mod Agama sebagai inspirasi<</notify>>
+Ayat-ayat pemakaman pada kitab Wacana hanyalah teks biasa yang diajarkan di agama manapun yang menjelaskan prosedur pemakaman masyarakat umum. Tapi bagaimanapun, tidak ada doa-doa pada ayat tersebut, hanya deskripsi mengenai proses pemakaman.
+
+Kamu tidak tahu pasti ayat apa yang digunakan oleh Ispasir, tapi bisa jadi itu  ajaran dari  Istana Tinta Cair. Mengingat mereka hanyalah sekte kecil, kemungkinan ajarannya hanya untuk kalangan mereka sendiri.
+
+Walikota berdiri di belakang Ispasir, menanti sang imam menyadari keberadaannya. Setelah momen di mana Ispasir melihat walikota, dia segera menyerahkan tempatnya [[berada|25]].
+
+
+:: 17 {"position":"737.5,3100","size":"100,100"}
+<<set $player.mod.sejarah++>><<notify 5s>>Kamu mendapat 1 mod sejarah sebagai inspirasi<</notify>>
+Sang walikota salah dalam menjelaskan peperangan yang dia ikuti.
+
+Perang Agni bukanlah perang mempertahankan diri dari serangan ras Goganmagu, justru sebaliknya, ini adalah perang antara aliansi negeri Javat dan Borneov dalam menumpas faksi Terea, terlepas faksi Terea merupakan faksi terkuat ras Goganmagu.
+
+Tidak jelas apakah dia berbohong atau salah ingat, tapi sepertinya ini bukanlah topik terbaik untuk memulai percakapan dengan walikota yang sedang [[menghampirimu|30]].
+
+
+:: 18 {"position":"612.5,1975","size":"100,100"}
+Meskipun kamu tidak yakin apa itu, kamu merasa bahwa Kenny punya hubungan yang aneh dengan warga kota.
+
+Tentu saja karena dia tampan, tapi kamu rasa lebih dari itu...
+
+Sebelum kamu menyadarinya, seorang [[pria cebol berjanggut merah mengambil alih podium dari sang tunangan yang malang|13]].
+
+
+:: 19 {"position":"675,1100","size":"100,100"}
+Kamu mengintip melalui jendela, terlihat sebuah ruangan yang penuh. Setidaknya ada seratusan orang meskipun jumlah pastinya tidak dapat diperkirakan. Orang-orang tampak berbincang dengan tenang sambil memegang minuman.
+
+"Kamu seorang musafir?" tanya suara yang terdengar malu-malu. Kamu menengok ke arah suara, seorang pelayan kedai muda tampak telah membuang remah-remah makanan. Ekspresi takut terukir di wajahnya, yang membuatnya sedikit terperanjat.
+
+Kamu menjelaskan bahwa dirimu seorang musafir.
+
+"Kalau begitu sebaiknya kamu masuk," katanya dengan senyum kecil. "Walikota akan menyambutmu setelah prosesi pemakaman. Kau tahu, warga Were terkenal dengan keramahannya meski setelah terjadi tragedi besar. Semasa hidupnya, Riri adalah wanita paling ramah, dia pasti ingin siapapun menghadiri pemakamannya, jadi masuklah."
+
+Kamu mengikuti pelayan tersebut masuk ke [[kedai|34]].
+
+
+:: 2 {"position":"550,1350","size":"100,100"}
+<<set $player.mod.persuasif += 1>><<notify 5s>>Kamu mendapat +1 mod Bujuk Rayu sebagai inspirasi<</notify>>
+Pria tua itu mulai tenang lalu meninggalkanmu sambil menggurutu tentang niat buruk para musafir. Dia mengambil segelas arak dari nampan, dan meminumnya.
+
+Saat pria tua itu sudah pergi, seorang wanita siluman kucing [[menghampirimu|44]].
+
+
+:: 20 {"position":"675,1225","size":"100,100"}
+Kamu mengambil sikap agresif dengan tatapan mata yang tajam ke arahnya, lalu menyatakan bahwa kamu biasanya tidak berkelahi di acara pemakaman, tapi kamu tekankan kepadanya bahwa kamu tidak segan untuk melakukannya.
+
+<<nobr>>
+<<linkreplace ">>>>>">>
+<<if $roll20Intimidasi gte 10>>
+<<notify 5s>>roll intimidasi berhasil!<</notify>>
+[[>>>>>|15]]
+<<else>>
+<<notify 5s>>roll intimidasi gagal!<</notify>>
+[[>>>>>|36]]
+<</if>>
+<</linkreplace>>
+<</nobr>>
+
+
+:: 21 {"position":"862.5,3475","size":"100,100"}
+Kamu menyapa walikota dengan sopan, dan si anjing meletakan kepalanya di dagunya, menatapmu dari bawah.
+
+"Saya senang atas kedatanganmu," ucapnnya. Kamu berasumsi bahwa ucapannya tulus, tapi sulit untuk dikatakan jika melihat pandangannya yang dingin.
+
+Dia menggambarkan masalah yang dihadapinya: tentang pembunuh keji. Penjaga kota tidak ada masalah jika menghadapi bandit atau pencuri domba, tapi ini kasus yang berbeda sehingga butuh orang yang berbeda untuk menanganinya. Seorang gadis malang ditemukan tewas tercabik-cabik seperti dimangsa oleh binatang buas. Masalahnya, dia ditemukan di dalam kota. Disamping itu, Eboy sudah menjaga hutan supaya terbebas dari monster dan makhluk klenik yang bermasalah.
+
+"Dan selain itu," jelasnya, "kamu adalah orang luar sehingga kamu dikecualikan. Juga adalah peran walikota untuk menjaga warganya dan tidak membiarkan orang asing berkeliaran di dalam kota."
+
+Kota Were akan membayar 300 keping emas jika berhasil menumpas ancaman kota. Tidak ada negosiasi. Walikota memberi kesan bahwa kamu tidak akan baik-baik saja jika melakukannya.
+
+Jadi apakah kamu [[menerimanya|48]] atau [[tidak|5]]?
+
+
+:: 22 {"position":"987.5,3100","size":"100,100"}
+Dilihat dari tubuhnya yang besar dan kakinya yang kekar, Kliwon, anjing milik walikota jelas merupakan anjing yang terlatih, lebih tepatnya anjing militer. Dengan kata lain, ia adalah pembunuh terlatih.
+
+Kesimpulannya: ia bisa membunuh jika dibutuhkan, entah diperintah atau tidak.
+
+Kamu menghentikan tatapan segarang anjing saat walikota sudah [[mendekat|30]].
+
+
+:: 23 {"position":"550,475","size":"100,100"}
+Kamu mendengar sesuatu dari salah satu sisi hutan dan di belokan jalan yang hendak kamu lalui. Sepasang cahaya mata keemasan muncul dari balik gelapnya semak hutan, lalu muncul sepasang mata yang lain.
+
+Kamu memutar badan, tapi ada banyak pasangan mata yang sedang mengintaimu. Sebelum kamu memutuskan apa yang akan kamu lakukan, seekor serigala berbulu abu keluar dari semak dan menghampirimu.
+
+Terang saja kamu kalah jumlah. Kamu dapat mencoba [[bertarung dengan mereka|33]] atau [[segera lari menuju kota|40]].
+
+
+:: 24 {"position":"612.5,2600","size":"100,100"}
+Doa pada ayat-ayat yang dibacakan sangatlah menyentuh, tapi kamu merasa bahwa Ispasir beberapa kali melakukan membenarkan kesalahan membacanya.
+
+<<linkreplace ">>>>>">><<if $roll20Agama gte 10>><<notify 5s>>roll agama berhasil!<</notify>>[[>>>>>|16]]<<else>><<notify 5s>>roll agama gagal!<</notify>>[[>>>>>|7]]<</if>>
+<</linkreplace>>
+
+
+:: 25 {"position":"737.5,2850","size":"100,100"}
+Saat Ispasir berbaur ke belakang, seorang siluman kucing yang merupakan walikota Were berdiri tegap dengan posisi tangan di belakang. Bahunya yang bidang dan luka bekas perang sangat menggambarkan dirinya sebagai figur yang kuat, tapi dia cukup modis dengan pakaian ala ningrat yang cocok dengannya. Seekor anjing besar berdiri di sampingnya seolah mereka setara. 
+
+"Duduklah, Kliwon," dia berkata kepada anjing besar dengan suara yang berat. Si anjing segera duduk di samping walikota, tidak berhenti menatapnya. Walikota kembali mengarahkan perhatiannya kepada warga yang hadir.
+
+"Esti Utami dulunya seorang prajurit perang sebelum menjadi walikota kalian," dia memulai, mengepalkan tangannya ke dada. "Were menerima saya, memberikan tempat tinggal untuk memulihkan diri setelah perang Agni. Di sana saya berperang untuk melindungi orang-orang dari serangan ras Goganmagu. Dan itu juga yang akan saya lakukan, melindungi kalian, warga kota Were."
+
+Walikota Esti mengedarkan pandangannya, dan anjingnya tetap terdiam seperti patung anjing.
+
+"Saat ini ada seorang pembunuh yang bersembunyi dalam bayang-bayang kegelapan," ucapnya, kamu menelan ludah, entah kenapa dia menatapmu. "Kita tidak tahu apa itu, tapi yang jelas ia telah merenggut hak hidup salah satu warga yang saya lindungi. Kita akan mencari apapun yang mengancam nyawa dan mengakhiri ancamannya. Ini adalah janji saya pada kalian."
+
+Suara tepuk tangan lembut dan kasak-kusuk penuh dendam menyebar di antara para pengunjung. Sejenak si anjing melihat ke arah pengunjung lalu kembali menatap walikota melanjutkan penjagaannya.
+
+Walikota menoleh ke keluarga mendiang, "Saya turut berduka atas kehilangan kalian," ucapnya, dan kemudian dia berjalan menuju ke kerumunan pengunjung, tepatnya ke arahmu.
+<<nobr>>
+<<set $roll20Sejarah to dice('1d20') + $player.mod.sejarah>>
+<<set $roll20Hewan to dice('1d20') + $player.mod.hewan>>
+<</nobr>>
+Selagi dia berjalan menuju tempat kamu berdiri, kamu bisa menggunakan kemampuan [[sejarahmu|37]] atau [[menjinakan hewan|6]].
+
+
+:: 26 {"position":"862.5,3350","size":"100,100"}
+Kamu terbangun di kasur yang empuk dan makanan hangat terhidang di depan pintu kamarmu sebagai sarapan. Ini hidup yang jauh lebih baik dibandingkan berkemah di pinggir jalan. Kamu rasa waktunya untuk bertemu dengan orang yang sudah bermurah hati memberikanmu fasilitas ini.
+
+Di halaman luar penginapan orang-orang tengah sibuk memindahkan karangan bunga dari kedai ke gerobak. Jasad mendiang Riri sudah dikuburkan. Setelah menyapa warga yang sedang bekerja, kamu segera menuju kantor balaikota sesuai petunjuk yang diberikan.
+
+Kantor balaikota adalah bangunan dua lantai yang tidak terlalu besar, dindingnya dari kayu yang sama dengan kebanyakan bangunan di kota, alih-alih dari batu. Ini seperti mengesankan bahwa bangunan ini terpelihara dengan baik tanpa melakukan banyak perubahan dari waktu ke waktu.
+
+Pintu terbuka, dan seorang ajudan menyambutmu saat kamu tiba. Dia menunjukanmu ruangan walikota yang ada di bagian belakang bangunan. Ruangannya cukup besar dengan dominasi warna gelap. Meja di mana walikota Esti bekerja terdapat beberapa tumpuk berkas, pena berbulu, dan botol tinta. Ada sebuah lukisan hati terpajang di salah satu dinding ruangan, dan dua buah lemari buku tak jauh dari meja walikota. Kamu merasa tidak ada hal-hal personal di ruangan ini.
+
+Bantal dan mangkok air ada di sebelah meja walikota. Seekor anjing besar menatapmu saat kamu masuk.
+
+Kamu dapat menyapa [[walikota|21]] atau bermain dengan [[anjing|35]] sejenak.
+
+
+:: 27 {"position":"550,975","size":"100,100"}
+Sang imam tersentak dan berbalik. Tangannya secara reflek menggerakan semacam simbol suci yang menandakan ketakutan. Dia mengahampirimu dengan senyum ramah setelah melihat ke arah jalan yang sepi.
+
+"Halo dan selamat datang," sapanya dengan nada ceria. "Ada yang bisa saya bantu, wahai musafir?"
+
+Kamu lalu bertanya ke mana dia akan pergi dengan terburu-buru seperti itu.
+
+"Saya sedang dalam perjalanan ke prosesi pemakaman seorang wanita muda," jawabnya. Senyum manisnya masih melekat di bibirnya. "Hari yang menyedihkan."
+
+Kamu bertanya apakah dia tahu arah menuju Kigantung.
+
+"Ya," jawabnya. Suaranya sedikit ragu, "apakah kamu... apakah kamu mengenal mendiang?"
+
+Kamu mengatakan tidak, tetapi seorang pria cebol bernama Eboy merekomendasikanmu pergi ke Kigantung untuk menginap.
+
+"Ah, tentu saja Eboy." Dia menghela nafas. "Dia adalah pria cebol yang baik. Saya juga akan pergi ke sana untuk menghadiri upacara pemakaman, kita bisa pergi ke sana bersama jika kamu mau."
+
+Dia berjalan di sampingmu. Sesekali dia terlihat sedang membaca kertas-kertas yang dia pegang. Setelah beberapa saat yang canggung dengan imam muda ini, dia menunjuk ke arah bangunan yang bertuliskan "Penginapan Kigantung".
+
+Sang imam segera membuka pintu dan masuk ke kedai yang ada di lantai dasar. Dia menutup pintu seolah lupa dengan kehadiranmu.
+
+''Apa yang akan kamu lakukan?''
+
+*[[Masuk ke kedai|34]]
+*[[Intip kedai dari jendela|19]]
+
+
+:: 28 {"position":"550,1600","size":"100,100"}
+Sepasang manusia paruh baya berdiri dan memperkenalkan diri sebagai orang tua Riri. Mereka menerima ucapan bela sungkawa dari para pengunjung yang tampaknya sudah saling mengenal.
+
+"Terima kasih atas kedatangan kalian untuk mengucapkan selamat tinggal kepada putri kesayangan kami," ucap ibunya. "Dia bagai cahaya matahari yang menyinari hidup kami. Dan kami melihat bahwa dia juga menyinari kalian semua dengan welas asihnya, kedermawanannya, dan kesabarannya. KIta semua pasti akan sangat merindukannya."
+
+Ayah sang mendiang menelan ludah, matanya berkaca-kaca. "Kami sangat berterima kasih kepada kalian wahai warga Were. Kalian telah membuat hidup putri kami bahagia, dan membuat kami bisa tabah atas kepergiannya. Namun, kami tidak akan berjumpa dengan kalian sementara waktu."
+
+Suara kasak-kusuk terdengar di antara para pengunjung. Sang ayah mengangkat tangannya untuk menenangkan. "Setiap jengkal tanah di kota ini akan membuat kami teringat dengan  apa yang telah hilang dari kami. Setiap kali melihat wajah kalian, yang kami lihat hanya air mata dan tubuh putri kesayangan kami yang terkoyak.
+Jadi kami akan menyerahkan dan mempercayakan kepada walikota untuk menyeret pembunuhnya ke tiang gantung. Kami akan menyimpan kedamaian kami di rumah, tempat terdekat dengan kenangan putri kami. Tapi kami akan selalu berdoa agar kalian segera membawa si pembunuh mendapatkan balasan yang setimpal."
+
+Saat ayah mendiang berbicara, para pengunjung menoleh ke arah walikota yang mengangguk kepada warga. Saat kamu menaruh perhatianmu kembali ke orang tua mendiang, pipi sang ayah basah dan giginya bergemeretak. Sambil mengenggam tangan suaminya dengan lembut, ibu mendiang berbicara.
+
+"Tapi bukan hanya kami yang merasa kehilangan sangat dalam," dia mengatakannya dengan suara gemetar. "Riri pernah mencintai dan dicintai oleh orang selain kami. Kenny, sayang, ada yang ingin kamu sampaikan, nak?"
+
+Orang tua mendiang bergeser ke sisi podium, mempersilahkan [[tunangan Riri untuk berbicara|32]].
+
+
+:: 29 {"position":"800,1975","size":"100,100"}
+<<set $player.mod.wawasan++>><<notify 5s>>kamu mendapat +1 mod wawasan sebagai inspirasi<</notify>>
+Meskipun kedukaan Kenny begitu tulus, tetapi tergambar perasaan lega atau mungkin kegembiraan darinya.
+
+Dan jumlah wanita yang menghadiri prosesi pemakaman, saling berbisik satu sama lain, dengan senyuman sambil melirik ke arah Kenny. Dan para istri yang jengkel dengan perasaan malu yang terpendam karena suami mereka saling melempar lelucon rahasia  dengan harap Kenny sadar dan mengalihkan perhatiannya kepada para istri-istri kota Were yang membosankan.
+
+Ada banyak lapisan kerumitan di sini. Kamu akan menginvestigasinya lain waktu, dan pembicara selanjutnya menggantikan Kenny. [[Seorang pria cebol berjanggut merah yang familiar|13]].
+
+
+:: 3 {"position":"675,975","size":"100,100"}
+Kamu berada di jarak yang aman dan wanita itu tidak menengok ke sekeliling untuk memeriksa keadaan. Dia jelas sedang tenggelam dalam pikirannya, yang sesekali tampak bergumam sendiri. Ekspresi wajahnya berubah-ubah antara marah dan takut.
+Setelah membuntutinya melewati belokan beberapa kali, akhirnya tiba di penginapan Kigantung seperti yang tertera pada plangnya. Hanya kalian berdua yang ada di jalanan, tapi sepertinya dia tidak merasa terganggu dengan perjalanannya di malam hari.
+
+Imam ini adalah seorang wanita muda yang cantik, tapi matanya terlihat menghitam kelelahan dan mulutnya dipenuhi emosi yang berat. Dia berhenti di depan penginapan, menarik nafas dalam-dalam untuk menenangkan diri, lalu tersenyum manis. Dia memasuki kedai di lantai pertama dengan santainya.
+
+Saat dia masuk, kamu mendengar suara orang lain saling mengobrol, meskipun nadanya lebih tenang daripada yang kamu harapkan dari sebuah kedai.
+
+''Apa yang akan kamu lakukan?''
+
+*[[Masuk ke kedai|34]]
+*[[Intip kedai dari jendela|19]]
+
+
+:: 30 {"position":"862.5,3225","size":"100,100"}
+"Kamu seorang musafir, betul?" tanyanya. Setelah kamu menjawab iya, dia melanjutkan, "ah, kalau begitu saya yakin kamu akan melakukannya. Untuk saat ini."
+
+Dia menggumamkan aksen siluman kucingnya berikut dengan ekspresi wajahnya. Tidak mungkin untuk kamu mengetahui apa yang dia pikirkan tentang dirimu.
+
+Kamu mengikutinya lalu dia berhenti untuk berbicara dengan pria botak yang kamu asumsikan bahwa dirinya penjaga penginapan. "...dia seorang penyelidik sewaan. Biaya penginapan dan makannya akan ditanggung oleh anggaran kota, apakah bisa?"
+
+Pria botak itu menatapmu kemudian mengangguk. Walikota Esti menghampirimu dan menyerahkan sebuah kunci.
+
+Kamu bertanya kenapa dia menyewamu.
+
+"Saya sangat mengenal orang-orang sejenimu. Musafir, Pendekar bayaran, atau apapun kamu menyebutnya. Yang jelas, orang-orang kota sedang ketakutan dan butuh seseorang, itulah kenapa saya menyewamu. Lagipula kamu orang luar, jika kamu gagal maka tidak akan berakibat buruk dengan hubungan warga kota."
+
+Kamu hendak berterima kasih kepadanya, tapi dia sudah keburu memotong bicaramu.
+
+"Saat ini saya belum mengenalmu," ucapnya sambil menyilangkan lengan. "Dan mungkin tidak akan sempat jika si pembunuh mengincarmu. Alasanmu di sini untuk para warga dan saya, jadi selama kamu menyelidiki kasus pembunuhan gadis ini, kami akan membayar tempat tinggalmu dan makananmu. Temui saya besok di kantor walikota, malam ini bukan waktu yang tepat untuk membicarakan detail kasus ini. Selamat malam." 
+
+Dia mengangguk sekali, tidak jelas apakah itu bentuk keramahtamahannya atau bukan. Kemudian dia kembali ke tugasnya dalam upacara pemakaman.
+
+Sesaat kamu tercengang sampai seseorang dari kerumunan menghampirimu. Dia Kenny, ahli ramuan kota sekaligus tunangan mendiang Riri.
+
+"Hai," sapanya, tatapan matanya mempesona. "Saya tidak mengenalmu, apa kamu mengenal Riri?"
+
+Kamu menjelaskan bahwa dirimu baru saja tiba di kota ini, dan walikota menyewamu untuk menyelidiki kasus ini.
+
+"Ah, selamat datang kalau begitu. Terima kasih sudah melakukan ini untuk kami. Datanglah ke kediaman saya jika butuh sesuatu. Saya juga ingin... tidak, saya perlu tahu apa yang terjadi pada Ririku."
+
+Setelah obrolan sesaat, kamu mengucapkan selamat malam kepada pria yang tengah berduka ini. Dia membalasnya dengan senyuman walau ekspresi wajahnya begitu sedih. Dia kembali kepada para pengunjung, dan kamu menuju ke [[kamarmu|26]].
+
+
+:: 31 {"position":"487.5,2350","size":"100,100"}
+<<set $player.mod.sihir++>><<notify 5s>>Kamu mendapat 1 mod ilmu klenik sebagai inspirasi<</notify>>
+Kamu ingat bahwa seorang kuncen dapat berubah menjadi hewan. Ini menjelaskan kenapa suara dia terdengar seperti geraman hewan.
+
+Tapi dia tidak dapat mengendalikan perubahannya ketika bersin. Mungkin ini bagian dari penyakit klenik?
+
+Pembicara selanjutnya maju ke depan para pengunjung. Dia adalah seorang wanita berjubah dengan motif matahari yang sudah kamu lihat [[sebelumnya|39]].
+
+
+:: 32 {"position":"550,1725","size":"100,100"}
+Lelaki yang memperkenalkan dirinya sebagai Kenny berpakaian sederhana, dia memegang sebuah karangan bunga. Dia mengedarkan tatapannya ke para pengunjung, menahan air matanya.
+
+"Terima kasih atas kedatangan kalian semua hari ini," ucapnya sambil menghela nafas panjang. "Kita semua berkumpul untuk mengenang cahaya indah yang merupakan calon pengantin saya. Saat saya mulai mencintainya, saya tidak pernah berpikir bisa menikahinya. Namun sekarang tampaknya itu bukanlah pilihan, melainkan sebuah takdir."
+
+"Apakah ini artinya sang serigala akan datang memangsa lagi?" bisik seorang lelaki di dekatmu kepada kawannya. "Awasi saudari dan putrimu!"
+
+"Dan para istri!" temannya terkikik.
+
+Keduanya di-sssttt... oleh wanita yang tampak seperti istrinya. Kedua wanita tadi saling menatap dengan tatapan menahan malu. Jika mengingat bahwa mereka ada di dekat kerumunan pengunjung, mereka seperti sepasang badut komedian dengan tatapan dan mulut menghina.
+
+"Calon pengantin saya merupakan sosok yang sederhana," ucap Kenny. "Dia menyukai bunga berwarna ungu seperti yang saya pegang sekarang, dan menyukai apapun yang terbuat dari sutra. Dia seperti tidak butuh apapun lagi jika mendapatkannya."
+
+Walau Kenny sedang berduka, kedua pria tadi masih saja berkasak-kusuk dengan tawaan yang menyebalkan. Dua wanita yang duduk di dekatnya melihat mereka dengan wajah jengkel. Disaat kamu  gagal fokus karena mereka berdua, Kenny menutup matanya, menghela nafas panjang, lalu melanjutkan.
+
+"Kematian Riri menyisakan luka yang mendalam di hati saya, dan saya ragu dapat mengobatinya, tapi saya akan berusaha. Dengan bekerja pasti membantu. Dan membalas apa yang telah banyak kalian lakukan pada saya, teruatama di saat gelap seperti sekarang. Yang dapat saya lakukan hanyalah membalas kebaikan kalian. Saya sangat menyayangi kalian, saya akan menyambut kalian di rumah kapanpun itu."
+
+Para pendengar bertepuk tangan penuh hormat, dan mengucapkan bela sungkawa. Tapi bagaimanapun, kamu merasa ada yang ganjil.
+<<nobr>>
+<<set $roll20Investigasi to dice('1d20') + $player.mod.investigasi>>
+<<set $roll20Wawasan to dice('1d20') + $player.mod.wawasan>>
+<</nobr>>
+Kamu dapat menggunakan kemampuan [[investigasi|12]] atau [[wawasan|46]] untuk mencari tahu yang menarik perhatianmu.
+
+
+:: 33 {"position":"550,600","size":"100,100"}
+Kamu memasang kuda-kuda bersiap melawan para serigala. Ada sekitar 10 ekor serigala mengelilingimu yang berjalan perlahan mencoba mencari celah untuk menyerangmu. Kamu melihat masih ada beberapa pasang mata di depan jalan, di antara semak belukar.
+
+Mungkin ini adalah akhir petualanganmu, tapi kamu tidak mau menyerah tanpa melakukan perlawanan.
+
+Saat kamu hendak melepaskan serangan, kamu mendengar suara teriakan dari arah belakang.
+
+Kamu menoleh dan melihat seorang pria cebol bertubuh gempal yang mengenakan pakaian dari kulit hewan menunjuk ke arahmu dari atas jalan tanjakan yang sebelumnya kamu lalui. Cahaya bulan menyinarinya, terlihat api membakar ujung obor yang ia pegang.
+
+"Jangan lakukan!" teriaknya, entah bagaimana api itu seperti membesar, "pergi kalian semua!"
+
+Para serigala yang mengelilingimu segera mendekatkan telinganya ke arah kepala dengan wajah menunduk. Serigala yang terlihat seperti pemimpin mereka menatapmu dan menggeram.
+
+"Pergi sekarang juga!" pria cebol itu kembali berteriak. Para serigala mulai balik badan dan berjalan ke dalam hutan. Pria cebol mendekatimu lalu melihatmu dari ujung kepala sampai ujung kaki. Keheningan muncul di antara kalian. Hingga akhirnya suara bersin terdengar.
+
+"Tidak sampai digigit kan?" Dia tersenyum, lalu kembali bersin.
+
+Kamu memberitahunya bahwa badanmu masih utuh, lalu berterima kasih atas intervensinya.
+
+[[>>>>>|4]]
+
+
+:: 34 {"position":"550,1100","size":"100,100"}
+Kedai ini hampir penuh, pengunjungnya bercakap-cakap dengan tenang. Tidak ada  suara tawa atau teriakan keras seperti kedai pada umumnya, karena alasannya sangat jelas.
+
+Di salah satu sudut ruangan, sebuah peti mati tertutup terletak di sebuah meja dengan dikelilingi ratusan  karangan bunga. Seorang musisi mulai memetik kecapi memainkan lagu sedih.
+
+Saat kamu melihat sekeliling, terlihat pria tua tengah berdebat dengan seorang wanita siluman kucing. Ketika pria itu melihatmu, dia menuju ke arahmu dengan jalan sempoyongan. Dia bau arak, dan wajahnya murung dalam kesedihan, tapi matanya berbinar karena air mata dan murka.
+
+"Aku tidak mengenalmu," ucapnya sambil menunjuk-nunjuk kasar ke arahmu. "Apa itu kamu? Apa kamu yang melakukannya? Apa yang telah kamu lakukan?"
+
+Dia memasang kuda-kuda dengan tubuh yang goyah. Beberapa kepala menoleh untuk melihat. Wanita siluman kucing menyilangkan tangannya, memperhatikan kalian berdua.
+<<nobr>><<set $roll20Persuasif to dice('1d20') + $player.mod.persuasif>> <<set _roll20Intimidasi to dice('1d20') + $player.mod.intimidasi>><</nobr>>
+Kekerasan bukanlah pilihan saat berada di pemakaman di sebuah kota yang baru kamu datangi.  Kamu dapat [[membujuknya|41]] untuk pergi meninggalkanmu, atau [[mengintimidasinya|20]] supaya mundur.
+
+
+:: 35 {"position":"987.5,3475","size":"100,100"}
+Si anjing menggeram, menampakan giginya saat kamu mengelus kepalanya.
+
+Walikota menyarankanmu untuk tidak melakukannya jika kamu masih menginginkan tanganmu tetap ada di tempatnya. Kamu mempercayai walikota--juga si anjing--jadi kamu segera menjauhkan tanganmu darinya.
+
+Kamu pun menyapa [[walikota|21]].
+
+
+:: 36 {"position":"675,1350","size":"100,100"}
+"Jangan berani-beraninya bicara padaku seperti itu, gembel!" Dia mengeram dan melayangkan pukulan.
+
+Saat kamu hendak menangkisnya, pukulan itu berhenti karena ditahan oleh tangan yang punuh bekas luka.
+
+"Sudah cukup!" bentaknya, "pergilah!"
+
+"Ya tentu, Esti," katanya, "maksudku Walikota Utami... maksudku, selamat tinggal."
+
+Pria pemabuk itu pergi meninggalkan kedai dengan sempoyongan. Kamu hendak mengatakan bahwa kamu bisa mengatasinya sendiri saat wanita siluman kucing menatapnya dengan kasar.
+
+[[>>>>>|44]]
+
+
+:: 37 {"position":"737.5,2975","size":"100,100"}
+Sepertinya kamu ingat dengat kejadian yang diceritakan oleh Esti.
+
+<<nobr>>
+<<linkreplace ">>>>>">>
+<<if $roll20Sejarah gte 10>>
+<<notify 5s>>roll sejarah berhasil!<</notify>>
+[[>>>>>|17]]
+<<else>>
+<<notify 5s>>roll sejarah gagal!<</notify>>
+[[>>>>>|47]]
+<</if>>
+<</linkreplace>>
+<</nobr>>
+
+
+:: 38 {"position":"487.5,2225","size":"100,100"}
+Jelas ini adalah perkara klenik. Kamu memikirkan kembali apa yang kamu ketahui tentang ilmu klenik.
+
+<<linkreplace ">>>>>">> 
+<<if $roll20Sihir gte 10>><<notify 5s>>roll ilmu klenik berhasil!<</notify>>[[>>>>>|31]]<<else>><<notify 5s>>roll ilmu klenik gagal!<</notify>>[[>>>>>|10]]<</if>>
+<</linkreplace>>
+
+
+:: 39 {"position":"612.5,2475","size":"100,100"}
+Terlepas kamu pernah melihatnya di jalan, imam muda ini terlihat seperti orang yang berbeda ketika berada di podium. Dia berbicara dengan jelas dan berdiri dengan tegap. Dia memiliki kepercayaan diri yang tidak kamu temukan pada orang yang sama--wanita muda yang kamu lihat di perjalanan ke Kigantung.
+
+"Hampir semua di antara kalian telah mengenal saya, tapi saya melihat ada beberapa wajah asing," ucapnya. "Saya Ispasir, anggota Istana Tinta Cair sekaligus penjaga kuil barat kota Were. Semoga Sang Cahaya membimbing kalian semua."
+
+Beberapa orang serempak menjawab, "dan kamu juga."
+
+Mereka lalu memberi salam dengan gerakan tangan kanan menyentuh dada dan dilanjutkan dengan mengangkat kedua kepalan tangan ke atas kepala membentuk setengah lingkaran seperti matahari terbit.
+Memberi salam kepada imam muda, jelas ini menunjukan bahwa Istana Tinta Cair memiliki sejarah panjang di kota ini.
+
+"Meskipun kita ada di bayangan kegelapan karena rasa kehilangan," dia melanjutkan, "Matahari akan terus menyinari Riri seperti dirinya yang menyinari kita semua. Saya tidak benar-benar mengenalnya, tapi yang jelas hidupnya telah bermanfaat bagi orang-orang yang ada di ruangan ini."
+
+Dia melihat ke arah Kenny dan tersenyum ramah, "terutama kamu, Kenny. Kau tahu, kuil barat selalu terbuka untukmu."
+
+Dan dia melanjutkan dengan mengeluarkan sebuah kitab yang dia katakan sebagai kitab Wacana, lalu membuka halaman ayat-ayat pemakaman yang kemudian dia bacakan dengan suara lantang. Tampak tidak ada pengunjung yang mengetahui apa yang tengah dibacanya.
+
+Terlepas kesungguhan yang kamu lihat padanya saat ini, ada perbedaan yang signifikan antara orang yang sebelumnya kamu lihat di luar, dengan orang yang sedang berdiri di depan.
+<<nobr>>
+<<set $roll20Agama to dice('1d20') + $player.mod.agama>>
+<<set $roll20Wawasan to dice('1d20') + $player.mod.wawasan>>
+<</nobr>>
+Kamu dapat mengecek menggunakan ilmu [[agamamu|24]] atau menggunakan [[wawasanmu|43]].
+
+
+:: 4 {"position":"550,725","size":"100,100"}
+"Jiahahahaha... untung saja saya ada di sekitar sini," katanya sambil tertawa yang terdengar menyebalkan. Dia menepuk pinggangmu dengan tenaga yang cukup membuatmu sempoyongan. Dia membuka mulut tapi tidak ada sepatah katapun sampai kemudian dia bersin. Kamu menunggu dia menyelesaikan bersinnya.
+
+"Ah, kamu pasti lapar dan lelah. Ikuti saja jalan ini, nanti kamu akan tiba di kota Were. Carilah penginapan //Kigantung// dan jika ada orang yang bertanya, bilang saja kalau Eboy yang mengirimmu."
+
+Kamu berterima kasih dengan terbata-bata.
+
+"Jangan kamu pikirkan. Saya sendiri mau ke sana. Saya masih ada urusan di pemakaman. Tahu kan, urusan kehidupan dan kematian terkadang merepotkan," dia terkekeh seolah baru saja mengatakan sebuah lelucon. "Tapi sebelum itu, sepertinya saya harus sedikit memarahi para anak anjing yang nakal tadi. Seharusnya mereka sopan kepada tamu yang datang."
+
+Sebelum kamu merespon, pria cebol ini sudah melangkah ke arah hutan dengan gaya berjalan yang anggun. Kamu sedikit terkejut, mengingat tubuhnya yang gempal.
+
+Mengingat kejadian barusan, tidak ada keputusan lebih baik selain segera tiba di [[kota Were|1]].
+
+
+:: 40 {"position":"675,600","size":"100,100"}
+Setelah melakukan ancans-ancang, kamu segera mengambil langkah seribu, berlari secepat yang kamu bisa ke arah kota. Kamu ragu apakah ini cukup cepat atau tidak, tapi setidaknya ini memberikan waktu untuk kamu berpikir.
+
+Saat kamu berlari, para serigala mengejarmu dari kedua sisi hutan. Kamu berlari sekuat tenaga menyusuri jalan.
+
+Kamu hampir saja menabrak seorang pria cebol yang sedang menyirami tanaman. Cahaya bulan menyinari tubuhnya. Dia mengenakan pakaian sederhana dari kulit hewan. Kedatanganmu mengagetkannya dan tangannya refleks memeluk kakimu.
+
+"Ada apa nih? Ada apa?" tanyanya. "Hati-hati, ada apa ini?"
+
+Kawanan serigala yang mengejarmu seketika terhuyung-huyung berhenti saat melihat pria cebol ini.
+
+Pria cebol ini menunjuk ke kawanan serigala dengan tatapan seperti seorang guru, lalu telunjuknya mengarah ke hutan. Secara serempak kawanan serigala  menyelinap masuk ke hutan.
+
+[[>>>>>|4]]
+
+
+:: 41 {"position":"550,1225","size":"100,100"}
+Kamu mengangkat tangan dan memegang pundak pria itu dan meyakinkannya bahwa ada kesalahpahaman. Tidak perlu ada perkelahian di acara penuh duka.
+
+<<nobr>>
+<<linkreplace ">>>>>">>
+<<if $roll20Persuasif gte 12>>
+<<notify 5s>>Roll Bujuk rayu berhasil!<</notify>>
+[[>>>>>|2]]
+<<else>>
+<<notify 5s>>Roll Bujuk rayu gagal!<</notify>>
+[[>>>>>|36]]
+<</if>>
+<</linkreplace>>
+<</nobr>>
+
+
+:: 42 {"position":"737.5,2350","size":"100,100"}
+<<set $player.mod.persepsi++>><<notify 5s>>kamu mendapat 1 mod persepsi sebagai inspirasi<</notify>>
+Wajah dan hidung kuncen terlihat kemerahan, pria cebol itu tidak terlihat sedang mabuk.
+
+Dengan bersin dan suaranya yang serak, dia tampak tidak enak badan. Dan itu tidak terlihat seperti mempengaruhi tenaganya, tapi yang jelas itu mempengaruhi suatu perubahannya.
+
+Meskipun terjadi hanya sesaat, kamu sempat melihat ketika kuncen bersin, hidung dan telinganya agak memanjang, dan terjadi perubahan pada tubuhnya dalam sekejap. Bagimu itu tampak seperti taring serigala, meski hanya sepersekian detik.
+
+Sebelum kamu mengamati sang kuncen cebol lebih lanjut, seorang wanita muda dengan jubah bercorak matahari maju ke depan pengunjung secara [[bersahaja|39]].
+
+
+:: 43 {"position":"737.5,2600","size":"100,100"}
+Peran imam sebagai pemimpin spiritual sangat bertolak belakang dengan sikap pemalu yang kamu lihat sebelumnya. Kamu penasaran apa yang memotivasinya.
+
+<<nobr>>
+<<linkreplace ">>>>>">>
+<<if $roll20Wawasan gte 10>>
+<<notify 5s>>roll wawasan berhasil!<</notify>>[[>>>>>|45]]<<else>><<notify 5s>>roll wawasan gagal!<</notify>>[[>>>>>|7]]<</if>>
+<</linkreplace>>
+<</nobr>>
+
+
+:: 44 {"position":"550,1475","size":"100,100"}
+Wanita siluman kucing dengan setelan pakaian yang pas ini melihatmu dari ujung kepala sampai ujung kaki.
+
+Esti Utami, walikota Were, berbicara kepadamu dengan nada kasar khas para siluman. "Kamu mungkin berguna. Jadi hadirilah pemakaman. Ada yang ingin saya bicarakan denganmu."
+
+Saat kamu hendak menjawab, wanita itu sudah pergi meninggalkanmu. [[Prosesi pemakaman dimulai|28]].
+
+
+:: 45 {"position":"862.5,2725","size":"100,100"}
+Beberapa kali Ispasir terlihat tidak fokus saat memimpin doa. Tatapannya ke arah Kenny saat dia berbicara jauh dalam dan lama dibanding kepada siapapun di antara para pengunjung. Sekali waktu sang imam menatap langsung Kenny, wajahnya memperlihatkan kehangatan, keakraban, dan sesuatu yang tidak cukup kamu gambarkan pada waktu yang singkat itu.
+
+Cukup banyak terlihat bagaimana sang imam berbicara dan bersikap, terutama kepada sang tunangan yang sedang berduka. Tapi ini hanyalah sedikit petunjuk tentang apa yang dia lakukan saat dia berperan sebagai pemimpin spiritual.
+
+Sosok walikota ada di belakang sang imam sesaat sebelum dia menyadari dan undur diri menyerahkan tempatnya kepada [[walikota|25]].
+
+
+:: 46 {"position":"675,1850","size":"100,100"}
+Orang-orang berkelakuan aneh, tapi tidak yakin apa yang aneh.
+
+<<linkreplace ">>>>>">><<if $roll20Wawasan gte 10>>
+<<notify 5s>>roll wawasan berhasil!<</notify>>
+[[>>>>>|29]]
+<<else>>
+<<notify 5s>>roll wawasan gagal!<</notify>>
+[[>>>>>|18]]
+<</if>>
+<</linkreplace>>
+
+
+:: 47 {"position":"862.5,3100","size":"100,100"}
+Esti Utami terlihat sangat tenang, dapat mengendalikan diri, membuat kamu berpikir ada yang dia tahan atau sembunyikan. Pun anjingnya sangatlah menakjubkan, tapi itu tidak membantu sama sekali.
+
+Mungkin kamu dapat mencari lebih lanjut saat dia datang [[menghampirimu|30]].
+
+
+:: 48 {"position":"862.5,3600","size":"100,100"}
+"Sempurna," ucapnya dengan nada puas. "Mari kita mulai, pertama, temui tunangan Riri. Dia seorang ahli ramuan yang tinggal di ujung barat kota di mana dia merawat kebunnya dan membuat ramuan dan obat untuk para warga.
+
+Kamu berterimak kasih dan bersiap untuk pergi, tapi dia menahanmu.
+
+"Tunggu dulu. Saya juga sudah menghubungi pemilik toko sebar ada. Kamu bisa mencari barang yang sekiranya kamu butuhkan di sana, meskipun tidak selengkap toko-toko di kota besar, tapi yang jelas, barang di sini lebih murah dengan kualitas yang sama baiknya. Dan ini uang muka untuk kamu membeli kebutuhanmu."
+
+Kamu berterima kasih kepada walikota atas kemuarahan hatinya, dia hanya menjawab "hmm..".
+
+Kamu segera menuju ke tempat [[Kenny si ahli ramuan sekaligus tunangan Riri|49]]
+
+
+:: 49 {"position":"862.5,3725","size":"100,100"}
+<center><h1>Bagian 2: Pertemuan dengan Kenny</h1></center>
+<<set $player.uang += 20>><<notify 5s>>Kamu mendapatkan 20 keping emas<</notify>>
+
+//bersambung...//
+
+
+:: 5 {"position":"987.5,3600","size":"100,100"}
+Walikota mengangguk dan memberimu tatapan datar.
+
+"Saya mengerti, tapi saya berharap bahwa kamu juga mengerti saat ini bukan waktu yang tepat untuk kedatangan orang asing. Jika kamu tidak mau membantu, hari ini kamu akan diminta untuk segera meninggal kota."
+
+Kamu punya sekali lagi kesempatan untuk [[mempertimbangkan permintaan walikota|48]] atau tetap [[menolaknya|8]].
+
+
+:: 6 {"position":"862.5,2975","size":"100,100"}
+Anjing milik walikota Esti sangatlah terlatih dan mengesankan.
+
+<<nobr>>
+<<linkreplace ">>>>>">>
+<<if $roll20Hewan gte 10>>
+<<notify 5s>>roll menjinakan hewan berhasil!<</notify>>
+[[>>>>>|22]]
+<<else>>
+<<notify 5s>>roll menjinakan hewan gagal!<</notify>>
+[[>>>>>|47]]
+<</if>>
+<</linkreplace>>
+<</nobr>>
+
+
+:: 7 {"position":"737.5,2725","size":"100,100"}
+Ada sesuatu tentang sang imam yang memimpin prosesi pemakaman yang membuatnya merasa seperti ada yang ditahan, tapi kamu tidak dapat mengetahui dengan jelas apa yang membuatmu gusar padahal dia sangat bersungguh-sungguh tentang komunitas ini.
+
+Walikota melangkah menuju podium,  berdiri di belakang Ispasir menunggu giliran dia berbicara, dan sang imam menyadarinya dengan sekilas pandang lalu menyerahkan tempatnya kepada [[walikota|25]].
+
+
+:: 8 {"position":"987.5,3725","size":"100,100"}
+Walikota memanggil salah seorang anggota penjaga kota dengan menekan bel kecil. Penjaga kota masuk, dia mengenakan seragam militer lengkap dengan pentungan kayu yang tergantung di pinggangnya. Walikota meminta penjaga kota untuk mengawalmu ke penginapan agar kamu bisa membereskan barangmu, lalu mengantarmu ke gerbang kota.
+
+Walikota turut mengantar sampai gerbang, dan mempersilahkanmu untuk pergi.
+
+
+:: 9 {"position":"487.5,1975","size":"100,100"}
+<<set $player.mod.investigasi++>><<notify 5s>>kamu mendapat +1 mod investigasi sebagai inspirasi<</notify>>
+Saat Kenny berbicara, beberapa gadis dan wanita paruh baya tersenyum dan saling berbisik. Tidak ada yang terlihat bahagia atas kematian Riri, hanya saja para perempuan cantik ini tidak sesedih yang lain.
+
+Juga, sudah jelas bahwa Kenny adalah ahli ramuan dan jamu di kota ini.
+
+Kenny bergerak minggir, mempersilahkan [[pria cebol berjanggut merah berbicara ke para pengunjung|13]].
+
+
+:: StoryInit {"position":"0,0","size":"100,100"}
+<<set $part1 to false>>
+<<set $part2 to false>>
+<<set $part3 to false>>
+<<set $part4 to false>>
+
+<<cacheaudio "ketukpintu" "assets/sfx/ketukpintu.mp3">>
+
+<<set $totalPoint to 27>>
+
+<<set $part1 to false>>
+
+<<set $player to {
+	nama: "",
+    uang: 0,
+    hp: 0,
+    maxHp: 0,
+    pertahanan: 0,
+    serangan: '1d4',
+    bonusSerangan: 0,
+    jenisSenjata: "",
+    inspirasi: "0d1",
+    menjinakan: "0d1",
+    crit: 20,
+    darkVision: false,
+    beban: 0,
+    maxBeban: 50,
+    akurasi: 0,
+    atribut: {
+    	kekuatan: 8,
+        ketangkasan: 8,
+        ketahanan: 8,
+        kecerdasan: 8,
+        kebijaksanaan: 8,
+        karisma: 8,
+    },
+    mod: {
+    	kekuatan: 0,
+        ketangkasan: 0,
+        ketahanan: 0,
+        kecerdasan: 0,
+        kebijaksanaan: 0,
+        karisma: 0,
+        atletis: 0,
+        akrobat: 0,
+        tangan: 0,
+        sembunyi: 0,
+        sihir: 0,
+        sejarah: 0,
+        investigasi: 0,
+        alam: 0,
+        agama: 0,
+        hewan: 0,
+        wawasan: 0,
+        obat: 0,
+        persepsi: 0,
+        survival: 0,
+        tipuan: 0,
+        intimidasi: 0,
+        performa: 0,
+        persuasif: 0,
+    },
+    kelahi: "",
+    bakat: ""
+}>>
+<<set $player.mod.kekuatan to Math.trunc(($player.atribut.kekuatan - 10)/2)>>
+<<set $player.mod.ketangkasan to Math.trunc(($player.atribut.ketangkasan - 10)/2)>>
+<<set $player.mod.ketahanan to Math.trunc(($player.atribut.ketahanan - 10)/2)>>
+<<set $player.mod.kecerdasan to Math.trunc(($player.atribut.kecerdasan - 10)/2)>>
+<<set $player.mod.kebijaksanaan to Math.trunc(($player.atribut.kebijaksanaan - 10)/2)>>
+<<set $player.mod.karisma to Math.trunc(($player.atribut.karisma - 10)/2)>>
+
+
+<<set $waktu to 0>>
+
+<<newinv $tas>>
+
+
+:: StoryInterface {"position":"100,0","size":"100,100"}
+<div class="header">
+	<div id="header-text" data-passage="header-text"></div>
+	<div id="function-menu">
+		<span id="menu" class="lnr lnr-menu"></span>
+		<span id="settings" class="lnr lnr-cog"></span>
+		<span id="saves" class="lnr lnr-download"></span>
+		<span id="restart" class="lnr lnr-redo"></span>
+	</div>
+</div>
+
+<div id="story">
+	<div id="passages"></div>
+</div>
+
+<div class="footer">
+	<span id="up" class="lnr lnr-chevron-up"></span>
+	<span id="footer-menu" data-passage="footer-menu"></span>
+	<div class="mobile-menu">
+	 <span id="mob-menu" class="lnr lnr-menu"></span>
+		<div id="mob-function-menu">
+		 <span id="mob-settings" class="lnr lnr-cog"></span>
+		 <span id="mob-saves" class="lnr lnr-download"></span>
+		 <span id="mob-restart" class="lnr lnr-redo"></span>
+		</div>
+	 <span id="mob-footer-menu" data-passage="footer-menu"></span>
+	</div>
+</div>
+
+
+:: Untitled Passage {"position":"675,225","size":"100,100"}
+<<button [[test|test1]]>><<set $part1 to true>>><</button>>
+
+
+:: footer-menu {"position":"400,0","size":"100,100"}
+<<nobr>>
+<li>[[Karakter|karakter]]</li>
+
+<li><<link "Tas">>
+<<dialog "Tas">>
+<<inv $tas inspect use>>
+<</dialog>>
+<</link>></li>
+
+<li>
+<<if $part1 is true>>
+[[Toko|toko]]
+<<else>>
+<<link "Toko">><<notify 5s>>toko tutup<</notify>><</link>>
+<</if>>
+</li>
+
+<li><<link 'Misi'>><<goals>><</link>></li>
+<li><<link "Catatan">><<notes>><</link>></li>
+<li><<link "Credits">>
+<<dialog "Credits">>
+<a href="https://www.motoslave.net/sugarcube/2/docs" target="_blank">Dokumentasi Sugarcube</a>
+<br>
+<br>
+<a href="https://github.com/ChapelR/custom-macros-for-sugarcube-2" target="_blank">Custom Macros by Chapel</a>
+<br>
+<br>
+<a href="https://github.com/cyrusfirheir/cycy-wrote-custom-macros" target="_blank">Utils Macros by Cycy</a>
+<br>
+<br>
+<a href="https://opendyslexic.org" target="_blank">OpenDyslexic Font by Abbie Gonzalez</a>
+<br>
+<br>
+<</dialog>>
+<</link>></li>
+<</nobr>>
+
+
+:: header-text {"position":"300,0","size":"100,100"}
+<span class="title">Musafir di Kota Were</span>
+<span class="author">pendongeng: <a href="https://github.com/terajari" target="_blank">Terajari</a></span>
+
+
+:: infokarakter [widget] {"position":"0,300","size":"100,100"}
+<<widget "infokarakter">>
+<<switch _args[0]>>
+<<case "Pendekar">>
+''Informasi Umum''
+
+Nama: $pendekar.nama
+Identitas: $pendekar.identitas
+Level: $pendekar.level
+Bakat: $pendekar.bakat
+Uang: $pendekar.uang keping emas
+Kesehatan: $pendekar.hp / $pendekar.maxHp
+Akurasi: +$pendekar.akurasi
+Serangan: $pendekar.serangan +$pendekar.bonusSerangan
+Pertahanan: $pendekar.pertahanan
+Melihat dalam gelap: $pendekar.darkVision
+
+----
+''Atribut''
+
+<span class="kekuatan">Kekuatan: $pendekar.atribut.kekuatan</span>
+<span class="ketangkasan">Ketangkasan: $pendekar.atribut.ketangkasan</span>
+Ketahanan: $pendekar.atribut.ketahanan
+<span class="kecerdasan">Kecerdasan: $pendekar.atribut.kecerdasan</span>
+<span class="kebijaksanaan">Kebijaksanaan: $pendekar.atribut.kebijaksanaan</span>
+<span class="karisma">Karisma: $pendekar.atribut.karisma</span>
+----
+''Kemampuan''
+
+<span class="kekuatan">Atletis: $pendekar.mod.atletis</span>
+<span class="ketangkasan">Akrobat: $pendekar.mod.akrobat</span>
+<span class="ketangkasan">Kecepatan Tangan: $pendekar.mod.tangan</span>
+<span class="ketangkasan">Bersembunyi: $pendekar.mod.sembunyi</span>
+<span class="kecerdasan">Ilmu Sihir: $pendekar.mod.sihir</span>
+<span class="kecerdasan">Sejarah: $pendekar.mod.sejarah</span>
+<span class="kecerdasan">Investigasi: $pendekar.mod.investigasi</span>
+<span class="kecerdasan">Pengetahuan Alam: $pendekar.mod.alam</span>
+<span class="kecerdasan">Agama: $pendekar.mod.agama</span>
+<span class="kebijaksanaan">Menjinakan Hewan: $pendekar.mod.hewan</span>
+<span class="kebijaksanaan">Wawasan: $pendekar.mod.wawasan</span>
+<span class="kebijaksanaan">Pengobatan: $pendekar.mod.obat</span>
+<span class="kebijaksanaan">Persepsi: $pendekar.mod.persepsi</span>
+<span class="kebijaksanaan">Bertahan Hidup: $pendekar.mod.survival</span>
+<span class="karisma">Muslihat: $pendekar.mod.tipuan</span>
+<span class="karisma">Intimidasi: $pendekar.mod.intimidasi</span>
+<span class="karisma">Pertunjukan: $pendekar.mod.performa</span>
+<span class="karisma">Bujuk Rayu: $pendekar.mod.persuasif</span>
+----
+
+<<button "Kembali"  $return>><</button>>
+
+<<case "Penghibur">>
+
+<</switch>>
+<</widget>>
+
+
+:: intro {"position":"550,350","size":"100,100"}
+<center><h1>Bagian 1: Matinya Sang Perawan</h1></center>
+
+Setelah beberapa hari perjalanan, di balik perbukitan, kamu melihat cahaya kota. Berdasarkan peta dan petunjuk warga lokal yang pernah kamu tanyai, itu adalah kota Were. Ujung semburat cahaya matahari terbenam masih menyinari langit barat kota. Lampu menyala di gerbang kota dan di jalanan.
+
+Dalam cahaya senja yang temaram, kamu dapat melihat jalan tanah yang kamu lalui berganti menjadi jalan berbatu. Dari kejauhan kamu dapat melihat tembok-tembok batu yang terawat menghiasi bangunan kota yang terlihat keemasan karena cahaya lampu. 
+
+Ini adalah kota kecil yang indah sekaligus pusat perdagangan yang makmur, yang terletak di antara lahan pertanian subur dan hutan tua yang kamu lalui beberapa hari terakhir.
+
+Bintang-bintang mulai bermunculan dengan dibarengi lolongan serigala yang memecah kesunyian malam di suatu tempat di hutan. Paduan lolongan itu saling menyahut, dan beberapa di antaranya terdengar dekat. Dan semakin dekat.
+
+Kamu mempercepat laju jalanmu supaya semakin jauh jarak antara dirimu dengan hutan belantara. Dalam pikiranmu sudah terbayang kasur yang empuk, makanan hangat yang enak, dan pekerjaan untuk seorang musafir sepertimu.
+Kota makmur seperti Were merupakan tempat yang cocok untuk mendapatkan kekayaan, kejayaan, dan ehem... mungkin seorang pasangan hidup. Ketiganya bisa kamu dapatkan selama kamu tidak dimangsa oleh serigala di hutan ini.
+<<set _rollPersepsi to dice('1d20') + $player.mod.persepsi>>
+<<linkreplace ">>>>>">>
+<<nobr>>
+<<if _rollPersepsi gte 10>>
+<<notify 5s>>Roll Persepsi berhasil!<</notify>>
+[[>>>>>|23]]
+<<else>>
+<<notify 5s>>Roll Persepsi gagal!<</notify>>
+[[>>>>>|11]]
+<</if>>
+<</nobr>>
+<</linkreplace>>
+
+
+:: inventory.strings {"position":"200,0","size":"100,100"}
+use: -- konsumsi
+take: ambil
+give: berikan
+drop: jatuhkan
+empty: Tas kosong
+
+
+:: karakter [noreturn] {"position":"475,125","size":"100,100"}
+''Informasi Umum''
+
+Nama: $player.nama
+Uang: $player.uang keping emas
+Kesehatan: $player.hp / $player.maxHp
+Bonus akurasi: $player.akurasi
+Serangan: $player.serangan
+Pertahanan: $player.pertahanan
+Beban: $player.beban / $player.maxBeban kg
+----
+''Atribut''
+
+<span class="kekuatan">Kekuatan: $player.atribut.kekuatan [$player.mod.kekuatan]</span>
+<span class="ketangkasan">Ketangkasan: $player.atribut.ketangkasan [$player.mod.ketangkasan]</span>
+Ketahanan: $player.atribut.ketahanan [$player.mod.ketahanan]
+<span class="kecerdasan">Kecerdasan: $player.atribut.kecerdasan [$player.mod.kecerdasan]</span>
+<span class="kebijaksanaan">Kebijaksanaan: $player.atribut.kebijaksanaan [$player.mod.kebijaksanaan]</span>
+<span class="karisma">Karisma: $player.atribut.karisma [$player.mod.karisma]</span>
+----
+''Kemampuan''
+
+<span class="kekuatan">Atletis: $player.mod.atletis</span>
+<span class="ketangkasan">Akrobat: $player.mod.akrobat</span>
+<span class="ketangkasan">Kecepatan Tangan: $player.mod.tangan</span>
+<span class="ketangkasan">Bersembunyi: $player.mod.sembunyi</span>
+<span class="kecerdasan">Ilmu Klenik: $player.mod.sihir</span>
+<span class="kecerdasan">Sejarah: $player.mod.sejarah</span>
+<span class="kecerdasan">Investigasi: $player.mod.investigasi</span>
+<span class="kecerdasan">Pengetahuan Alam: $player.mod.alam</span>
+<span class="kecerdasan">Agama: $player.mod.agama</span>
+<span class="kebijaksanaan">Menjinakan Hewan: $player.mod.hewan</span>
+<span class="kebijaksanaan">Wawasan: $player.mod.wawasan</span>
+<span class="kebijaksanaan">Pengobatan: $player.mod.obat</span>
+<span class="kebijaksanaan">Persepsi: $player.mod.persepsi</span>
+<span class="kebijaksanaan">Bertahan Hidup: $player.mod.survival</span>
+<span class="karisma">Muslihat: $player.mod.tipuan</span>
+<span class="karisma">Intimidasi: $player.mod.intimidasi</span>
+<span class="karisma">Pertunjukan: $player.mod.performa</span>
+<span class="karisma">Bujuk Rayu: $player.mod.persuasif</span>
+----
+
+<<button "Kembali"  $return>><</button>>
+
+
+:: karakterbaru [widget] {"position":"0,200","size":"100,100"}
+<<widget "karakterbaru">>
+
+<<switch _args[0]>>
+<<case "Pendekar">>
+<<set $pendekar to clone($player)>>
+<<set $pendekar.hp += 10 + dice('3d10')>>
+<<set $pendekar.maxHp to $pendekar.hp>>
+<<set $pendekar.crit to 18>>
+<<set $pendekar.uang += dice('5d4') * 10>>
+<<set $pendekar.mod.kekuatan += dice('1d6')>>
+<<set $pendekar.mod.ketahanan += dice('1d6')>>
+<<set $pendekar.mod.akrobat += dice('1d4')>>
+<<set $pendekar.mod.hewan += dice('1d4')>>
+<<set $pendekar.mod.atletis += dice('1d4')>>
+<<set $pendekar.mod.sejarah += dice('1d4')>>
+<<set $pendekar.mod.wawasan += dice('1d4')>>
+<<set $pendekar.mod.intimidasi += dice('1d4')>>
+<<set $pendekar.mod.persepsi += dice('1d4')>>
+<<set $pendekar.mod.survival += dice('1d4')>>
+<<set $pendekar.identitas to "Pendekar">>
+<<set $pendekar.darkVision += true>>
+<<set $pendekar.bakat to "Silat">>
+<<set $player.identitas to $pendekar.identitas>>
+<<set _tasPendekar to clone($tas)>>
+<<pickup _tasPendekar "Pedang" 1>>
+<<set $pendekar.serangan to "1d6">>
+<<set $pendekar.akurasi += $pendekar.mod.kekuatan>>
+<<pickup _tasPendekar "Baju kulit" 1>>
+<<set $pendekar.pertahanan += 10>>
+<<pickup _tasPendekar "Perisai" 1>>
+<<set $pendekar.pertahanan += 2>>
+<<replace "#informasi">>
+''Informasi Umum''
+
+Uang: $pendekar.uang keping emas
+Kesehatan: $pendekar.hp / $pendekar.maxHp
+Akurasi: +$pendekar.akurasi
+Serangan: $pendekar.serangan +$pendekar.bonusSerangan
+Pertahanan: $pendekar.pertahanan
+
+----
+''Atribut''
+
+<span class="kekuatan">Kekuatan: $pendekar.atribut.kekuatan [$pendekar.mod.kekuatan]</span>
+<span class="ketangkasan">Ketangkasan: $pendekar.atribut.ketangkasan [$pendekar.mod.ketangkasan]</span>
+Ketahanan: $pendekar.atribut.ketahanan [$pendekar.mod.ketahanan]
+<span class="kecerdasan">Kecerdasan: $pendekar.atribut.kecerdasan [$pendekar.mod.kecerdasan]</span>
+<span class="kebijaksanaan">Kebijaksanaan: $pendekar.atribut.kebijaksanaan [$pendekar.mod.kebijaksanaan]</span>
+<span class="karisma">Karisma: $pendekar.atribut.karisma [$pendekar.mod.karisma]</span>
+----
+''Kemampuan''
+
+<span class="kekuatan">Atletis: $pendekar.mod.atletis</span>
+<span class="ketangkasan">Akrobat: $pendekar.mod.akrobat</span>
+<span class="ketangkasan">Kecepatan Tangan: $pendekar.mod.tangan</span>
+<span class="ketangkasan">Bersembunyi: $pendekar.mod.sembunyi</span>
+<span class="kecerdasan">Ilmu Sihir: $pendekar.mod.sihir</span>
+<span class="kecerdasan">Sejarah: $pendekar.mod.sejarah</span>
+<span class="kecerdasan">Investigasi: $pendekar.mod.investigasi</span>
+<span class="kecerdasan">Pengetahuan Alam: $pendekar.mod.alam</span>
+<span class="kecerdasan">Agama: $pendekar.mod.agama</span>
+<span class="kebijaksanaan">Menjinakan Hewan: $pendekar.mod.hewan</span>
+<span class="kebijaksanaan">Wawasan: $pendekar.mod.wawasan</span>
+<span class="kebijaksanaan">Pengobatan: $pendekar.mod.obat</span>
+<span class="kebijaksanaan">Persepsi: $pendekar.mod.persepsi</span>
+<span class="kebijaksanaan">Bertahan Hidup: $pendekar.mod.survival</span>
+<span class="karisma">Muslihat: $pendekar.mod.tipuan</span>
+<span class="karisma">Intimidasi: $pendekar.mod.intimidasi</span>
+<span class="karisma">Pertunjukan: $pendekar.mod.performa</span>
+<span class="karisma">Bujuk Rayu: $pendekar.mod.persuasif</span>
+----
+<</replace>>
+<<replace "#jobdesc">>
+* ''Deskripsi'': Kamu adalah seorang pendekar yang terlatih dalam medan pertempuran.
+* ''Bonus Kesehatan'': 1d10 per level.
+* ''Bonus Atribut'': 1d6 Kekuatan, 1d6 Ketahanan
+* ''Bonus Kemampuan'': 1d4 Menjinakan Hewan, 1d4 Atletis, 1d4 Intimidasi, 1d4 Pengetahuan Alam, 1d4 Persepsi, 1d4 Bertahan Hidup
+* ''Bakat'': Silat. Menyerang lawan di titik vitalnya. Dadu serangan 18-20 untuk mendapatkan serangan kritis.
+* ''Perlengkapan'': Pedang, Baju kulit, Perisai
+<</replace>>
+<<replace "#jobname">>''Pendekar''<</replace>>
+<<update>>
+
+<<case "Tabib">>
+<<set $tabib to clone($player)>>
+<<set $tabib.hp += 8 + dice('3d8')>>
+<<set $tabib.maxHp to $tabib.hp>>
+<<set $tabib.uang += dice('5d4') * 10>>
+<<set $tabib.mod.kebijaksanaan += dice('1d6')>>
+<<set $tabib.mod.karisma += dice('1d6')>>
+<<set $tabib.mod.obat += dice('1d4')>>
+<<set $tabib.mod.persuasif += dice('1d4')>>
+<<set $tabib.mod.agama += dice('1d4')>>
+<<set $tabib.mod.sejarah += dice('1d4')>>
+<<set $tabib.mod.wawasan += dice('1d4')>>
+<<set $tabib.identitas to "Tabib">>
+<<set $tabib.bakat to "Berkah">>
+<<set $tabib.autoHeal += true>>
+<<set $player.identitas to $tabib.identitas>>
+<<set _tasTabib to clone($tas)>>
+<<pickup _tasTabib "Gada" 1>>
+<<set $tabib.serangan to "1d6">>
+<<set $tabib.akurasi += $tabib.mod.kekuatan>>
+<<pickup _tasTabib "Baju kulit" 1>>
+<<set $tabib.pertahanan += 10>>
+<<pickup _tasTabib "Perisai" 1>>
+<<set $tabib.pertahanan += 2>>
+<<replace "#informasi">>
+''Informasi Umum''
+
+Uang: $tabib.uang keping emas
+Kesehatan: $tabib.hp / $tabib.maxHp
+Akurasi: +$tabib.akurasi
+Serangan: $tabib.serangan
+Pertahanan: $tabib.pertahanan
+
+----
+''Atribut''
+
+<span class="kekuatan">Kekuatan: $tabib.atribut.kekuatan [$tabib.mod.kekuatan]</span>
+<span class="ketangkasan">Ketangkasan: $tabib.atribut.ketangkasan [$tabib.mod.ketangkasan]</span>
+Ketahanan: $tabib.atribut.ketahanan [$tabib.mod.ketahanan]
+<span class="kecerdasan">Kecerdasan: $tabib.atribut.kecerdasan [$tabib.mod.kecerdasan]</span>
+<span class="kebijaksanaan">Kebijaksanaan: $tabib.atribut.kebijaksanaan [$tabib.mod.kebijaksanaan]</span>
+<span class="karisma">Karisma: $tabib.atribut.karisma [$tabib.mod.karisma]</span>
+----
+''Kemampuan''
+
+<span class="kekuatan">Atletis: $tabib.mod.atletis</span>
+<span class="ketangkasan">Akrobat: $tabib.mod.akrobat</span>
+<span class="ketangkasan">Kecepatan Tangan: $tabib.mod.tangan</span>
+<span class="ketangkasan">Bersembunyi: $tabib.mod.sembunyi</span>
+<span class="kecerdasan">Ilmu Sihir: $tabib.mod.sihir</span>
+<span class="kecerdasan">Sejarah: $tabib.mod.sejarah</span>
+<span class="kecerdasan">Investigasi: $tabib.mod.investigasi</span>
+<span class="kecerdasan">Pengetahuan Alam: $tabib.mod.alam</span>
+<span class="kecerdasan">Agama: $tabib.mod.agama</span>
+<span class="kebijaksanaan">Menjinakan Hewan: $tabib.mod.hewan</span>
+<span class="kebijaksanaan">Wawasan: $tabib.mod.wawasan</span>
+<span class="kebijaksanaan">Pengobatan: $tabib.mod.obat</span>
+<span class="kebijaksanaan">Persepsi: $tabib.mod.persepsi</span>
+<span class="kebijaksanaan">Bertahan Hidup: $tabib.mod.survival</span>
+<span class="karisma">Muslihat: $tabib.mod.tipuan</span>
+<span class="karisma">Intimidasi: $tabib.mod.intimidasi</span>
+<span class="karisma">Pertunjukan: $tabib.mod.performa</span>
+<span class="karisma">Bujuk Rayu: $tabib.mod.persuasif</span>
+----
+<</replace>>
+<<replace "#jobdesc">>
+* ''Deskripsi'': Kamu adalah tabib yang mampu menyembuhkan berbagai luka dan rasa sakit
+* ''Bonus Kesehatan'': 1d8 per level.
+* ''Bonus Atribut'': 1d6 Kebijaksanaan, 1d6 Karisma
+* ''Bonus Kemampuan'': 1d4 Sejarah, 1d4 Wawasan, 1d4 Pengobatan, 1d4 Bujukan, 1d4 Agama
+* ''Bakat'': Berkah. Menyembuhkan luka setiap selesai pertempuran
+* ''Perlengkapan'': Pedang, Baju kulit, Perisai
+<</replace>>
+<<replace "#jobname">>''Tabib''<</replace>>
+<<update>>
+
+<<case "Pemburu">>
+<<set $pemburu to clone($player)>>
+<<set $pemburu.hp += 8 + dice('3d8')>>
+<<set $pemburu.maxHp to $pemburu.hp>>
+<<set $pemburu.uang += dice('4d4') * 10>>
+<<set $pemburu.mod.ketangkasan += dice('1d6')>>
+<<set $pemburu.mod.kecerdasan += dice('1d6')>>
+<<set $pemburu.mod.akrobat += dice('1d2')>>
+<<set $pemburu.mod.atletis += dice('1d2')>>
+<<set $pemburu.mod.tipuan += dice('1d2')>>
+<<set $pemburu.mod.wawasan += dice('1d2')>>
+<<set $pemburu.mod.intimidasi += dice('1d2')>>
+<<set $pemburu.mod.investigasi += dice('1d2')>>
+<<set $pemburu.mod.persepsi += dice('1d2')>>
+<<set $pemburu.mod.persuasif += dice('1d2')>>
+<<set $pemburu.mod.tangan += dice('1d2')>>
+<<set $pemburu.mod.sembunyi += dice('1d2')>>
+<<set $pemburu.mod.performa += dice('1d2')>>
+<<set $pemburu.identitas to "Pemburu">>
+<<set $pemburu.bakat to "Nokturnal">>
+<<set $pemburu.darkVision += true>>
+<<set $player.identitas to $pemburu.identitas>>
+<<set _tasPemburu to clone($tas)>>
+<<pickup _tasPemburu "Busur" 1>>
+<<set $pemburu.serangan to "1d8">>
+<<set $pemburu.akurasi += $pemburu.mod.ketangkasan>>
+<<pickup _tasPemburu "Baju kulit" 1>>
+<<set $pemburu.pertahanan += 10>>
+<<pickup _tasPemburu "Perkakas" 1>>
+<<replace "#informasi">>
+''Informasi Umum''
+
+Uang: $pemburu.uang keping emas
+Kesehatan: $pemburu.hp / $pemburu.maxHp
+Akurasi: +$pemburu.akurasi
+Serangan: $pemburu.serangan
+Pertahanan: $pemburu.pertahanan
+
+----
+''Atribut''
+
+<span class="kekuatan">Kekuatan: $pemburu.atribut.kekuatan [$pemburu.mod.kekuatan]</span>
+<span class="ketangkasan">Ketangkasan: $pemburu.atribut.ketangkasan [$pemburu.mod.ketangkasan]</span>
+Ketahanan: $pemburu.atribut.ketahanan [$pemburu.mod.ketahanan]
+<span class="kecerdasan">Kecerdasan: $pemburu.atribut.kecerdasan [$pemburu.mod.kecerdasan]</span>
+<span class="kebijaksanaan">Kebijaksanaan: $pemburu.atribut.kebijaksanaan [$pemburu.mod.kebijaksanaan]</span>
+<span class="karisma">Karisma: $pemburu.atribut.karisma [$pemburu.mod.karisma]</span>
+----
+''Kemampuan''
+
+<span class="kekuatan">Atletis: $pemburu.mod.atletis</span>
+<span class="ketangkasan">Akrobat: $pemburu.mod.akrobat</span>
+<span class="ketangkasan">Kecepatan Tangan: $pemburu.mod.tangan</span>
+<span class="ketangkasan">Bersembunyi: $pemburu.mod.sembunyi</span>
+<span class="kecerdasan">Ilmu Sihir: $pemburu.mod.sihir</span>
+<span class="kecerdasan">Sejarah: $pemburu.mod.sejarah</span>
+<span class="kecerdasan">Investigasi: $pemburu.mod.investigasi</span>
+<span class="kecerdasan">Pengetahuan Alam: $pemburu.mod.alam</span>
+<span class="kecerdasan">Agama: $pemburu.mod.agama</span>
+<span class="kebijaksanaan">Menjinakan Hewan: $pemburu.mod.hewan</span>
+<span class="kebijaksanaan">Wawasan: $pemburu.mod.wawasan</span>
+<span class="kebijaksanaan">Pengobatan: $pemburu.mod.obat</span>
+<span class="kebijaksanaan">Persepsi: $pemburu.mod.persepsi</span>
+<span class="kebijaksanaan">Bertahan Hidup: $pemburu.mod.survival</span>
+<span class="karisma">Muslihat: $pemburu.mod.tipuan</span>
+<span class="karisma">Intimidasi: $pemburu.mod.intimidasi</span>
+<span class="karisma">Pertunjukan: $pemburu.mod.performa</span>
+<span class="karisma">Bujuk Rayu: $pemburu.mod.persuasif</span>
+----
+<</replace>>
+<<replace "#jobdesc">>
+* ''Deskripsi'': Seorang pemburu yang lincah
+* ''Bonus Kesehatan'': 1d8 per level.
+* ''Bonus Atribut'': 1d6 Ketangkasan, 1d6 Kecerdasan
+* ''Bonus Kemampuan'': 1d2 Akrobat, 1d2 Atletis, 1d2 Muslihat, 1d2 Wawasan, 1d2 Intimidasi, 1d2 Investigasi, 1d2 Persepsi, 1d2 Pertunjukan, 1d2 Buju Rayu, 1d2 Kecepatan Tangan, 1d2 Bersembunyi
+* ''Bakat'': Nokturnal. Dapat melihat dalam kegelapan
+* ''Perlengkapan'': Busur, Baju kulit, Perkakas
+<</replace>>
+<<replace "#jobname">>''Pemburu''<</replace>>
+<<update>>
+
+<<case "Pustakawan">>
+<<set $pustakawan to clone($player)>>
+<<set $pustakawan.hp += 8 + dice('3d6')>>
+<<set $pustakawan.maxHp to $pustakawan.hp>>
+<<set $pustakawan.uang += dice('4d4') * 10>>
+<<set $pustakawan.mod.kebijaksanaan += dice('1d6')>>
+<<set $pustakawan.mod.kecerdasan += dice('1d6')>>
+<<set $pustakawan.mod.sihir += dice('1d4')>>
+<<set $pustakawan.mod.sejarah += dice('1d4')>>
+<<set $pustakawan.mod.investigasi += dice('1d4')>>
+<<set $pustakawan.mod.wawasan += dice('1d4')>>
+<<set $pustakawan.mod.obat += dice('1d4')>>
+<<set $pustakawan.mod.agama += dice('1d4')>>
+<<set $pustakawan.identitas to "Pustakawan">>
+<<set $pustakawan.bakat to "Otak Reptil">>
+<<set $pustakawan.penyihir += true>>
+<<set $player.identitas to $pustakawan.identitas>>
+<<set _tasPustakawan to clone($tas)>>
+<<pickup _tasPustakawan "Bumerang" 1>>
+<<set $pustakawan.serangan to "1d4">>
+<<set $pustakawan.akurasi += $pustakawan.mod.ketangkasan>>
+<<pickup _tasPustakawan "Jubah" 1>>
+<<set $pustakawan.pertahanan += 5>>
+<<pickup _tasPustakawan "Gulungan Naar" 1>>
+<<pickup _tasPustakawan "Gulungan Guntur" 1>>
+<<replace "#informasi">>
+''Informasi Umum''
+
+Uang: $pustakawan.uang keping emas
+Kesehatan: $pustakawan.hp / $pustakawan.maxHp
+Akurasi: +$pustakawan.akurasi
+Serangan: $pustakawan.serangan
+Pertahanan: $pustakawan.pertahanan
+
+----
+''Atribut''
+
+<span class="kekuatan">Kekuatan: $pustakawan.atribut.kekuatan [$pustakawan.mod.kekuatan]</span>
+<span class="ketangkasan">Ketangkasan: $pustakawan.atribut.ketangkasan [$pustakawan.mod.ketangkasan]</span>
+Ketahanan: $pustakawan.atribut.ketahanan [$pustakawan.mod.ketahanan]
+<span class="kecerdasan">Kecerdasan: $pustakawan.atribut.kecerdasan [$pustakawan.mod.kecerdasan]</span>
+<span class="kebijaksanaan">Kebijaksanaan: $pustakawan.atribut.kebijaksanaan [$pustakawan.mod.kebijaksanaan]</span>
+<span class="karisma">Karisma: $pustakawan.atribut.karisma [$pustakawan.mod.karisma]</span>
+----
+''Kemampuan''
+
+<span class="kekuatan">Atletis: $pustakawan.mod.atletis</span>
+<span class="ketangkasan">Akrobat: $pustakawan.mod.akrobat</span>
+<span class="ketangkasan">Kecepatan Tangan: $pustakawan.mod.tangan</span>
+<span class="ketangkasan">Bersembunyi: $pustakawan.mod.sembunyi</span>
+<span class="kecerdasan">Ilmu Sihir: $pustakawan.mod.sihir</span>
+<span class="kecerdasan">Sejarah: $pustakawan.mod.sejarah</span>
+<span class="kecerdasan">Investigasi: $pustakawan.mod.investigasi</span>
+<span class="kecerdasan">Pengetahuan Alam: $pustakawan.mod.alam</span>
+<span class="kecerdasan">Agama: $pustakawan.mod.agama</span>
+<span class="kebijaksanaan">Menjinakan Hewan: $pustakawan.mod.hewan</span>
+<span class="kebijaksanaan">Wawasan: $pustakawan.mod.wawasan</span>
+<span class="kebijaksanaan">Pengobatan: $pustakawan.mod.obat</span>
+<span class="kebijaksanaan">Persepsi: $pustakawan.mod.persepsi</span>
+<span class="kebijaksanaan">Bertahan Hidup: $pustakawan.mod.survival</span>
+<span class="karisma">Muslihat: $pustakawan.mod.tipuan</span>
+<span class="karisma">Intimidasi: $pustakawan.mod.intimidasi</span>
+<span class="karisma">Pertunjukan: $pustakawan.mod.performa</span>
+<span class="karisma">Bujuk Rayu: $pustakawan.mod.persuasif</span>
+----
+<</replace>>
+<<replace "#jobdesc">>
+* ''Deskripsi'': Penjaga gulungan mantra
+* ''Bonus Kesehatan'': 1d6 per level.
+* ''Bonus Atribut'': 1d6 Kebijaksanaan, 1d6 Kecerdasan
+* ''Bonus Kemampuan'': 1d4 Ilmu Sihir, 1d4 Sejarah, 1d4 Investigasi, 1d4 Wawasan, 1d4 Obat, 1d4 Agama
+* ''Bakat'': Otak Reptil. Dapat menggunakan gulungan mantra berulang kali.
+* ''Perlengkapan'': Bumerang, Jubah, Gulungan Naar, Gulungan Guntur
+<</replace>>
+<<replace "#jobname">>''Pustakawan''''<</replace>>
+<<update>>
+<</switch>>
+<</widget>>
+
+
+:: kelahi [widget] {"position":"100,200","size":"100,100"}
+<<widget "kelahi">>
+    <<for _i to 0; _i lt _args.length; _i++>>
+        <<set _args[_i].aksi to either('menyerang', 'bertahan')>>
+        <<if _args[_i].hp gt 0>>
+            <<if _args[_i].jinak gt 0>>
+                        <<replace _args[_i].idAksi>>_args[_i].nama sedang jinak selama _args[_i].jinak ronde<</replace>>
+                        <<replace _args[_i].idHasil>><</replace>>
+                        <<replace _args[_i].idDefKamu>><</replace>>
+                        <<replace _args[_i].idPostSerangan>><</replace>>
+            <<else>>
+            <<if _args[_i].aksi is 'bertahan'>>
+            <<set _args[_i].ac to _args[_i].pertahanan + _args[_i].ketahanan>>
+            <<replace _args[_i].idAksi>>_args[_i].nama mencoba bertahan<</replace>>
+            <<replace _args[_i].idHasil>>pertahanan _args[_i].nama: _args[_i].ac<</replace>>
+            <<replace _args[_i].idDefKamu>><</replace>>
+            <<replace _args[_i].idPostSerangan>><</replace>>
+            <<else>>
+            <<set _args[_i].ac to _args[_i].pertahanan>>
+            <</if>>
+            <</if>>
+        <<else>>
+            <<replace _args[_i].idAksi>>_args[_i].nama sudah mati<</replace>>
+            <<replace _args[_i].idHasil>><</replace>>
+            <<replace _args[_i].idDefKamu>><</replace>>
+            <<replace _args[_i].idPostSerangan>><</replace>>
+        <</if>>
+        
+            <<if $player.kelahi === "serang">>
+                <<set _rollHitPlayer to dice('1d20') + $player.akurasi>>
+                <<replace "#aksimu">>Kamu menyerang _args[0].nama<</replace>>
+                <<if _args[0].hp lte 0>>
+                    <<notify 5s>>_args[0].nama sudah mati<</notify>>
+                <<else>>
+                    <<if _rollHitPlayer gte _args[0].ac>>
+                        <<set _dmg to dice($player.serangan) + $player.bonusSerangan>>
+                        <<set _args[0].hp -= _dmg>>
+                        <<replace "#hasilmu">>roll serangan: _rollHitPlayer<</replace>>
+                        <<replace "#deflaba">>Pertahanan _args[0].nama: _args[0].ac<</replace>>
+                        <<replace "#postserangan">>Daya rusak: _dmg<</replace>>
+                    <<else>>
+                        <<replace "#hasilmu">>roll serangan: _rollHitPlayer<</replace>>
+                        <<replace "#deflaba">>Pertahanan _args[0].nama: _args[0].ac<</replace>>
+                        <<replace "#postserangan">>Daya rusak: gagal menyerang _args[0].nama<</replace>>
+                    <</if>>
+                  <</if>>
+
+            <<elseif $player.kelahi === "bertahan">>
+                <<set _acPlayer to $player.pertahanan + $player.ketahanan>>
+                <<replace "#hasilmu">>Kamu mencoba bertahan<</replace>>
+                <<replace "#deflaba">><</replace>>
+                <<replace "#postserangan">>Pertahanan: _acPlayer<</replace>>
+            
+            <<elseif $player.kelahi === "menjinakan">>
+                <<if _args[0].jinak gt 0>>
+                <<replace "#hasilmu">><</replace>>
+                <<replace "#deflaba">><</replace>>
+                <<replace "#postserangan">>_args[0].nama sedang jinak<</replace>>
+                <<else>>
+                    <<set _rollJinak to dice('1d20') + $player.hewan>>
+                    <<replace "#aksimu">>Kamu menjinakan _args[0].nama<</replace>>
+                    <<if _args[0].hp lte 0>>
+                        <<notify 5s>>_args[0].nama sudah mati<</notify>>
+                    <<else>>
+                        <<if _rollJinak gte _args[0].ac>>
+                            <<set _args[0].jinak += dice('1d4') + dice($player.menjinakan)>>
+                            <<replace "#hasilmu">>roll menjinakan: _rollJinak<</replace>>
+                            <<replace "#deflaba">>Pertahanan _args[0].nama: _args[0].ac<</replace>>
+                            <<replace "#postserangan">>Hasil: _args[0].nama jinak selama _args[0].jinak ronde<</replace>>
+                        <<else>>
+                            <<replace "#hasilmu">>roll menjinakan: _rollJinak<</replace>>
+                            <<replace "#deflaba">>Pertahanan _args[0].nama: _args[0].ac<</replace>>
+                            <<replace "#postserangan">>Hasil: gagal menjinakan _args[0].nama<</replace>>
+                        <</if>>
+                    <</if>>
+                 <</if>>
+            <<else>>
+            <<set $player.kelahiAing to _a>>
+        <</if>>
+
+     
+       <<if _args[_i].hp gt 0>>
+            <<if _args[_i].jinak gt 0>>
+                        <<replace _args[_i].idAksi>>_args[_i].nama sedang jinak selama _args[_i].jinak ronde<</replace>>
+                        <<replace _args[_i].idHasil>><</replace>>
+                        <<replace _args[_i].idDefKamu>><</replace>>
+                        <<replace _args[_i].idPostSerangan>><</replace>>
+            <<else>>
+            <<if _args[_i].aksi is 'menyerang'>>
+            <<set _rollhit to dice('1d20') + _args[_i].akurasi>>
+            <<replace _args[_i].idAksi>>_args[_i].nama menyerang kamu<</replace>>
+             <<if $player.hp lte 0>><<notify 5s>>Kamu sudah mati<</notify>>
+            <<else>>
+            <<if _rollhit gte $player.pertahanan>>
+            <<set _dmg to dice(_args[_i].serangan) + _args[_i].akurasi>>
+            <<set $player.hp -= _dmg>>
+            <<replace _args[_i].idHasil>>roll serangan _args[_i].nama: _rollhit<</replace>>
+            <<replace _args[_i].idDefKamu>>Pertahanan kamu: $player.pertahanan<</replace>>
+            <<replace _args[_i].idPostSerangan>>Daya rusak: _dmg<</replace>>
+            <<else>>
+            <<replace _args[_i].idHasil>>roll serangan: _rollhit<</replace>>
+            <<replace _args[_i].idDefKamu>>Pertahanan kamu $player.pertahanan<</replace>>
+            <<replace _args[_i].idPostSerangan>>Daya rusak: _args[_i].nama gagal menyerang kamu<</replace>>
+            <</if>>
+            <</if>>
+            <</if>>
+            <</if>>
+            <<else>>
+            <<replace _args[_i].idAksi>>_args[_i].nama sudah mati<</replace>>
+            <<replace _args[_i].idHasil>><</replace>>
+            <<replace _args[_i].idDefKamu>><</replace>>
+            <<replace _args[_i].idPostSerangan>><</replace>>
+           <</if>>
+    <</for>>
+    
+    <<for _i to 0; _i lt _args.length; _i++>>
+    <<if _args[_i].jinak gt 0>>
+    <<set _args[_i].jinak -= 1>>
+    <</if>>
+    <</for>>
+    <<set _round += 1>>
+    <<update>>
+<</widget>>
+
+
+:: perkenalan [bookmark] {"position":"550,225","size":"100,100"}
+<label>''Siapa namamu?'' <<textbox "$player.nama" "John Lemon">></label>
+<<liveblock>>
+''Total Poin:'' $totalPoint
+<<nobr>>
+<span style="display: inline-block; width: 50px;"><<button "-">>
+<<if $player.atribut.kekuatan gt 8>>
+<<set $player.atribut.kekuatan-->>
+<<set $totalPoint++>>
+<<set $player.mod.kekuatan to Math.trunc(($player.atribut.kekuatan - 10)/2)>>
+<</if>>
+<<update>>
+<</button>></span><span class="kekuatan" style="display: inline-block; width: 120px;">''Kekuatan'':</span><span style="display: inline-block; width: 50px;"> $player.atribut.kekuatan [$player.mod.kekuatan]</span><<button "+">>
+<<if $player.atribut.kekuatan lt 15 and $totalPoint  gt 0>>
+<<set $player.atribut.kekuatan++>>
+<<set $totalPoint-->>
+<<set $player.mod.kekuatan to Math.trunc(($player.atribut.kekuatan - 10)/2)>>
+<<else>>
+<<notify 5s>>Maksimal 15 poin atribut dan minimal 1 Total Poin<</notify>>
+<</if>>
+<<update>>
+<</button>>
+<</nobr>>
+<<nobr>>
+<span style="display: inline-block; width: 50px;"><<button "-">>
+<<if $player.atribut.ketangkasan gt 8>>
+<<set $player.atribut.ketangkasan-->>
+<<set $totalPoint++>>
+<<set $player.mod.ketangkasan to Math.trunc(($player.atribut.ketangkasan - 10)/2)>>
+<</if>>
+<<update>>
+<</button>></span><span class="ketangkasan" style="display: inline-block; width: 120px;">''Ketangkasan'':</span><span style="display: inline-block; width: 50px;"> $player.atribut.ketangkasan [$player.mod.ketangkasan]</span><<button "+">>
+<<if $player.atribut.ketangkasan lt 15 and $totalPoint  gt 0>>
+<<set $player.atribut.ketangkasan++>>
+<<set $totalPoint-->>
+<<set $player.mod.ketangkasan to Math.trunc(($player.atribut.ketangkasan - 10)/2)>>
+<<else>>
+<<notify 5s>>Maksimal 15 poin atribut dan minimal 1 Total Poin<</notify>>
+<</if>>
+<<update>>
+<</button>>
+<</nobr>>
+<<nobr>>
+<span style="display: inline-block; width: 50px;"><<button "-">>
+<<if $player.atribut.ketahanan gt 8>>
+<<set $player.atribut.ketahanan-->>
+<<set $totalPoint++>>
+<<set $player.mod.ketahanan to Math.trunc(($player.atribut.ketahanan - 10)/2)>>
+<</if>>
+<<update>>
+<</button>></span><span class="ketahanan" style="display: inline-block; width: 120px;">''Ketahanan'':</span><span style="display: inline-block; width: 50px;"> $player.atribut.ketahanan [$player.mod.ketahanan]</span><<button "+">>
+<<if $player.atribut.ketahanan lt 15 and $totalPoint  gt 0>>
+<<set $player.atribut.ketahanan++>>
+<<set $totalPoint-->>
+<<set $player.mod.ketahanan to Math.trunc(($player.atribut.ketahanan - 10)/2)>>
+<<else>>
+<<notify 5s>>Maksimal 15 poin atribut dan minimal 1 Total Poin<</notify>>
+<</if>>
+<<update>>
+<</button>>
+<</nobr>>
+<<nobr>>
+<span style="display: inline-block; width: 50px;"><<button "-">>
+<<if $player.atribut.kecerdasan gt 8>>
+<<set $player.atribut.kecerdasan-->>
+<<set $totalPoint++>>
+<<set $player.mod.kecerdasan to Math.trunc(($player.atribut.kecerdasan - 10)/2)>>
+<</if>>
+<<update>>
+<</button>></span><span class="kecerdasan" style="display: inline-block; width: 120px;">''Kecerdasan'':</span><span style="display: inline-block; width: 50px;"> $player.atribut.kecerdasan [$player.mod.kecerdasan]</span><<button "+">>
+<<if $player.atribut.kecerdasan lt 15 and $totalPoint  gt 0>>
+<<set $player.atribut.kecerdasan++>>
+<<set $totalPoint-->>
+<<set $player.mod.kecerdasan to Math.trunc(($player.atribut.kecerdasan - 10)/2)>>
+<<else>>
+<<notify 5s>>Maksimal 15 poin atribut dan minimal 1 Total Poin<</notify>>
+<</if>>
+<<update>>
+<</button>>
+<</nobr>>
+<<nobr>>
+<span style="display: inline-block; width: 50px;"><<button "-">>
+<<if $player.atribut.kebijaksanaan gt 8>>
+<<set $player.atribut.kebijaksanaan-->>
+<<set $totalPoint++>>
+<<set $player.mod.kebijaksanaan to Math.trunc(($player.atribut.kebijaksanaan - 10)/2)>>
+<</if>>
+<<update>>
+<</button>></span><span class="kebijaksanaan" style="display: inline-block; width: 120px;">''Kebijaksanaan'':</span><span style="display: inline-block; width: 50px;"> $player.atribut.kebijaksanaan [$player.mod.kebijaksanaan]</span><<button "+">>
+<<if $player.atribut.kebijaksanaan lt 15 and $totalPoint  gt 0>>
+<<set $player.atribut.kebijaksanaan++>>
+<<set $totalPoint-->>
+<<set $player.mod.kebijaksanaan to Math.trunc(($player.atribut.kebijaksanaan - 10)/2)>>
+<<else>>
+<<notify 5s>>Maksimal 15 poin atribut dan minimal 1 Total Poin<</notify>>
+<</if>>
+<<update>>
+<</button>>
+<</nobr>>
+<<nobr>>
+<span style="display: inline-block; width: 50px;"><<button "-">>
+<<if $player.atribut.karisma gt 8>>
+<<set $player.atribut.karisma-->>
+<<set $totalPoint++>>
+<<set $player.mod.karisma to Math.trunc(($player.atribut.karisma - 10)/2)>>
+<</if>>
+<<update>>
+<</button>></span><span class="karisma" style="display: inline-block; width: 120px;">''Karisma'':</span><span style="display: inline-block; width: 50px;"> $player.atribut.karisma [$player.mod.karisma]</span><<button "+">>
+<<if $player.atribut.karisma lt 15 and $totalPoint  gt 0>>
+<<set $player.atribut.karisma++>>
+<<set $totalPoint-->>
+<<set $player.mod.karisma to Math.trunc(($player.atribut.karisma - 10)/2)>>
+<<else>>
+<<notify 5s>>Maksimal 15 poin atribut dan minimal 1 Total Poin<</notify>>
+<</if>>
+<<update>>
+<</button>>
+<</nobr>>
+<<nobr>>
+<<set $player.mod.atletis to Math.trunc(($player.atribut.kekuatan - dice('1d10'))/2)>>
+<<set $player.mod.akrobat to Math.trunc(($player.atribut.ketangkasan - dice('1d10'))/2)>>
+<<set $player.mod.tangan to Math.trunc(($player.atribut.ketangkasan - dice('1d10'))/2)>>
+<<set $player.mod.sembunyi to Math.trunc(($player.atribut.ketangkasan - dice('1d10'))/2)>>
+<<set $player.mod.sihir to Math.trunc(($player.atribut.kecerdasan - dice('1d10'))/2)>>
+<<set $player.mod.sejarah to Math.trunc(($player.atribut.kecerdasan - dice('1d10'))/2)>>
+<<set $player.mod.investigasi to Math.trunc(($player.atribut.kecerdasan - dice('1d10'))/2)>>
+<<set $player.mod.alam to Math.trunc(($player.atribut.kecerdasan - dice('1d10'))/2)>>
+<<set $player.mod.agama to Math.trunc(($player.atribut.kecerdasan - dice('1d10'))/2)>>
+<<set $player.mod.hewan to Math.trunc(($player.atribut.kebijaksanaan - dice('1d10'))/2)>>
+<<set $player.mod.wawasan to Math.trunc(($player.atribut.kebijaksanaan - dice('1d10'))/2)>>
+<<set $player.mod.obat to Math.trunc(($player.atribut.kebijaksanaan - dice('1d10'))/2)>>
+<<set $player.mod.persepsi to Math.trunc(($player.atribut.kebijaksanaan - dice('1d10'))/2)>>
+<<set $player.mod.survival to Math.trunc(($player.atribut.kebijaksanaan - dice('1d10'))/2)>>
+<<set $player.mod.tipuan to Math.trunc(($player.atribut.karisma - dice('1d10'))/2)>>
+<<set $player.mod.intimidasi to Math.trunc(($player.atribut.karisma - dice('1d10'))/2)>>
+<<set $player.mod.performa to Math.trunc(($player.atribut.karisma - dice('1d10'))/2)>>
+<<set $player.mod.persuasif to Math.trunc(($player.atribut.karisma - dice('1d10'))/2)>>
+<<set $player.pertahanan to $player.mod.ketahanan + 10>>
+<<set $player.hp to dice('3d10') + $player.mod.ketahanan>>
+<<set $player.maxHp to $player.hp>>
+<</nobr>>
+<<nobr>>
+<<if $totalPoint gt 0>>
+<<button "Mulai petualanganmu">><<notify 5s>> Kamu perlu mendistribusikan semua poin<</notify>><</button>>
+<<else>>
+<<button [[Mulai petualanganmu|intro]]>>
+<</button>>
+<</if>>
+<</nobr>>
+<</liveblock>>
+
+
+:: test1 {"position":"675,350","size":"100,100"}
+
+
+
+:: toko {"position":"275,125","size":"100,100"}
+ini toko
+
+
+:: StoryScript [script]
+// liveupdate
+(function () {
+	"use strict";
+
+	$(document).on(":liveupdate", function () {
+		$(".macro-live").trigger(":liveupdateinternal");
+	});
+
+	Macro.add(['update', 'upd'], {
+		handler: function handler() {
+			$(document).trigger(":liveupdate");
+		}
+	});
+
+	Macro.add(['live', 'l', 'lh'], {
+		skipArgs: true,
+		handler: function handler() {
+			if (this.args.full.length === 0) {
+				return this.error('no expression specified');
+			}
+			try {
+				var statement = this.args.full;
+				var result = toStringOrDefault(Scripting.evalJavaScript(statement), null);
+				if (result !== null) {
+					var lh = this.name === "lh";
+					var $el = $("<span></span>").addClass("macro-live").wiki(lh ? Util.escape(result) : result).appendTo(this.output);
+					$el.on(":liveupdateinternal", this.createShadowWrapper(function (ev) {
+						var out = toStringOrDefault(Scripting.evalJavaScript(statement), null);
+						$el.empty().wiki(lh ? Util.escape(out) : out);
+					}));
+				}
+			} catch (ex) {
+				return this.error("bad evaluation: " + (_typeof(ex) === 'object' ? ex.message : ex));
+			}
+		}
+	});
+
+	Macro.add(['liveblock', 'lb'], {
+		tags: null,
+		handler: function handler() {
+			try {
+				var content = this.payload[0].contents.trim();
+				if (content) {
+					var $el = $("<span></span>").addClass("macro-live macro-live-block").wiki(content).appendTo(this.output);
+					$el.on(":liveupdateinternal", this.createShadowWrapper(function (ev) {
+						$el.empty().wiki(content);
+					}));
+				}
+			} catch (ex) {
+				return this.error("bad evaluation: " + (_typeof(ex) === 'object' ? ex.message : ex));
+			}
+		}
+	});
+})();
+// end liveupdate
+
+Config.history.controls = false;
+
+// dialog API macro set, by chapel; for sugarcube 2
+// version 1.3.0
+// see the documentation: https://github.com/ChapelR/custom-macros-for-sugarcube-2#dialog-api-macros
+
+// <<dialog>> macro
+Macro.add('dialog', {
+       tags : ['onopen', 'onclose'],
+    handler : function () {
+        
+        // handle args (if any)
+        var errors = [];
+        var content = '', onOpen = null, onClose = null;
+        var title = (this.args.length > 0) ? this.args[0] : '';
+        var classes = (this.args.length > 1) ? this.args.slice(1).flatten() : [];
+
+        this.payload.forEach( function (pl, idx) {
+            if (idx === 0) {
+                content = pl.contents;
+            } else {
+                if (pl.name === 'onopen') {
+                    onOpen = onOpen ? onOpen + pl.contents : pl.contents;
+                } else {
+                    onClose = onClose ? onClose + pl.contents : pl.contents;
+                }
+            }
+        });
+        
+        // add the macro- class
+        classes.push('macro-' + this.name);
+        
+        // dialog box
+        Dialog.setup(title, classes.join(' '));
+        Dialog.wiki(content);
+
+        // should these be shadowWrapper-aware?
+        if (onOpen && typeof onOpen === 'string' && onOpen.trim()) {
+            $(document).one(':dialogopened', function () {
+                $.wiki(onOpen);
+            });
+        }
+
+        if (onClose && typeof onClose === 'string' && onClose.trim()) {
+            $(document).one(':dialogclosed', function () {
+                $.wiki(onClose);
+            });
+        }
+
+        Dialog.open();
+        
+    }
+
+});
+
+// <<popup>> macro
+Macro.add('popup', {
+    handler : function () {
+        
+        // errors
+        if (this.args.length < 1) {
+            return this.error('need at least one argument; the passage to display');
+        }
+        if (!Story.has(this.args[0])) {
+            return this.error('the passage ' + this.args[0] + 'does not exist');
+        }
+        
+        // passage name and title
+        var psg   = this.args[0];
+        var title = (this.args.length > 1) ? this.args[1] : '';
+        var classes = (this.args.length > 2) ? this.args.slice(2).flatten() : [];
+        
+        // add the macro- class
+        classes.push('macro-' + this.name);
+        
+        // dialog box
+        Dialog.setup(title, classes.join(' '));
+        Dialog.wiki(Story.get(psg).processText());
+        Dialog.open();
+        
+    }
+
+});
+
+// <<dialogclose>> macro
+Macro.add('dialogclose', { 
+    skipArgs : true, 
+    handler : function () {
+        Dialog.close();
+    } 
+});
+
+
+(function() {
+  
+  	window.getv = function(key, defaultv = undefined){
+        let v = State.getVar(`$${key}`);
+        if (v == undefined || v == null) return defaultv;
+        return v;
+    };
+  
+  	    Macro.add('diag', {
+        tags: ['main'],
+        handler: function(){
+            if (this.args.length != 0) Dialog.setup(this.args.full); 
+            else Dialog.setup("Dialog");
+            Dialog.wiki(this.payload[0].contents);
+            Dialog.open();
+        }
+    });
+    
+    Macro.add('qdiag', {
+        handler: function(){ 
+            name = this.args[0]; let data = this.args[1]; Dialog.setup(name); Dialog.wiki(data); Dialog.open();
+        }
+    });
+  
+  
+  	Macro.add('closediag', {
+    handler: function(){
+            Dialog.close();
+    }
+    });
+
+
+
+
+    window.goals = function(){
+        return getv("goals", {});
+    };
+    window.notes = function(){
+        return getv("notes", []);
+    };
+    // Notes and goals
+    Macro.add('goals', {
+        handler: function(){
+            let goals = window.goals();
+            console.log(goals);
+            let body = "";
+            let completed = 0;
+            if(Object.keys(goals) == 0){
+                body = "Kosong."
+            } else{
+                for (const key of Object.keys(goals)){
+                    let item = goals[key];
+                    if(item.active){ body += "<hr>"; body += `''${item.body}''`; } 
+                    else completed += 1;
+                }
+            }
+
+            body += "<hr>";
+            
+            if (completed >= 1) 
+                body += `Lihat <<link '${completed} misi yang telah selesai'>><</link>>`;
+            Dialog.setup(`Misi`);
+            Dialog.wiki(body);
+            Dialog.open();
+        }
+    });
+
+    window.editNote = function(oldbody, newbody){
+        oldbody = State.getVar(oldbody);
+        newbody = State.getVar(newbody);
+        newbody = newbody.replace(/[\r\n]/g, "<br/>");
+        newbody = newbody.replace(`"`, "'");
+        let notes = window.notes();
+        for (var i = 0;i<=notes.length;i++){ 
+            if(notes[i] == oldbody){ 
+                notes[i] = newbody; break; 
+            } 
+        }
+        State.setVar("$notes", notes);
+    };
+    
+    Macro.add('notes', {
+        handler: function(){
+        let notes = window.notes();
+            let body = `<<button 'Catatan Baru'>>
+                <<diag Buat>>\
+                <<textarea '$newnote' ''>>
+                <<button 'Kirim'>><<addnote>>$newnote<</addnote>>
+                <<closediag>><<notes>><</button>><</diag>>
+                <</button>>\n`;
+
+            for (const item of notes){
+            body += "<hr>";
+            body += `''${item}''`;
+                body += `\n<<button 'Hapus'>><<deletenote>>${item}<</deletenote>><<closediag>><<notes>><</button>>`;
+            body += ` <<button 'Ubah'>><<set $oldnote to "${item}">>
+                <<closediag>><<diag Edit>>\
+                <<textarea '$newnote' "${item}">>
+                <<button 'Kirim'>><<run editNote('$oldnote', '$newnote')>>
+                <<closediag>><<notes>><</button>><</diag>><</button>>\n`;
+            }
+        body += "<hr>";
+            Dialog.setup(`Catatan`);
+            Dialog.wiki(body);
+            Dialog.open();
+    }
+    });
+    Macro.add('addnote', {
+        tags: ['main'], handler: function(){
+        let notes = window.notes();
+        let content = this.payload[0].contents;
+        
+        if(content.startsWith("$")) content = State.getVar(content);
+        content = content.replace(/[\r\n]/g, "<br />");
+        notes.push(content);
+       // if(!this.args.full != "silent") $(this.output).wiki("@@.fade-in-out;A note was added to your datavault.@@");
+        State.setVar("$notes", notes);
+    }
+    });
+    
+    Macro.add('deletenote', { tags: ['main'], handler: function(){ let notes = window.notes();notes.splice(this.payload[0].contents);
+                                            State.setVar("$notes", notes);} });
+    
+    Macro.add('defgoal', {
+        tags: ['main'], handler: function(){
+        let goals = window.goals();
+        goals[this.args[0]] = {"body": this.payload[0].contents, "id": this.args[0], "active": true};
+        //if(!this.args[1] != "silent") $(this.output).wiki("@@.fade-in-out;A new goal was added to your datavault.@@");
+        State.setVar("$goals", goals);
+    }
+    });
+    Macro.add('completegoal', {
+        handler: function(){
+        let goals = window.goals();
+        goals[this.args[0]]["active"] = false;
+       // if(!this.args[1] != "silent") $(this.output).wiki("@@.fade-in-out;Goal status updated.@@");
+        State.setVar("$goals", goals);
+    }
+    });
+    Macro.add('editgoal', {
+        tags: ['main'], handler: function(){
+        let goals = window.goals();
+        
+        goals[this.args[0]]["body"] = this.payload[0].contents;
+       // if(!this.args[1] != "silent") $(this.output).wiki("@@.fade-in-out;Goal status updated.@@");
+        State.setVar("$goals", goals);
+    }
+    });
+    Macro.add('deletegoal', { handler: function(){ let goals = window.goals(); delete goals[this.args[0]];
+                                State.setVar("$goals", goals); } });
+})();
+
+// Simple Inventory, for SugarCube 2, by Chapel
+// v3.0.0-beta1, 2022-07-25, 19f255d958852e55a8a3afcde5c53331f0d938e8
+;"use strict";function _typeof(t){return _typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},_typeof(t)}function _classCallCheck(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}function _defineProperties(t,e){for(var n=0;n<e.length;n++){var i=e[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(t,i.key,i)}}function _createClass(t,e,n){return e&&_defineProperties(t.prototype,e),n&&_defineProperties(t,n),Object.defineProperty(t,"prototype",{writable:!1}),t}!function(){var t={description:"",handler:null,displayName:"",consumable:!0,unique:!1,permanent:!1},e=new Map,n=function(){function n(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",i=arguments.length>1&&void 0!==arguments[1]?arguments[1]:clone(t),r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:[];if(_classCallCheck(this,n),!e||"string"!=typeof e)throw new Error("invalid item ID");if("object"!==_typeof(i))throw new Error("invalid item definition");Object.assign(this,Object.assign(t,i)),this.id=e,this.tags=r instanceof Array?r:"string"==typeof r?[r]:[]}return _createClass(n,[{key:"name",get:function(){return this.displayName||this.id},set:function(t){this.displayName=t}},{key:"use",value:function(){return"string"==typeof this.handler?$.wiki(this.handler):"function"==typeof this.handler&&this.handler(this),this}},{key:"inspect",value:function(){return Dialog.setup(this.name,"simple-inventory item-description"),Dialog.wiki(this.description),Dialog.open(),this}}],[{key:"is",value:function(t){return t instanceof n}},{key:"add",value:function(t,i,r){var a=new n(t,i,r);return e.set(t,a),a}},{key:"get",value:function(t){return e.get(t)}},{key:"has",value:function(t){return e.has(t)}},{key:"list",get:function(){return e}}]),n}();setup.Item=n,window.Item=window.Item||n}(),function(){var t=setup.Item,e=!1,n="&hellip;",i={inspect:"Inspect",use:"Use",drop:"Drop",stack:"stack",take:"Take",give:"Give",stackPre:"&nbsp;&times;&nbsp;",stackPost:"&nbsp;"},r={};function a(e){return t.has(e)&&t.get(e).unique}function s(e){return t.has(e)&&t.get(e).permanent}function o(t){return t&&"string"==typeof t&&t.trim()}var u=function(){function u(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:[];_classCallCheck(this,u),this.data=clone(t),this.tags=e instanceof Array?e:"string"==typeof e?[e]:[]}return _createClass(u,[{key:"emit",value:function(t){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};return u.emit(t,this,e),this}},{key:"array",get:function(){var t=this,e=[];return Object.keys(this.data).forEach((function(n){if(e.push(n),t.data[n]>1)for(var i=1;i<t.data[n];i++)e.push(n)})),e}},{key:"list",get:function(){return Object.keys(this.data)}},{key:"length",get:function(){return this.array.length}},{key:"uniqueLength",get:function(){return this.list.length}},{key:"table",get:function(){return this.data}},{key:"count",value:function(t){return t?this.data[t]||0:this.length}},{key:"has",value:function(t){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:1;return this.data[t]>=e}},{key:"hasAll",value:function(){var t=this,e=[].slice.call(arguments).flat(1/0);return e.every((function(e){return t.has(e)}))}},{key:"hasAny",value:function(){var t=this,e=[].slice.call(arguments).flat(1/0);return e.some((function(e){return t.has(e)}))}},{key:"compare",value:function(t){var e=this,n=u.itemset(t);return Object.keys(n).every((function(t){return e.has(t,n[t])}))}},{key:"merge",value:function(t){var e=this,n=u.itemset(t);return Object.keys(n).forEach((function(t){u.change(e,t,n[t])})),n}},{key:"unmerge",value:function(t){var e=this,n={},i=u.itemset(t);return Object.keys(i).forEach((function(t){e.has(t,i[t])?n[t]=i[t]:e.has(t)&&(n[t]=e.count(t)),u.change(e,t,i[t],!0)})),n}},{key:"pickup",value:function(){var t=this.merge(u.parseArgList.apply(null,arguments));return this.emit("update",{delta:t}),this}},{key:"drop",value:function(){var t=this.unmerge(u.parseArgList.apply(null,arguments));return this.emit("update",{delta:t}),this}},{key:"empty",value:function(){var t=clone(this.data);return this.data={},this.emit("update",{delta:t}),this}},{key:"transfer",value:function(t){var e=u.parseArgList.apply(null,[].slice.call(arguments).slice(1));if(!u.is(t))throw new TypeError("target inventory is not an inventory instance");var n=this.unmerge(e);return t.merge(n),this.emit("update",{target:t,delta:n}),this}},{key:"isEmpty",value:function(){return 0===this.length}},{key:"iterate",value:function(t){var e=this;return"function"!=typeof t||this.list.forEach((function(n){t(n,e.data[n])})),this}},{key:"use",value:function(e){if(t.has(e)){var n=t.get(e);if(n.use(),n.consumable){u.change(this,e,1,!0);var i={};i[e]=1,this.emit("update",{delta:i})}return this.emit("use",{item:n}),this}}},{key:"clone",value:function(){return new u(this.data||{},this.tags||[])}},{key:"toJSON",value:function(){return JSON.reviveWrapper("new setup.Inventory("+JSON.stringify(this.data)+", "+JSON.stringify(this.tags)+")")}}],[{key:"confirm",get:function(){return e},set:function(t){e="string"==typeof t&&"all"===t.trim().toLowerCase()?"all":"string"==typeof t&&"stack"===t.trim().toLowerCase()?"stack":!!t}},{key:"emptyMessage",get:function(){return n},set:function(t){"string"==typeof t&&(n=t)}},{key:"strings",get:function(){return Object.assign(clone(i),r)},set:function(t){"object"===_typeof(t)&&(r=Object.assign(r,clone(t)))}},{key:"change",value:function(t,e){var n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:1,i=arguments.length>3&&void 0!==arguments[3]&&arguments[3];if(0!==n){if(t instanceof u&&(t=t.data),"object"!==_typeof(t)){if(t)throw new TypeError("cannot access inventory data");t={}}if(!o(e))throw new TypeError("invalid item name/id");if("number"==typeof n&&!Number.isNaN(n)&&Number.isInteger(n)||(n=1),i&&(n*=-1),n>0){if(Object.keys(t).includes(e)&&a(e))return;Object.keys(t).includes(e)||(t[e]=0),t[e]+=n}else{if(s(e))return;Object.keys(t).includes(e)&&"number"==typeof t[e]&&(t[e]+=n),t[e]<=0&&delete t[e]}return t}}},{key:"itemset",value:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(u.is(t)&&(t=t.data),"object"!==_typeof(t))return{};var e={};return Object.keys(t).forEach((function(n){"number"==typeof t[n]&&Number.isInteger(t[n])&&0!==t[n]&&(e[n]=t[n])})),e}},{key:"parseArgList",value:function(){var t=[].slice.call(arguments).flat(1/0);if(t.length%2!=0)throw new Error("item sets should be pairs of item IDs and numbers");var e={};return t.forEach((function(n,i){i%2==0&&(e[n]=t[i+1])})),e}},{key:"is",value:function(t){return t instanceof u}},{key:"emit",value:function(t,e){var n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{};$(document).trigger(Object.assign({type:":inventory-"+t+".simple-inventory",inventory:e,target:null,delta:{},item:null},n))}},{key:"create",value:function(t,e){return new u(t,e)}}]),u}();setup.Inventory=u,window.Inventory=window.Inventory||u}(),function(){var t=setup.Item,e=setup.Inventory;function n(e){return t.has(e)&&t.get(e).permanent}function i(t){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:null,i=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3&&void 0!==arguments[3]?arguments[3]:"Alert",a=arguments.length>4&&void 0!==arguments[4]?arguments[4]:"Are you sure?";if(!t||"function"!=typeof t)throw new Error("Invalid confirmation callback!");if(e.confirm)if("all"!==e.confirm||"all"===i)if("stack"!==e.confirm||i){var s={display:"inline-block",float:"right"},o=$(document.createElement("div")),u=$(document.createElement("p")).append(a),l=$(document.createElement("div")).addClass("confirmation-buttons"),c=$(document.createElement("button")).append("Okay").addClass("confirm-yes").css(Object.assign(s,{"margin-right":"0.5rem"})),d=$(document.createElement("button")).append("Cancel").addClass("confirm-no").css(s);t&&"function"==typeof t&&c.ariaClick(t),n&&"function"==typeof n&&d.ariaClick(n),l.append(d,c),o.append(u,l),Dialog.setup(r,"simple-inventory confirmation"),Dialog.append(o),Dialog.open()}else t();else t();else t()}function r(t){var e=$(document.createElement("span")).addClass("spacer");return t&&e.wiki(""+t),e}function a(n,i,r){var a=arguments.length>3&&void 0!==arguments[3]&&arguments[3];return r=r||e.strings.inspect,$(document.createElement(a?"button":"a")).addClass("inspect-link").wiki(""+r).ariaClick((function(){t.get(i).inspect()}))}function s(t,n,i){var r=arguments.length>3&&void 0!==arguments[3]&&arguments[3];return i=i||e.strings.use,$(document.createElement(r?"button":"a")).addClass("use-link").wiki(""+i).ariaClick((function(){t.use(n)}))}function o(t,n,r){var a=arguments.length>3&&void 0!==arguments[3]&&arguments[3],s=arguments.length>4&&void 0!==arguments[4]?arguments[4]:null;return r=r||(s?e.strings.give:e.strings.drop),$(document.createElement(a?"button":"a")).addClass("drop-link").wiki(""+r).ariaClick((function(){i((function(){s&&e.is(s)?t.transfer(s,n,1):t.drop(n,1),Dialog.close()}),(function(){Dialog.close()}))}))}function u(t,n,r){var a=arguments.length>3&&void 0!==arguments[3]&&arguments[3],s=arguments.length>4&&void 0!==arguments[4]?arguments[4]:null;return r=r||(s?e.strings.give:e.strings.drop)+"&nbsp;"+e.strings.stack,$(document.createElement(a?"button":"a")).addClass("stack-link drop-link").wiki(""+r).ariaClick((function(){i((function(){s&&e.is(s)?t.transfer(s,n,t.count(n)):t.drop(n,t.count(n)),Dialog.close()}),(function(){Dialog.close()}))}))}function l(t,n){var r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],a=arguments.length>3&&void 0!==arguments[3]?arguments[3]:null;return n=n||(a?e.strings.give:e.strings.drop),$(document.createElement(r?"button":"a")).addClass("all-link drop-link").wiki(n+" all").ariaClick((function(){t.isEmpty()||i((function(){a&&e.is(a)?(a.merge(t),t.empty()):t.empty(),Dialog.close()}),(function(){Dialog.close()}),!0)}))}function c(t,n,i,r){return i=i||e.strings.stackPre,r=r||e.strings.stackPost,$(document.createElement("span")).addClass("item-count").append(""+i+(t.count(n)||0)+r)}function d(i){var d,f=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{description:!0,use:!0,transfer:null,drop:!0,all:!0,stack:!0,dropActionText:"",classes:""},p=$(document.createElement("ul")).addClass("simple-inventory-list");if(i.length){if(d=i.list.map((function(l){var d=[];return f.description&&t.has(l)&&t.get(l).description?d.push(a(i,l,t.has(l)?t.get(l).name:l)):d.push($(document.createElement("span")).append(t.has(l)?t.get(l).name:l).addClass("item-name")),d.push(c(i,l)),f.use&&t.has(l)&&t.get(l).handler?d.push(s(i,l)):d.push(r()),(f.transfer&&e.is(f.transfer)||f.drop)&&!n(l)?(d.push(o(i,l,f.dropActionText,!1,f.transfer||null)),i.count(l)>1&&f.stack?d.push(u(i,l,f.dropActionText+"&nbsp;"+e.strings.stack,!1,f.transfer||null)):d.push(r())):d.push(r()),$(document.createElement("li")).append(d).addClass("simple-inventory-listing")})),f.all){var h=$(document.createElement("li")).addClass("all-listing simple-inventory-listing").append([r("&mdash;"),r(),r(),l(i,f.dropActionText,!1,f.transfer||null)]);d.push(h)}}else d=$(document.createElement("li")).addClass("simple-inventory-listing").append($(document.createElement("span")).wiki(e.emptyMessage));return p.append(d),p}e.prototype.interface=function(){var t,e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:null,i=this,r=$(document.createElement("div")).addClass("simple-inventory-wrapper");return r.append(d(this,e)),$(document).on(":inventory-update.simple-inventory.gui-built-in",(function(){r.length?r.empty().append(d(i,e)):$(document).off(":inventory-update.simple-inventory.gui-built-in")})),n&&n instanceof $?t=n:n&&(t=$(n)),t&&r.appendTo(t),r}}(),function(){setup.Inventory,setup.Item;var t=".simple-inventory-userland",e=":inventory-update.simple-inventory"+t,n=":inventory-use.simple-inventory"+t;function i(t){return t&&"function"==typeof t}Object.assign(setup.Inventory,{events:{update:{on:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:null,n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"";i(t)&&$(document).on(e+n,t)},one:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:null,n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"";i(t)&&$(document).one(e+n,t)},off:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"";$(document).off(e+t)}},use:{on:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:null,e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"";i(t)&&$(document).on(n+e,t)},one:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:null,e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"";i(t)&&$(document).one(n+e,t)},off:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"";$(document).off(n+t)}}}})}(),function(){var t=function(t){if(!Story.has(t))return{};var e,n,i,r,a=(e=Story.get(t).text,i=function(t){return t.replace(/\r+/g,"\n").replace(/\n+/,"\n").replace(/ +/g," ").trim().split(/\n/g)}(e),r={},i.forEach((function(t){var e=function(t,e){return e=e||":",t.trim().split(e)}(t,n);r[e[0].trim()]=e[1].trim()})),r);return a}("inventory.strings");t.empty&&"string"==typeof t.empty&&t.empty.trim()&&(setup.Inventory.emptyMessage=t.empty,delete t.empty),setup.Inventory.strings=t||{}}(),function(){var t=setup.Item,e=setup.Inventory;function n(t){return t&&"string"==typeof t&&t.length>2&&("$"===t[0]||"_"===t[0])}function i(t){if(n(t)&&(t=State.getVar(t)),e.is(t))return t}Macro.add(["item","consumable"],{tags:["description","tags","unique","permanent"],handler:function(){var e,n,i,r,a=null,s=!1,o=!1,u=!1;if(State.length>0)return this.error("items must be defined in `StoryInit` or story JavaScript!");if(!this.args[0]||"string"!=typeof this.args[0]||!this.args[0].trim())return this.error("invalid item ID");if(e=this.args[0].trim(),"consumable"===this.name&&(a=this.payload[0].contents||null,s=!0),this.args[1]&&(n=this.args[1]),this.payload.length>1){var l=this.payload.find((function(t){return"description"===t.name})),c=this.payload.find((function(t){return"tags"===t.name})),d=this.payload.find((function(t){return"unique"===t.name})),f=this.payload.find((function(t){return"permanent"===t.name}));l&&(i=l.contents.trim()),c&&(r=c.args.flat(1/0)),d&&(o=!0),f&&(u=!0)}t.add(e,{displayName:n||"",description:i||"",handler:a,consumable:s,unique:o,permanent:u},r)}}),Macro.add("newinv",{handler:function(){var t=this.args.raw.trim().split(" ").first().replace(/["']/g,"").trim();if(!n(t))return this.error("argument must be a story or temporary variable!");State.setVar(t,new e({},this.args.flat(1/0).slice(1)))}}),Macro.add(["pickup","drop"],{handler:function(){var t=i(this.args[0]);return t?this.args.length<3?this.error("no items to pick up were provided"):void t[this.name](this.args.slice(1)):this.error("first argument must be a valid inventory!")}}),Macro.add("dropall",{handler:function(){var t=i(this.args[0]);if(!t)return this.error("first argument must be a valid inventory!");t.empty()}}),Macro.add(["transfer","merge","unmerge"],{handler:function(){var t=i(this.args[0]);if(!t)return this.error("first argument must be a valid inventory!");var e=i(this.args[1]);if(!e)return this.error("second argument must be a valid inventory!");if("transfer"===this.name){if(this.args.length<4)return this.error("no items to transfer were provided");t.transfer(e,this.args.slice(2))}else t[this.name](e)}}),Macro.add(["inv","take","give"],{handler:function(){var t=null,n=i(this.args[0]);if(!n)return this.error("first argument must be a valid inventory!");this.args[1]&&i(this.args[1])&&(t=i(this.args[1]));var r={description:this.args.includesAny("inspect","description"),use:this.args.includes("use"),transfer:t,drop:this.args.includes("drop"),all:this.args.includes("all"),stack:this.args.includes("stack"),dropActionText:"inv"===this.name?"Drop":e.strings[this.name.trim().toLowerCase()],classes:"macro-".concat(this.name)};n.interface(r,$(this.output))}})}(),function(){var t=setup.Item,e=setup.Inventory;function n(t,e,n){if("object"!==_typeof(e))throw new TypeError("the extension should be a plain generic object holding the properties and methods you want to add");Object.keys(e).forEach((function(i){if(t[i]&&!n)throw new Error('Cannot override existing property "'+i+'"!');t[i]=e[i]}))}Object.assign(e,{extend:function(t){var i=arguments.length>1&&void 0!==arguments[1]&&arguments[1];n(e,t,i)},extendPrototype:function(t){var i=arguments.length>1&&void 0!==arguments[1]&&arguments[1];n(e.prototype,t,i)}}),Object.assign(t,{extend:function(e){var i=arguments.length>1&&void 0!==arguments[1]&&arguments[1];n(t,e,i)},extendPrototype:function(e){var i=arguments.length>1&&void 0!==arguments[1]&&arguments[1];n(t.prototype,e,i)}})}();
+// End Simple Inventory
+
+// show meter
+(function () {
+    'use strict';
+    // meters.js, by Chapel; for SugarCube 2
+    // v1.0.1
+
+    var options = {
+        tryGlobal : true, // attempt to send `Meter` to the global scope?
+        allowClobbering : false, // allow a new meter to replace a previously defined meter with the same name instead of throwing
+        IAmAGrownUp : false // make sure you have enough rope to hang yourself
+    };
+
+
+    var defaultSettings = {
+        full : '#2ECC40', // color when the bar is full
+        empty : '#FF4136', // color when the bar is empty
+        back : '#DDDDDD', // color of the backing
+        height : '12px', // height of the bar
+        width : '180px', // width of the bar
+        animate : 400, // ms
+        easing : 'swing', // animation easing
+        text : '#111111', // label text color
+        label : '', // label text
+        align : 'center' // label alignment
+    };
+
+    var _validAlignments = ['center', 'left', 'right'];
+    var _validEasing = ['swing', 'linear'];
+
+    function _handleString (str, def) {
+        if (str && typeof str === 'string') {
+            str = str.toLowerCase().trim();
+            if (str) {
+                return str;
+            }
+        }
+        return def || '';
+    }
+
+    function _colorEasing (t) {
+        // from: https://gist.github.com/gre/1650294
+        return (t < 0.5) ? 2 * t * t : -1 + (4 - 2 * t) *t;
+    }
+
+    function Meter (opts, value) {
+        if (!(this instanceof Meter)) {
+            return new Meter(opts, value);
+        }
+
+        var defs = clone(defaultSettings);
+
+        this.settings = Object.assign(defs, opts);
+
+        // default malformed settings
+
+        this.settings.align = _handleString(this.settings.align);
+        this.settings.easing = _handleString(this.settings.easing);
+
+        if (!_validAlignments.includes(this.settings.align)) {
+            this.settings.align = 'center';
+        }
+
+        if (!_validEasing.includes(this.settings.easing)) {
+            this.settings.easing = 'swing';
+        }
+
+        // set the value, or default to 1
+
+        value = Number(value);
+        if (Number.isNaN(value)) {
+            value = 1;
+        }
+        value = Math.clamp(value, 0, 1);
+        this.value = value;
+
+        // the backing of the meter, and the container
+        var $wrapper = $(document.createElement('div'))
+            .addClass('chapel-meter')
+            .attr({
+                'data-val' : value,
+                'data-label' : this.settings.label
+            })
+            .css({
+                'position' : 'relative',
+                'background-color' : this.settings.back,
+                'height' : this.settings.height,
+                'width' : this.settings.width,
+                'overflow' : 'hidden'
+            });
+
+        // the meter's label
+        var $label = $(document.createElement('div'))
+            .addClass('meter-label')
+            .css({
+                'top' : 0,
+                'right' : 0,
+                'font-size' : this.settings.height,
+                'font-weight' : 'bold',
+                'line-height' : '100%',
+                'width' : '100%',
+                'height' : '100%',
+                'vertical-align' : 'middle',
+                'text-align' : this.settings.align,
+                'color' : this.settings.text,
+                'z-index' : 1,
+                'position' : 'relative',
+                'bottom' : '100%'
+            })
+            .wiki(this.settings.label)
+            .appendTo($wrapper);
+
+        // this is just here to give the bar a smooth transitioning coloration
+        var $barTop = $(document.createElement('div'))
+            .addClass('meter-top')
+            .css({
+                'background-color' : this.settings.full,
+                'opacity' : _colorEasing(this.value),
+                'width' : '100%',
+                'height' : '100%',
+                'z-index' : 0
+            });
+
+        // this actually holds the value and the 'real' bar color
+        var $barBottom = $(document.createElement('div'))
+            .addClass('meter-bottom')
+            .css({
+                'position' : 'absolute',
+                'top' : 0,
+                'left' : 0,
+                'background-color' : this.settings.empty,
+                'opacity' : 1,
+                'width' : (this.value * 100) + '%',
+                'height' : '100%',
+                'z-index' : 0
+            })
+            .append($barTop)
+            .appendTo($wrapper);
+
+        this.$element = $wrapper;
+        this.$bars = { // undocumented
+            top : $barTop,
+            bottom : $barBottom
+        };
+        this.$label = $label; // undocumented
+
+        // mostly a reminder
+        $label.css('font-size', (parseInt($wrapper.css('height'), 10) < parseInt($('.passage').css('font-size'), 10)) ? 
+            $wrapper.css('height') : $('.passage').css('font-size'));
+        $label.css('line-height', $wrapper.css('height'));
+    }
+
+    Object.assign(Meter, {
+        _list : new Map(), // undocumented; meter data dump
+        is : function (thing) { // see if passed "thing" is a meter instance
+            return thing instanceof Meter;
+        },
+        has : function (name) { // does the named meter exist?
+            return Meter._list.has(name) && Meter.is(Meter._list.get(name));
+        },
+        get : function (name) { // return the meter instance
+            if (Meter.has(name)) {
+                return Meter._list.get(name);
+            }
+            return null;
+        },
+        del : function (name) { // delete the meter with the indicated name
+            if (Meter.has(name)) {
+                Meter._list.delete(name);
+            }
+        },
+        add : function (name, opts, value) { // add a new meter; the constructor should not be used
+            if (Meter.has(name) && !options.allowClobbering) {
+                console.error('Meter "' + name + '" already exists.');
+                return;
+            }
+            Object.assign(opts, { id : name });
+            var meter = new Meter(opts, value);
+            Meter._list.set(name, meter);
+            return meter;
+        },
+        _emit : function (inst, name) { // undocumented; emit an event on the given meter
+            if (!Meter.is(inst)) {
+                return;
+            }
+            inst.$element.trigger({
+                type : ':' + name,
+                meter : inst
+            });
+        }
+    });
+
+    Object.assign(Meter.prototype, {
+        constructor : Meter,
+        _label : function (wait) { // undocumented; reprocess the meter label and set the sizes
+            // THE LABEL IS AN ACTUAL NIGHTMARE
+            var self = this;
+            function process () {
+                self.$label.empty().wiki(self.settings.label);
+                self.$label.css('font-size', (parseInt(self.$element.css('height'), 10) < parseInt(self.$element.parent().css('font-size'), 10)) ? 
+                    self.$element.css('height') : self.$element.parent().css('font-size'));
+                self.$label.css('line-height', self.$element.css('height'));
+            }
+            if (wait) {
+                setTimeout(process, Engine.minDomActionDelay);
+            } else {
+                process();
+            }
+            return this;
+        },
+        _width : function () { // undocumented; change the meter width
+            var self = this;
+            this.$bars.bottom.animate({
+                'width' : (this.value * 100) + '%'
+            }, this.settings.animate, this.settings.easing, function () {
+                Meter._emit(self, 'meter-animation-complete');
+            });
+            return this;
+        },
+        _color : function () { // undocumented; blend the full and empty meter colors
+            this.$bars.top.animate({
+                'opacity' : _colorEasing(this.value)
+            }, this.settings.animate, this.settings.easing);
+            return this;
+        },
+        animate : function () { // animate bar changes
+            Meter._emit(this, 'meter-animation-start');
+            return this._color()._width()._label();
+        },
+        val : function (n) { // set and get bar value
+            if (n !== undefined) {
+                n = Number(n);
+                if (Number.isNaN(n)) {
+                    n = 1;
+                }
+                n = Math.clamp(n, 0, 1);
+
+                this.value = n;
+                this.animate();
+            }
+            return this.value;
+        },
+        options : function (opts) {
+            // set or get bar settings
+            if (opts && typeof opts === 'object') {
+                Object.assign(this.settings, opts);
+            }
+            return this.settings;
+        },
+        unwrap : function () {
+            // return unwrapped container element
+            return this.$element[0];
+        },
+        place : function ($target, options) { // put the bar in a known element, with a wrapper
+            var $wrapper = $(document.createElement('span'));
+            if (!($target instanceof jQuery)) {
+                $target = $($target);
+            }
+            if (!$target[0]) {
+                console.warn('meter#place() -> no valid target');
+            }
+            if (options && typeof options === 'object') {
+                // options can contain classes or attributes for the wrapper
+                if (options.classes && (Array.isArray(options.classes) || typeof options.classes === 'string')) {
+                    $wrapper.addClass(options.classes);
+                }
+                if (options.attr && typeof options.attr === 'object') {
+                    $wrapper.attr(options.attr);
+                }
+            }
+            $target.append($wrapper.append(this.$element));
+            // make sure to process the label
+            this._label(true);
+            return this;
+        },
+        // event methods for meters
+        on : function (eventType, cb) {
+            if (typeof cb !== 'function') {
+                return this;
+            }
+            if (!eventType || typeof eventType !== 'string' || !eventType.trim()) {
+                return this;
+            }
+            eventType = eventType.split(' ').map( function (type) {
+                type = type.split('.')[0];
+                return type + '.userland';
+            }).join(' ');
+            this.$element.on(eventType, cb);
+            return this;
+        },
+        one : function (eventType, cb) {
+            if (typeof cb !== 'function') {
+                return this;
+            }
+            if (!eventType || typeof eventType !== 'string' || !eventType.trim()) {
+                return this;
+            }
+            eventType = eventType.split(' ').map( function (type) {
+                type = type.split('.')[0];
+                return type + '.userland';
+            }).join(' ');
+            this.$element.one(eventType, cb);
+            return this;
+        },
+        off : function (eventType) {
+            if (eventType && typeof eventType === 'string' && eventType.trim()) {
+                eventType = eventType.split(' ').map( function (type) {
+                    type = type.split('.')[0];
+                    return type + '.userland';
+                }).join(' ');
+            } else {
+                eventType = '.userland'; // remove all user events
+            }
+            this.$element.off(eventType);
+            return this;
+        },
+        // ariaClick-style setup
+        click : function (options, cb) {
+            // let SugarCube handle the errors
+            this.$element.ariaClick(options, cb);
+            return this;
+        },
+        // for completeness and in case a meter winds up in the state
+        clone : function () {
+            return new Meter(this.settings, this.value);
+        },
+        toJSON : function () {
+            return JSON.reviveWrapper('new setup.Meter(' + JSON.stringify(this.settings) + ', ' + this.value + ')');
+        }
+    });
+
+    // setup-spaced API
+    setup.Meter = Meter;
+
+    if (options.tryGlobal) { // global API, if undefined
+        window.Meter = window.Meter || Meter;
+    }
+
+    // <<newmeter '$variable' [optional: starting value (between 0 and 1)]>>...<</newmeter>>
+    // optional child tags: <<metercolors full [empty] [backing]>>, <<metersizing height [width]>>, <<meteranimation timeOrBool [easing]>>, <<meterlabel labelText [textColor] [alignment]>>
+    Macro.add('newmeter', {
+        tags : ['colors', 'sizing', 'animation', 'label'],
+        handler : function () {
+
+            if (State.length > 0 && !options.IAmAGrownUp) {
+                // you are not a grown up
+                return this.error('The `<<newmeter>>` macro must be called in your `StoryInit` special passage. Seriously. No excuses. --Love, Chapel');
+            }
+
+            if (this.args.length < 1) {
+                return this.error('The `<<newmeter>>` macro requires at least one argument: a meter name.');
+            }
+
+            var meterName = this.args[0], 
+                colorsTag = null, 
+                sizeTag = null, 
+                animTag = null,
+                labelTag = null;
+
+            if (typeof meterName !== 'string') {
+                return this.error('Invalid meter name.');
+            }
+
+            meterName = meterName.trim();
+
+            if (Meter.has(meterName) && !options.allowClobbering) {
+                return this.error('Cannot clobber the existing meter "' + meterName + '".');
+            }
+
+            if (this.payload.length) {
+                // get each child tag for processing
+                colorsTag = this.payload.find( function (pl) {
+                    return pl.name === 'colors';
+                });
+                sizeTag = this.payload.find( function (pl) {
+                    return pl.name === 'sizing';
+                });
+                animTag = this.payload.find( function (pl) {
+                    return pl.name === 'animation';
+                });
+                labelTag = this.payload.find( function (pl) {
+                    return pl.name === 'label';
+                });
+            }
+
+            var opts = {};
+
+            if (colorsTag) {
+                // process the colors tag
+                if (!colorsTag.args.length) {
+                    return this.error('No arguments passed to the `<<colors>>` tag.');
+                }
+
+                switch (colorsTag.args.length) {
+                    case 1:
+                        opts.empty = colorsTag.args[0];
+                        opts.full = 'transparent'; // make the meter one solid color
+                        break;
+                    case 2:
+                        opts.full = colorsTag.args[0];
+                        opts.empty = colorsTag.args[1];
+                        break;
+                    default:
+                        opts.full = colorsTag.args[0];
+                        opts.empty = colorsTag.args[1];
+                        opts.back = colorsTag.args[2];
+                }
+            }
+
+            if (sizeTag) {
+                // process the sizin tag
+                if (!sizeTag.args.length) {
+                    return this.error('No arguments passed to the `<<sizing>>` tag.');
+                }
+
+                opts.width = sizeTag.args[0];
+
+                if (sizeTag.args[1]) {
+                    opts.height = sizeTag.args[1];
+                }
+
+            }
+
+            if (animTag) {
+                // process the animations tag
+                if (!animTag.args.length) {
+                    return this.error('No arguments passed to the `<<animation>>` tag.');
+                }
+
+                if (typeof animTag.args[0] === 'boolean' && !animTag.args[0]) {
+                    opts.animate = 0; // functionally no animation--we still want the event, though, so we'll just 0 it out
+                } else if (typeof animTag.args[0] === 'string') {
+                    opts.animate = Util.fromCssTime(animTag.args[0]);
+                } else {
+                    return this.error('The argument to the `<<animation>>` tag should be `true`, `false`, or a valid CSS time value.');
+                }
+
+                if (animTag.args[1] && ['swing', 'linear'].includes(animTag.args[1])) {
+                    opts.easing = animTag.args[1];
+                }
+            }
+
+            if (labelTag) {
+                // process the label tag
+                var text = labelTag.args[0];
+                if (text && typeof text === 'string') {
+                    opts.label = text.trim();
+                } else {
+                   return this.error('The labelText argument for the `<<label>>` tag is required.');
+                }
+
+                if (labelTag.args[1] && typeof labelTag.args[1] === 'string') {
+                    opts.text = labelTag.args[1];
+                }
+                if (labelTag.args[2] && typeof labelTag.args[2] === 'string') {
+                    opts.align = labelTag.args[2];
+                }
+            }
+
+            Meter.add(meterName, opts, this.args[1]);
+
+        }
+    });
+
+    // <<showmeter '$variable' [value]>>
+    Macro.add('showmeter', {
+        handler : function () {
+
+            if (this.args.length < 1) {
+                return this.error('This macro requires at least one argument: the meter\'s name.');
+            }
+
+            // get the meter
+            var meterName = this.args[0];
+
+            if (typeof meterName !== 'string') {
+                return this.error('Invalid meter name.');
+            }
+
+            meterName = meterName.trim();
+
+            var meter = Meter.get(meterName);
+
+            if (!meter || !Meter.is(meter)) {
+                return this.error('The meter "' + meterName + '" does not exist.');
+            }
+
+            // set the meter, if necessary
+            if (typeof this.args[1] === 'number') {
+                meter.val(this.args[1]);
+            }
+
+            // render the meter
+            meter.place(this.output, {
+                classes : 'macro-' + this.name,
+                attr : { id : 'meter-' + Util.slugify(meterName) }
+            });
+
+        }
+    });
+
+    // <<updatebar '$variable' value>>
+    Macro.add('updatemeter', {
+        handler : function () {
+
+            if (this.args.length < 2) {
+                return this.error('This macro requires two arguments: the meter\'s name and a value.');
+            }
+
+            // get the meter
+            var meterName = this.args[0];
+
+            if (typeof meterName !== 'string') {
+                return this.error('Invalid meter name.');
+            }
+
+            meterName = meterName.trim();
+
+            var meter = Meter.get(meterName);
+
+            if (!meter || !Meter.is(meter)) {
+                return this.error('The meter "' + meterName + '" does not exist.');
+            }
+
+            // set it
+            meter.val(this.args[1]); // if it's on the page, should update and animate auto-magically.
+
+        }
+    });
+
+}());
+// end show meter
+
+(function () {
+    'use strict';
+    // operations, by chapel; for sugarcube 2.x
+    // v1.1.0
+    // adds a dice roller and 'fairmath'
+    var setup = setup || {};
+    // options object
+     var options = {
+        tryGlobal : true, 
+        nicknames : true, 
+        fmRange   : [0, 100]
+    };
+
+    /*                  DICE                    */
+
+    // dice helpers
+    function _processDice (a, b) {
+        // find the number of dice and the type of die
+        var roll = [], i, result = 0, add = +1;
+        if (typeof a === 'string') {
+            roll = a.split('d');
+        } else if (typeof a === 'number' && b) {
+            roll = [a, b];
+        } else if (Array.isArray(a) && a.length >= 2) {
+            a.length = 2;
+            roll = a;
+        } else {
+            throw new TypeError('dice(): could not process arguments...');
+        }
+        // check types
+        roll[0] = Number(roll[0]);
+        // handle fate/fudge dice
+        if (typeof roll[1] === 'string' && roll[1].trim().toUpperCase() === 'F') {
+            roll[1] = 3; // -1, 0, or 1
+            add = -1;
+        } else {
+            roll[1] = Number(roll[1]);
+        }
+        if (roll.some( function (n) {
+            return Number.isNaN(n);
+        })) {
+            throw new TypeError('dice(): could not process arguments...');
+        }
+        for (i = 0; i < roll[0]; i++) {
+            /*
+                we're going to roll each die.  we could generate a number
+                between the max and min possible simply enough,
+                but real dice have weights -- rolling 3d6 is far more likely to result 
+                in 10 or 11 than in 3 or 18, and pure randomization will not emulate this
+            */
+            var die = 0;
+            die = Math.floor(State.random() * roll[1]) + add;
+            result += die; // update result
+        }
+        return result; // this prelimary result ignores modifiers; it only rolls the dice
+    }
+
+    function _processString (string) {
+        // recieves strings like '1d6 + 6' or 1d20+3'
+        var parsed = [];
+        // remove all whitespace and trim
+        string = string.trim().replace(/\s/g, '');
+        // check for and return the parts of the roll (2 chunks: '1d6' and '+6')
+        parsed = string.match(/(\d+[d][\df]\d*)(.*)/i);
+        return [parsed[1], Number(parsed[2])]; // send the data off as an array
+    }
+
+    function roll (a, b) {
+        if (typeof a === 'string') {
+            var result = _processString(a);
+            /* 
+                the expression below rolls the dice and adds the modifier, 
+                which must be additive (i.e. +5 or -5, but never *5)
+            */
+            return _processDice(result[0]) + result[1];
+        } else {
+            // just run it, it'll toss out its own errors
+            return _processDice(a, b);
+        }
+    }
+
+    setup.dice = { roll : roll };
+
+    // global dice() function: dice('[x]d[y] +/- [z]') or dice([x], [y]) + [z]
+    if (options.tryGlobal) { // test options
+        window.dice = window.dice || roll; 
+    }
+    // always available via setup.dice.roll() when unavailable here
+
+    // dice method; Number.prototype.dice(number)
+    // ex. (1).dice(6) + 10; $roll = $die.number.dice($die.type); etc
+    if (!Number.prototype.dice) {
+        Object.defineProperty(Number.prototype, 'dice', {
+            configurable : true,
+            writable     : true,
+            
+            value : function (val) {
+                // errors and weirdness
+                if (this === 0) {
+                    return 0;
+                } 
+                if (this < 0) {
+                    throw new TypeError('Number.prototype.dice: cannot roll a negative number of dice!');
+                } 
+                if (typeof val !== 'string' || val.trim().toUpperCase() !== 'F') {
+                    if (val == null || typeof val !== 'number' || val <= 0 || !Number.isInteger(val)) {
+                        throw new TypeError('Number.prototype.dice: error in argument');
+                    }
+                }
+                if (!Number.isInteger(this)) {
+                    throw new TypeError('Number.prototype.dice: cannot roll partial dice!');
+                }
+                
+                // call the dice processing function
+                return roll(this, val);
+            }
+        });
+    }
+
+    /*                  FAIRMATH                */
+
+    // fairmath method; Number.prototype.fairmath(value)
+    // ex. (20).fairmath(30); $var = $var.fairmath(-10); etc 
+    if (!Number.prototype.fairmath) {
+        Object.defineProperty(Number.prototype, 'fairmath', {
+            configurable : true,
+            writable     : true,
+            
+            value : function (val) {
+                // errors
+                var op = options.fmRange;
+                
+                if (this < op[0] || this > op[1]) {
+                    throw new TypeError('Number.prototype.fairmath called on a number that is out of the defined range (the number was ' + this + ').');
+                }
+                if (val == null || typeof val != 'number' || val > 100 || val < -100 || arguments.length < 1) {
+                    throw new TypeError('Number.prototype.fairmath given incorrect argument or an argument that is out of the valid 0-100 range.');
+                }
+                
+                // do the 'fair' math!
+                if (val === 0) { // a 0 increase or decrease; just trunc and clamp
+                    return Math.clamp(Math.trunc(this), op[0], op[1]);
+                }
+                if (val < 0) { // number is negative, representing a decrease
+                    val = val * -1; // make positive for the math below
+                    return Math.clamp(Math.trunc(
+                        this - ((this - op[0]) * (val / op[1]))
+                    ), op[0], op[1]);
+                }
+                if (val > 0) { // number is positive, represeting an increase
+                    return Math.clamp(Math.trunc(
+                        this + ((op[1] - this) * (val / op[1]))
+                    ), op[0], op[1]);
+                }
+                // something inexplicable happened
+                throw new Error('Number.prototype.fairmath encountered an unspecified error.');
+            }
+        });
+    }
+
+    /* Number.between() */
+    if (!Number.prototype.between) {
+        Object.defineProperty(Number.prototype, 'between', {
+            configurable : true,
+            writable     : true,
+            
+            value : function (a, b) {
+                // errors
+                if (typeof a !== 'number' || typeof b !== 'number') {
+                    throw new TypeError('Number.between() -> both values must be numbers');
+                }
+                var n = Number(this);
+                if (a === b) {
+                    return n === a;
+                }
+                if (b < a) {
+                    var c = b;
+                    b = a;
+                    a = c;
+                }
+                return n >= a && n <= b;
+            }
+        });
+    }
+
+    // Math.fairmath() method 
+    if (!Math.fairmath) {
+        Object.defineProperty(Math, 'fairmath', {
+            configurable : true,
+            writable     : true,
+            
+            value : function (base, val) { 
+                return base.fairmath(val);
+            }
+        });
+    }
+
+    /* Math.between() */
+    if (!Math.between) {
+        Object.defineProperty(Math, 'between', {
+            configurable : true,
+            writable     : true,
+            
+            value : function (base, a, b) { 
+                return base.between(a, b);
+            }
+        });
+    }
+
+    /*                  EXTRAS                  */
+
+    // now for some shortcuts
+    if (options.nicknames) {
+        if (!Math.fm) { // Math.fm()
+            Object.defineProperty(Math, 'fm', {
+                configurable : true,
+                writable     : true,
+                
+                value : function (base, val) { 
+                    return base.fairmath(val);
+                }
+            });
+        }
+        if (!Number.prototype.fm) { // <number>.fm()
+            Object.defineProperty(Number.prototype, 'fm', {
+                configurable : true,
+                writable     : true,
+                
+                value : function (val) { 
+                    return this.fairmath(val);
+                }
+            });
+        }
+        if (!Number.prototype.d) { // <number>.d()
+            Object.defineProperty(Number.prototype, 'd', {
+                configurable : true,
+                writable     : true,
+            
+                value : function (val) { 
+                    return this.dice(val);
+                }
+            });
+        }
+    }
+}());
+// end dice
+
+// notofy
+(function () {
+    // notify.js, by chapel; for sugarcube 2
+    // version 1.1.1
+    // requires notify.css / notify.min.css
+
+    var DEFAULT_TIME = 2000; // default notification time (in MS)
+
+    var isCssTime = /\d+m?s$/;
+
+    $(document.body).append("<div id='notify'></div>");
+    $(document).on(':notify', function (ev) {
+        if (ev.message && typeof ev.message === 'string') {
+            // trim message
+            ev.message.trim();
+            // classes
+            if (ev.class) {
+                if (typeof ev.class === 'string') {
+                    ev.class = 'open macro-notify ' + ev.class;
+                } else if (Array.isArray(ev.class)) {
+                    ev.class = 'open macro-notify ' + ev.class.join(' ');
+                } else {
+                    ev.class = 'open macro-notify';
+                }
+            } else {
+                ev.class = 'open macro-notify';
+            }
+            
+            // delay
+            if (ev.delay) {
+                if (typeof ev.delay !== 'number') {
+                    ev.delay = Number(ev.delay);
+                }
+                if (Number.isNaN(ev.delay)) {
+                    ev.delay = DEFAULT_TIME;
+                }
+            } else {
+                ev.delay = DEFAULT_TIME;
+            }
+            
+            $('#notify')
+                .empty()
+                .wiki(ev.message)
+                .addClass(ev.class);
+                    
+            setTimeout(function () {
+                $('#notify').removeClass();
+            }, ev.delay);
+        }
+    });
+
+    function notify (message, time, classes) {
+        if (typeof message !== 'string') {
+            return;
+        }
+
+        if (typeof time !== 'number') {
+            time = false;
+        }
+
+        $(document).trigger({
+            type    : ':notify',
+            message : message,
+            delay   : time,
+            class   : classes || ''
+        });
+    }
+
+    // <<notify delay 'classes'>> message <</notify>>
+    Macro.add('notify', {
+           tags : null,
+        handler : function () {
+            
+            // set up
+            var msg     = this.payload[0].contents, 
+                time    = false, 
+                classes = false, i;
+            
+            // arguments
+            if (this.args.length > 0) {
+                var cssTime = isCssTime.test(this.args[0]);
+                if (typeof this.args[0] === 'number' || cssTime) {
+                    time    = cssTime ? Util.fromCssTime(this.args[0]) : this.args[0];
+                    classes = (this.args.length > 1) ? this.args.slice(1).flatten() : false;
+                } else {
+                    classes = this.args.flatten().join(' ');
+                }
+            }
+            
+            // fire event
+            notify(msg, time, classes);
+            
+        }
+    });
+
+    setup.notify = notify;
+}());
+// end notify
+
+//playtime
+(function () {
+    'use strict';
+    // play time system, by chapel; for SugarCube 2
+    // version 2.1.0
+
+    // options object:
+    var options = {
+        tryGlobal : true,
+        storyVar  : 'playtime',
+        pauseTag  : 'pausetimer'
+    };
+
+    State.variables[options.storyVar] = Date.now();
+
+    predisplay['start-playtime'] = function (t) {
+        delete predisplay[t]; // single use
+        // we need to grab a starting time so errors don't appear in user saves prior to adding this code:
+        if (!State.variables[options.storyVar]) {
+            State.variables[options.storyVar] = Date.now();
+        }
+    };
+
+    // pause tag handling
+    prehistory['pause-playtime'] = function (t) {
+        if (tags().includes(options.pauseTag)) {
+            State.variables[options.storyVar] += time();
+        }
+    };
+
+    // the function:
+    function _getMS () {
+        return (Date.now() - State.variables[options.storyVar]);
+    }
+
+    function _getTimeArray (ms) {
+        if (!ms || ms < 0 || typeof ms !== 'number') {
+            return;
+        }
+        
+        var time = [];
+        
+        time.push(Math.floor(ms / 1000) % 60); // second [0]
+        time.push(Math.floor(ms / 60000) % 60); // minutes [1]
+        time.push(Math.floor(ms / 3600000)); // hours [2]
+        
+        return time;
+    }
+
+    // set up valid args
+    var hourNames = ['h', 'hr', 'hrs', 'hour', 'hours'];
+    var minNames  = ['m', 'min', 'mins', 'minute', 'minutes'];
+    var secNames  = ['s', 'sec', 'secs', 'second', 'seconds'];
+
+    // user function
+    function _getPlayTime (m) {
+        var ms   = _getMS();
+        var time = _getTimeArray(ms);
+        if (hourNames.includes(m)) {
+            return time[2];
+        }
+        if (minNames.includes(m)) {
+            return time[1];
+        }
+        if (secNames.includes(m)) {
+            return time[0];
+        }
+        return ms;
+    }
+
+    function _formatTime (arr, fmt) {
+        if (!arr || !Array.isArray(arr) || arr.length < 3) {
+            return;
+        }
+        
+        var hr  = (arr[2] < 10) ? '0' + arr[2] : '' + arr[2],
+            min = (arr[1] < 10) ? '0' + arr[1] : '' + arr[1],
+            sec = (arr[0] < 10) ? '0' + arr[0] : '' + arr[0];
+            
+        if (fmt) {
+            return '<b>' + hr + ':' + min + '</b>' + ':' + sec;
+        }
+        return hr + ':' + min + ':' + sec;
+    }
+
+    function _outputPlaytime (fmt) {
+        var ms = _getMS();
+        return _formatTime(_getTimeArray(ms), fmt);
+    }
+
+    /* 
+        (setup|window).playTime(arg):
+        
+            if (arg) is a string, returns a positive integer:
+                * hour, hours, h, hr, etc            : returns hours
+                * min, minutes, minute, m, mins, etc : returns minutes
+                * sec, secs, s, second, seconds, etc : returns seconds
+                * anyother string                    : returns milliseconds
+
+            if (arg) is not a string:
+                * (arg) is truthy : returns formatted time string
+                * (arg) is falsey : returns unformatted time string
+    */
+
+    // setup API
+    setup.playTime = function (arg) {
+        if (typeof arg === 'string') {
+            return _getPlayTime(arg);
+        }
+        return _outputPlaytime(arg);
+    };
+
+    // global playTime() function
+    if (options.tryGlobal) {
+        window.playTime = window.playTime || setup.playTime;
+    }
+
+    // <<playtime>> macro
+    // if given the format argument, bold hours and minutes
+    Macro.add('playtime', {
+        handler : function () {
+            var arr = this.args.map(function (arg) {
+                return String(arg).trim().toLowerCase();
+            });
+            var $wrapper = $(document.createElement('span'));
+            var fmt      = arr.includesAny(['format', 'f', 'fmt', 'b', 'bold', 'true']);
+            var string   = _outputPlaytime(fmt);
+            
+            $wrapper
+                .wiki(string)
+                .addClass('macro-' + this.name)
+                .appendTo(this.output);
+        }
+    });
+}());
+//end playtime
+
+	/* Restart. */
+	l10nStrings.restartTitle  = 'Mulai Ulang';
+	l10nStrings.restartPrompt = 'Yakin mau mulai ulang? Yang belum disimpan mungkin akan hilang.';
+
+/* terjemahan Saves. */
+	l10nStrings.savesTitle       = 'Simpan';
+	l10nStrings.savesDisallowed  = 'Tidak bisa menyimpan di halaman ini.';
+	l10nStrings.savesIncapable   = '{_warningIntroLacking} the capabilities required to support saves, so saves have been disabled for this session.';
+	l10nStrings.savesLabelAuto   = 'Simpan otomatis';
+	l10nStrings.savesLabelDelete = 'Hapus';
+	l10nStrings.savesLabelExport = 'Simpan ke lokal\u2026';
+	l10nStrings.savesLabelImport = 'Muat dari lokal\u2026';
+	l10nStrings.savesLabelLoad   = 'Muat';
+	l10nStrings.savesLabelClear  = 'Hapus semua';
+	l10nStrings.savesLabelSave   = 'Simpan';
+	l10nStrings.savesLabelSlot   = 'Slot';
+	l10nStrings.savesUnavailable = 'Tidak ditemukan slot penyimpanan\u2026';
+	l10nStrings.savesUnknownDate = 'tidak diketahui';
+
+// terjemahan settings
+	l10nStrings.settingsTitle = 'Pengaturan';
+	l10nStrings.settingsOff   = 'Mati';
+	l10nStrings.settingsOn    = 'Nyala';
+	l10nStrings.settingsReset = 'Kembalikan ke asal';
+
+// terjemahan umum
+	l10nStrings.cancel   = 'Batal';
+	l10nStrings.close    = 'Tutup';
+	l10nStrings.ok       = 'Oke';
+
+
+
+// ui js
+// import linearicons
+importStyles(
+	"https://cdn.linearicons.com/free/1.0.0/icon-font.min.css");
+// end linearicons
+
+// reset passage to top
+$(document).on(":passagedisplay", function() {
+	$("#passages").scrollTop(0);
+});
+// end reset passage
+
+// function menu
+$(document).ready(function() {
+	$("#saves").click(function() {
+		UI.saves();
+	});	
+	$("#settings").click(function() {
+		UI.settings();
+	});
+	$("#restart").click(function() {
+		UI.restart();
+	});	
+	$("#back").click(function() {
+		Engine.backward();
+	});
+	$("#mob-saves").click(function() {
+		UI.saves();
+	});
+	$("#mob-settings").click(function() {
+		UI.settings();
+	});
+	$("#mob-restart").click(function() {
+		UI.restart();
+	});	
+});
+// function menu
+
+// force fullscreen portrait mode on mobile
+function lock (orientation) {
+	if (document.documentElement.requestFullscreen) {
+    document.documentElement.requestFullscreen();
+  } else if (document.documentElement.mozRequestFullScreen) {
+    document.documentElement.mozRequestFullScreen();
+  } else if (document.documentElement.webkitRequestFullscreen) {
+    document.documentElement.webkitRequestFullscreen();
+  } else if (document.documentElement.msRequestFullscreen) {
+    document.documentElement.msRequestFullscreen();
+  }
+	screen.orientation.lock(orientation);
+};
+// end force fullscreen
+
+// tag passage 'noreturn' to avoid return loop errors
+$(document).on(':passagestart', function (ev) {
+    if (!ev.passage.tags.includes('noreturn')) {
+        State.variables.return = ev.passage.title;
+    }
+});
+// end noreturn
+
+// autosaves - tag passage 'autosave' to trigger saving
+config.saves.autosave = true;
+config.saves.isAllowed = function () {
+	if (tags().includes('noreturn')) {
+		return false;
+	}
+	return true;
+};
+// end autosaves
+
+// name saves - allows players to change name of save file
+Config.saves.onSave = function (save, details) {
+	if (settings.autoname) {
+		save.title = State.getVar("$chapter");
+	} else if (details.type == "autosave") {
+		save.title = "Autosave";
+	} else {
+		save.title = prompt("Enter Save Name:", save.title);
+	}
+}
+// end name saves
+
+// STAT BARS (just an example!)//
+// stat one
+$(document).on(":passagedisplay", function() {
+	$("#story").scrollTop(0);
+	var statbarStat = State.getVar("$statone") + "%";
+	$("#statone-stat").attr("style", "width: " + statbarStat);
+});
+// end stat one
+
+//SETTINGS//
+// change font size
+var settingFontSize = ["100%", "130%", "150%"];
+var resizeFont = function() {
+	var size = document.getElementById("passages");
+	switch (settings.fontSize) {
+		case "100%":
+			size.style.fontSize = "100%";
+			break;
+	}
+	switch (settings.fontSize) {
+		case "130%":
+			size.style.fontSize = "130%";
+			break;
+	}
+	switch (settings.fontSize) {
+		case "150%":
+			size.style.fontSize = "150%";
+			break;
+	}
+};
+Setting.addList("fontSize", {
+	label		: "Ubah ukuran huruf",
+	list		: settingFontSize,
+	onInit		: resizeFont,
+	onChange	: resizeFont
+});
+// end change font size
+
+// change font family
+var settingFontFamily = ["Serif","Sans-serif","OpenDyslexic","DavidLibre"];
+var fontFamily = function() {
+	var $html = $("html");
+		$html.removeClass("serif sansserif opendyslexic davidlibre");
+	switch (settings.fontFamily) {
+		case "Sans-serif":
+			$html.addClass("sansserif");
+			break;
+		case "Serif":
+			$html.addClass("serif");
+			break;
+		case "OpenDyslexic":
+			$html.addClass("opendyslexic");
+			break;
+        case "DavidLibre":
+			$html.addClass("davidlibre");
+			break;
+	}
+};
+Setting.addList("fontFamily", {
+	label		: "Ubah gaya huruf",
+	list		: settingFontFamily,
+	default: "Sans-serif",
+	onInit		: fontFamily,
+	onChange	: fontFamily
+});
+// end change font family
+
+// change theme
+var settingThemeNames = ["Gelap", "Terang"];
+var settingThemeHandler = function () {
+	var $html = $("html");
+	$html.removeClass("dm");
+	switch (settings.theme) {
+	case "Gelap":
+		$html.addClass("dm");
+		break;
+	}
+};
+Setting.addList("theme", {
+	label    : "Ganti tema",
+	list     : settingThemeNames,
+	default	 : "Terang",
+	onInit   : settingThemeHandler,
+	onChange : settingThemeHandler
+});
+// end change theme
+
+// name saves toggle
+Setting.addToggle("autoname", {
+	label : "Autoname saves",
+	default  : true,
+}); 
+// end name saves toggle
+
+// enable/disable notifications toggle
+Setting.addToggle("notifications", {
+	label : "Nyalakan notifikasi",
+	default : true,
+});
+// end enable/disable notifications
+
+// enable/disable dialog tags toggle
+var settingDialogTags = function () {
+	if (settings.dialogtags) {
+		State.variables.choice_labels = true;
+		State.variables.flirt_label = '— &#9825;';
+		State.variables.info_label = '— &#8634;';
+		$(document).trigger(":liveupdate");
+	}
+	else {
+		State.variables.choice_labels = false;
+		State.variables.flirt_label = '';
+		State.variables.info_label = '';
+		$(document).trigger(":liveupdate");
+	}
+};
+/*Setting.addToggle("dialogtags", {
+	label: "Enable dialog tags",
+	default: true,
+	desc	: "(♡ - flirt | ↺ - info loop)",
+	onInit   : settingDialogTags,
+	onChange : settingDialogTags
+}); */
+// end dialog tags
+
+:: StoryStylesheet [stylesheet]
+/*
+    notify.min.css, by chapel; for use with notify.js
+    version 1.0.0
+ */
+#notify {
+    position : fixed;
+    display : block;
+    width : 16em;
+    right : -20em; top : 2em;
+    padding : 0.5em;
+    background-color : #fff;
+    color : #000;
+    -webkit-transition : right 0.3s;
+    -moz-transition : right 0.3s;
+    -o-transition : right 0.3s;
+    transition : right 0.3s;
+}
+#notify.open { right : 0; }
+
+.flex-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+.button-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+.button-container .btn {
+        margin: 0 5px;
+    }
+
+.job {
+	border: 1px solid;
+}
+
+@import url(http://fonts.googleapis.com/css?family=David+Libre:400,700,400italic,700italic);
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+
+/* ui */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&family=Monoton&display=swap');
+
+@font-face {
+  font-family: "Open Dyslexic";
+  src: url("https://dl.dropbox.com/s/z61rc6kecqzn2pm/OpenDyslexic-Regular.woff2")format("woff2"),
+	url("https://dl.dropbox.com/s/7utsi12557865ty/OpenDyslexic-Regular.woff")format("woff"),
+    url("https://dl.dropbox.com/s/1q7eh2yte04g3z5/OpenDyslexic-Regular.otf")format("otf");
+}
+
+/*put your theme colors & fonts here so that you don't have to type the codes over and over again!*/
+:root {
+  /*light mode (default)*/
+  --bg: #e8e8e8;
+  --bg2: #f4f4f2;
+  --menu: #ab9eae;
+  --text: #222;
+  --accent: #e8e8e8;
+  /*dark mode*/
+  --dm-bg: #212224;
+  --dm-bg2: #2c2c2c;
+  --dm-menu: #524156;
+  --dm-text: #efefef;
+  --dm-accent: #212224;
+  /*fonts*/
+  --special: "Monoton", cursive;
+  --serif: "Roboto Slab", serif;
+  --sansserif: "Montserrat", sans-serif;
+  --opendyslexic: "Open Dyslexic", sans-serif;
+  --davidlibre: "David Libre", serif;
+}
+
+/*basics*/
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  height: 100vh;
+  width: 90vw;
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.dm body {
+  background-color: var(--dm-bg);
+  color: var(--dm-text);
+}
+#ui-bar {
+  display: none;
+}
+#story {
+  background-color: var(--bg);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: .9em;
+  margin: 0 auto;
+}
+.dm #story {
+  background-color: var(--dm-bg);
+}
+.serif .passage {
+  font-family: var(--serif);
+}
+.sansserif .passage {
+  font-family: var(--sansserif);
+}
+.opendyslexic .passage {
+  font-family: var(--opendyslexic);
+}
+.passage {
+  line-height: 200%;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+}
+#passages {
+  background-color: var(--bg2);
+  max-height: 60%;
+  width: 80%;
+  overflow-y: auto;
+  box-sizing: border-box;
+  border: 1.8em solid var(--bg2);
+  margin: 50px auto;
+  padding: 0 1.2em .5em 2em;
+}
+.dm #passages {
+  background-color: var(--dm-bg2);
+  border: 2em solid var(--dm-bg2);
+}
+#story hr {
+  border: none;
+  height: 2px;
+  margin-bottom: 1.5em;
+}
+#story hr::before {
+  background-color: var(--menu);
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+}
+.dm #story hr::before {
+  background-color: var(--dm-menu);
+}
+
+/*scrollbar*/
+#passages::-webkit-scrollbar {
+  width: 3px;
+}
+#passages::-webkit-scrollbar-track {
+  background-color: var(--menu);
+  border: 1px solid var(--bg2);
+}
+.dm #passages::-webkit-scrollbar-track {
+  background-color: var(--dm-menu);
+  border: 1px solid var(--dm-bg2);
+}
+#passages::-webkit-scrollbar-thumb {
+  background-color: var(--menu);
+}
+.dm #passages::-webkit-scrollbar-thumb {
+  background-color: var(--dm-menu);
+}
+
+/*headings*/
+#story h1 {
+  font-family: var(--special);
+  margin: .2em;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+#story h2 {
+  color: var(--menu);
+  margin: .2em;
+  text-transform: uppercase;
+}
+.dm #story h2 {
+  color: var(--dm-menu);
+}
+#story h3 {
+  margin: .2em;
+  text-transform: lowercase;
+  letter-spacing: .2em;
+}
+
+/*links*/
+a {
+  color: var(--text);
+  text-decoration: none !important;
+}
+.dm a {
+  color: var(--dm-text);
+}
+a:hover {
+  color: var(--menu);
+}
+.dm a:hover {
+  color: var(--dm-menu);
+}
+.passage a {
+  font-weight: bold;
+}
+.passage a:hover {
+  color: var(--text);
+  font-style: italic;
+}
+.dm .passage a:hover {
+  color: var(--dm-text);
+}
+.header a:hover {
+  color: var(--accent) !important;
+  transition: .5s;
+}
+.dm .header a:hover {
+  color: var(--dm-accent) !important;
+}
+
+/*cycling*/
+#story .macro-cycle {
+  font-weight: bold;
+}
+#story .macro-cycle:hover {
+  font-style: italic;
+}
+#story .macro-cycle::after {
+  color: var(--menu);
+  content: "↴";
+  padding-left: .2em;
+}
+.dm #story .macro-cycle::after {
+  color: var(--dm-menu);
+}
+
+/*buttons*/
+.passage button {
+  background-color: transparent;
+  color: var(--text);
+  border: 1px solid var(--text);
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .05em;
+  padding: .5em;
+}
+.dm .passage button {
+  color: var(--dm-text);
+  border: 1px solid var(--dm-text);
+}
+.passage button:hover {
+  box-shadow: 4px 4px 0 var(--menu);
+}
+.dm .passage button:hover {
+  box-shadow: 4px 4px 0 var(--dm-menu);
+}
+.next button {
+  display: flex;
+  margin: 0 auto;
+  transform: translateX(-10%);
+}
+
+/*textbox*/
+#story .macro-textbox {
+  background-color: transparent;
+  color: var(--text);
+  border: 1px solid var(--text);
+  letter-spacing: .05em;
+  padding: .5em;
+  margin-right: .5em;
+}
+.dm #story .macro-textbox {
+  color: var(--dm-text);
+  border: 1px solid var(--dm-text);
+}
+#story .macro-textbox:focus {
+  box-shadow: 4px 4px 0 var(--menu);
+}
+.dm #story .macro-textbox:focus {
+  box-shadow: 4px 4px 0 var(--dm-menu);
+}
+
+/*lists*/
+#story ul {
+  list-style: none;
+  padding-left: 2em;
+  margin: auto;
+  text-align: left;
+}
+#story ul li{
+  cursor: pointer;
+  letter-spacing: 0.1em;
+}
+#story ul li::before {
+  content: '|';
+  margin-right: .5em;
+  margin-left: -1em;
+}
+#story ul li:hover {
+  color: var(--menu);
+  font-weight: bold;
+}
+.dm #story ul li:hover {
+  color: var(--dm-menu);
+}
+
+/*header*/
+.header {
+  background-color: var(--menu);
+  height: 10%;
+  width: 100%;
+  transition: 0.75s;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.dm .header {
+  background-color: var(--dm-menu);
+}
+.header:hover {
+  height: 14%;
+}
+#header-text {
+  text-align: center;
+  margin: 0 auto;
+}
+.title {
+  color: var(--text);
+  font-family: var(--special);
+  text-transform: uppercase;
+  font-size: 3vw;
+}
+.dm .title {
+  color: var(--dm-text);
+}
+.author {
+  font-family: var(--sansserif);
+  text-transform: lowercase;
+  letter-spacing: .1em;
+  font-size: .7vw;
+}
+.author a:hover {
+  font-weight: bold;
+}
+
+/*function menu*/
+#function-menu {
+  display: flex;
+  position: fixed;
+  left: 2%;
+}
+#function-menu span {
+  color: transparent;
+  position: relative;
+  padding: 20px;
+  transition: 0.3s;
+  font-size: 1.5vw;
+}
+#menu {
+  color: var(--text) !important;
+}
+.dm #menu {
+  color: var(--dm-text);
+}
+.header:hover #function-menu span {
+  color: var(--text);
+  cursor: pointer;
+  transition: 0.75s;
+}
+.dm .header:hover #function-menu span {
+  color: var(--dm-text);
+}
+.header:hover #settings:hover {
+  color: var(--accent);
+  transition: 0.5s;
+}
+.dm .header:hover #settings:hover {
+  color: var(--dm-accent);
+}
+.header:hover #saves:hover {
+  color: var(--accent);
+  transition: 0.5s;
+}
+.dm .header:hover #saves:hover {
+  color: var(--dm-accent);
+}
+.header:hover #restart:hover {
+  color: var(--accent);
+  transition: 0.5s;
+}
+.dm .header:hover #restart:hover {
+  color: var(--dm-accent);
+}
+.mobile-menu {
+  display: none;
+}
+
+/*back button*/
+#back {
+  color: var(--menu);
+  position: fixed;
+  left: 15%;
+  font-size: 1.5vw;
+}
+.dm #back {
+  color: var(--dm-text);
+}
+#back:hover {
+  color: var(--text);
+  cursor: pointer;
+  transition: 0.75s;
+}
+.dm #back:hover {
+  color: var(--dm-menu);
+}
+
+/*up button*/
+#up {
+  color: var(--text);
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5vw;
+}
+.dm #up {
+  color: var(--dm-text);
+}
+.footer:hover #up {
+  color: var(--menu);
+  bottom: 75%;
+}
+.dm .footer:hover #up {
+  color: var(--dm-menu);
+}
+
+/*footer*/
+.footer {
+  background-color: var(--menu);
+  height: 10%;
+  width: 100%;
+  transition: 0.75s;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.dm .footer {
+  background-color: var(--dm-menu);
+}
+.footer:hover {
+  height: 14%;
+}
+
+/*footer menu*/
+#footer-menu {
+  font-family: var(--special);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+#footer-menu a {
+  color: transparent;
+  transition: 0.75s;
+  font-size: 2vw;
+}
+.footer:hover #footer-menu a {
+  color: var(--text);
+  cursor: pointer;
+  transition: 0.75s;
+}
+.dm .footer:hover #footer-menu a {
+  color: var(--dm-text);
+}
+#footer-menu li {
+  list-style: none;
+  padding: 5%;
+}
+#footer-menu a:hover {
+  letter-spacing: .1em;
+}
+
+/*dialog boxes*/
+#ui-overlay {
+  background-color: var(--bg);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.dm #ui-overlay {
+  background-color: var(--dm-bg);
+}
+#ui-dialog {
+  background-color: var(--menu);
+  height: auto;
+  max-width: 60vw;
+  padding: .5em;
+}
+.dm #ui-dialog {
+  background-color: var(--dm-menu);
+  border: 1px solid var(--dm-menu);
+}
+#ui-dialog-titlebar {
+  background-color: var(--menu);
+  position: relative;
+  padding: 2em;
+}
+.dm #ui-dialog-titlebar {
+  background-color: var(--dm-menu);
+}
+#ui-dialog-title {
+  font-family: var(--special);
+  font-size: 2em;
+  font-weight: normal;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+}
+#ui-dialog-close {
+  background-color: transparent;
+  color: var(--text);
+  height: auto;
+  width: auto;
+  border: none;
+  font-size: 2em;
+  position: absolute;
+  top: .5em;
+  right: .5em;
+}
+.dm #ui-dialog-close {
+  color: var(--dm-text);
+}
+#ui-dialog-close:hover {
+  background-color: transparent;
+  color: var(--accent);
+}
+.dm #ui-dialog-close:hover {
+  color: var(--dm-accent);
+}
+#ui-dialog-body {
+  background-color: var(--bg2);
+  border: none;
+  color: var(--text);
+  height: auto;
+  width: 100%;
+  font-family: var(--sansserif);
+  font-size: 90%;
+}
+.dm #ui-dialog-body {
+  background-color: var(--dm-bg2);
+  color: var(--dm-text);
+}
+#ui-dialog-body button {
+  background-color: var(--menu);
+  border: 1px solid var(--text);
+  color: var(--text);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#ui-dialog-body button::before {
+  content: "" !important;
+}
+.dm #ui-dialog-body button {
+  background-color: var(--dm-menu);
+  border: 1px solid var(--dm-text);
+  color: var(--dm-text);
+}
+#ui-dialog-body button:hover {
+  box-shadow: 4px 4px 0 var(--text);
+}
+.dm #ui-dialog-body button:hover {
+  box-shadow: 4px 4px 0 var(--dm-text);
+}
+
+/*setting dropdowns*/
+#setting-control-theme, #setting-control-fontsize, #setting-control-fontfamily {
+  background-color: var(--bg);
+  border: 1px solid var(--text);
+  color: var(--text);
+}
+.dm #setting-control-theme, .dm #setting-control-fontsize, .dm #setting-control-fontfamily {
+  background-color: var(--dm-bg);
+  border: 1px solid var(--dm-text);
+  color: var(--dm-text);
+}
+#setting-control-theme:hover, #setting-control-fontsize:hover, #setting-control-fontfamily:hover {
+  background-color: var(--menu);
+  border: 1px solid var(--text);
+  color: var(--text);
+}
+.dm #setting-control-theme:hover, .dm #setting-control-fontsize:hover, .dm #setting-control-fontfamily:hover {
+  background-color: var(--dm-menu);
+  border: 1px solid var(--dm-text);
+  color: var(--dm-text);
+}
+
+/*setting toggle buttons*/
+#ui-dialog-body.settings button[id|=setting-control] {
+  background-color: var(--bg);
+  border: 1px solid var(--text);
+  color: var(--text);
+  text-transform: none;
+  font-weight: normal;
+}
+.dm #ui-dialog-body.settings button[id|=setting-control] {
+  background-color: var(--dm-bg);
+  border: 1px solid var(--dm-text);
+  color: var(--dm-text);
+}
+#ui-dialog-body button[id|="setting-control"]:hover {
+  background-color: var(--bg) !important;
+  border: 1px solid var(--text) !important;
+  box-shadow: none;
+}
+.dm #ui-dialog-body button[id|="setting-control"]:hover {
+  background-color: var(--dm-bg) !important;
+  border: 1px solid var(--dm-text) !important;
+}
+#ui-dialog-body button[id|="setting-control"].enabled {
+  background-color: var(--menu) !important;
+  border: 1px solid var(--text) !important;
+}
+.dm #ui-dialog-body button[id|="setting-control"].enabled {
+  background-color: var(--dm-menu) !important;
+  border: 1px solid var(--dm-text) !important;
+}
+
+/*stat bars*/
+.stat-bar-group {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1em 3em 3em;
+  border: 1px solid var(--menu);
+}
+.dm .stat-bar-group {
+  border: 1px solid var(--dm-menu);
+}
+.stat-bar-container {
+  background-color: var(--accent);
+  color: var(--text);
+  position: relative;
+  height: 3vh;
+  width: 100%;
+  padding: 1em 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .05em;
+}
+.dm .stat-bar-container {
+  background-color: var(--dm-accent);
+  color: var(--dm-text);
+}
+.stat-bar {
+  background-color: var(--menu);
+  max-width: 100%;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.dm .stat-bar {
+  background-color: var(--dm-menu);
+}
+.stat-bar-overlay-right {
+  position: absolute;
+  right: .5em;
+  bottom: 20%;
+  z-index: 3;
+}
+.stat-bar-overlay-left {
+  position: absolute;
+  left: .5em;
+  bottom: 20%;
+  z-index: 3;
+}
+
+/*notifications*/
+#notify {
+  background-color: var(--bg2);
+  color: var(--text);
+  display: block;
+  width: 15em;
+  font-family: var(--sansserif);
+  text-align: left;
+  text-transform: lowercase;
+  letter-spacing: .05em;
+  padding : .5em;
+  -webkit-transition: right 1s;
+  -moz-transition: right 1s;
+  -o-transition: right 1s;
+  transition: right 1s;
+  position: fixed;
+  right: -20em;
+  top: 13%;
+}
+.dm #notify {
+  background-color: var(--dm-bg2);
+  color: var(--dm-text);
+}
+#notify.open {
+  right: 0;
+}
+
+/*tablet*/
+@media screen and (max-width: 1024px) {
+  .header {
+	height: 60px;
+  }
+  .header:hover {
+	height: 100px;
+  }
+  .title {
+	font-size: 2em;
+  }
+  .author {
+	font-size: .7em;
+  }
+  #function-menu {
+	display: block;
+  }
+  #function-menu span {
+	font-size: 3vw;
+	padding: .5em;
+  }
+  #back {
+	font-size: 3vw;
+  }
+  #up {
+	font-size: 3vw;
+  }
+  .footer {
+	height: 60px;
+  }
+  .footer:hover {
+	height: 100px;
+  }
+  #footer-menu {
+	padding-top: 10em;
+	transition: 1s;
+  }
+  #footer-menu a {
+	font-size: 4vw;
+  }
+  .footer:hover #footer-menu {
+	padding-top: 0;
+	transition: 1s;
+  }
+  #notify {
+	top: 12%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #passages {
+	max-height: 70%;
+  }
+  #back {
+	left: 16%;
+  }
+  #up {
+	bottom: 50%;
+  }
+  #footer-menu li {
+	padding: 5%;
+  }
+  .stat-bar-group {
+	padding: .5em 2em 2.5em;
+  }
+  .stat-bar-container {
+	padding: .5em 0;
+  }
+  #notify {
+	top: 9%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #story {
+	font-size: 80%
+  }
+   #story ul {
+	padding-left: .5em;
+  }
+  #passages {
+	max-height: 70%;
+	border: 2.5em solid var(--bg2);
+  }
+  .dm #passages {
+	border: 2.5em solid var(--dm-bg2);
+  }
+  .stat-bar-group {
+	padding: 0 1em 2em;
+  }
+  .stat-bar-container {
+	padding: 1em 0;
+	font-size: 80%;
+  }
+  #notify {
+	top: 9.5%;
+  }
+}
+  
+/*mobile portrait*/
+@media screen and (max-width: 420px) {
+  body {
+	background-color: var(--bg2);
+  }
+  .dm body {
+	background-color: var(--dm-bg2);
+  }
+  #story {
+	background-color: var(--bg2);
+	font-size: 70%;
+  }
+  .dm #story {
+	background-color: var(--dm-bg2);
+	font-size: 70%;
+  }
+  #passages {
+	max-height: 70%;
+	width: 100%;
+	border: none;
+	padding: 1.5em;
+  }
+  .dm #passages {
+	border: none;
+  }
+  #passages::-webkit-scrollbar {
+	width: 2px;
+  }
+  #passages::-webkit-scrollbar-track {
+	border: .5px solid var(--bg2);
+  }
+  .dm #passages::-webkit-scrollbar-track {
+	border: .5px solid var(--dm-bg2);
+  }
+  .header {
+	height: 40px;
+  }
+  .header:hover {
+	height: 15vh;
+  }
+  .title {
+	font-size: 1.5em;
+	transition: .75s;
+  }
+  .author {
+	display: none;
+	transition: .75s;
+  }
+  .dm .author {
+	color: transparent;
+  }
+  .author a {
+	color: transparent;
+  }
+  .dm .author a {
+	color: transparent;
+  }
+  .header:hover .title {
+	font-size: 4vh;
+  }
+  .header:hover .author {
+	display: block;
+	color: var(--text);
+	transition: .75s;
+  }
+  .dm .header:hover .author {
+	color: var(--dm-text);
+  }
+  .header:hover .author a {
+	color: var(--text);
+  }
+  .dm .header:hover .author a {
+	color: var(--dm-text);
+  }
+  #function-menu {
+	display: none;
+  }
+  #footer-menu {
+	display: none;
+  }
+  #back {
+	left: 2%;
+  }
+  .footer {
+	height: 40px;
+  }
+  .footer:hover {
+	height: 15vh;
+  }
+  #up {
+	display: none;
+  }
+  #notify {
+	background-color: var(--menu);
+	width: 12em;
+	font-size: 70%;
+	font-weight: bold;
+  }
+  .dm #notify {
+	background-color: var(--dm-menu);
+  }
+  /*mobile dialog boxes*/
+  #ui-overlay {
+	background-color: var(--menu);
+	opacity: 1 !important;
+  }
+  .dm #ui-overlay {
+	background-color: var(--dm-menu);
+  }
+  #ui-dialog {
+	min-width: 100vw;
+	position: absolute;
+	top: 2em !important;
+	left: 0 !important;
+	padding: 1px;
+  }
+  #ui-dialog-close {
+	font-size: 1.2em;
+	top: -10%;
+	right: 10%;
+  }
+   #ui-dialog-body {
+	background-color: var(--menu);
+	font-size: 80%;
+	padding: 30px;
+  }
+  .dm #ui-dialog-body {
+	background-color: var(--dm-menu);
+  }
+  #ui-dialog-body.saves {
+	font-size: 60%;
+	padding: 10px;
+  }
+  #ui-dialog-body button {
+	background-color: var(--bg2);
+  }
+  .dm #ui-dialog-body button {
+	background-color: var(--dm-bg2);
+  }
+  /*mobile menu*/
+  .mobile-menu {
+	height: 100px;
+	width: 100%;
+	display: block;
+	position: fixed;
+	left: 0;
+	bottom: -70px;
+  }
+  .footer:hover .mobile-menu {
+	height: 13vh;
+	bottom: 0;
+  }
+  #mob-menu {
+	transition: .75s;
+	position: absolute;
+  	left: 50%;
+  	transform: translateX(-50%);
+  }
+  .footer:hover #mob-menu {
+	color: transparent;
+	transition: 0s;
+  }
+  #mob-function-menu {
+	margin: 2.2vh auto 1vh;
+	color: transparent;
+	text-align: center;
+	font-size: 2.5vh;
+	padding-top: 20em;
+	transition: 1s;
+  }
+  .footer:hover #mob-function-menu {
+	color: var(--text);
+	padding-top: 0;
+	transition: 1s;
+  }
+  .dm .footer:hover #mob-function-menu {
+	color: var(--dm-text);
+  }
+  #mob-function-menu span {
+	padding: 5px;
+  }
+  #mob-footer-menu {
+	display: none;
+	transition: 1s;
+  }
+  #mob-footer-menu li {
+	font-family: var(--special);
+	font-size: 3vh;
+	padding: .2vh 1vh;
+  }
+  .footer:hover #mob-footer-menu {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	transition: 1s;
+  }
+ .footer:hover #mob-footer-menu a {
+   color: var(--text);
+  }
+  .dm .footer:hover #mob-footer-menu a {
+	color: var(--dm-text);
+  }
+}
+/*mobile landscape*/
+@media screen and (max-height: 500px) {
+  .passage {
+	font-size: 80%;
+  }
+  #story ul {
+	padding-left: 1em;
+  }
+  #ui-dialog-titlebar {
+	padding: 1em;
+  }
+  #ui-dialog-close {
+	top: 0;
+  }
+  #ui-dialog-body {
+	max-height: 65vh;
+	font-size: 80%;
+  }
+  #ui-dialog-body::-webkit-scrollbar-track {
+	background-color: var(--menu);
+	border: 1px solid var(--bg2);
+  }
+  .dm #ui-dialog-body::-webkit-scrollbar-track {
+	background-color: var(--dm-menu);
+	border: 1px solid var(--dm-bg2);
+  }
+  #ui-dialog-body::-webkit-scrollbar-thumb {
+	background-color: var(--menu);
+  }
+  .dm #ui-dialog-body::-webkit-scrollbar-thumb {
+	background-color: var(--dm-menu);
+  }
+  #ui-dialog-body.saves {
+	padding: 1em;
+  }
+  #footer-menu {
+    padding-top: 4em;
+  }
+  #notify {
+	width: 12em;
+	font-size: 70%;
+	font-weight: bold;
+	top: 5vh;
+  }
+}
+/* end ui */
+
+/*warna default untuk mode terang*/
+.kekuatan {
+	color: red
+}
+.ketangkasan {
+	color: green
+}
+.kecerdasan {
+	color: purple
+}
+.kebijaksanaan {
+	color: blue
+}
+.karisma {
+	color: darkgreen
+}
+
+/*warna khusus untuk mode gelap*/
+@media (prefers-color-scheme: dark) {
+  .kekuatan {
+    color: orange
+  }
+  .ketangkasan {
+    color: lime
+  }
+  .kecerdasan {
+    color: yellow
+  }
+  .kebijaksanaan {
+    color: cyan
+  }
+  .karisma {
+    color: magenta
+  }
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
