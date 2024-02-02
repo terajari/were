@@ -2754,7 +2754,7 @@ var settingDialogTags = function () {
 	onInit   : settingDialogTags,
 	onChange : settingDialogTags
 }); */
-// end dialog tags</script><tw-tag name="nobr" color="yellow"></tw-tag><tw-tag name="widget" color="red"></tw-tag><tw-tag name="bookmark" color="green"></tw-tag><tw-tag name="noreturn" color="purple"></tw-tag><tw-passagedata pid="1" name="1" tags="" position="550,850" size="100,100">Kamu merasa kecewa karena harapanmu tentang makanan yang hangat atau teman mengobrol telah hilang karena  kamu tidak menemukan apa yang kamu cari di daerah pasar tempatmu kini berada.
+// end dialog tags</script><tw-tag name="bookmark" color="green"></tw-tag><tw-tag name="noreturn" color="purple"></tw-tag><tw-tag name="nobr" color="yellow"></tw-tag><tw-tag name="widget" color="red"></tw-tag><tw-passagedata pid="1" name="1" tags="" position="550,850" size="100,100">Kamu merasa kecewa karena harapanmu tentang makanan yang hangat atau teman mengobrol telah hilang karena  kamu tidak menemukan apa yang kamu cari di daerah pasar tempatmu kini berada.
 
 Sepi, hanya ada keheningan yang melankolis. Toko-toko tutup dengan jendela tertutup rapat. Lampu-lampu bersinar memenuhi daerah ini  dengan cahaya yang hangat, tapi semuanya terasa muram dan menyedihkan.
 
@@ -2777,7 +2777,7 @@ Kamu dikelilingi kawanan serigala yang lapar. Keadaan ini jelas tidak menguntung
 
 &lt;&lt;linkreplace &quot;&gt;&gt;&gt;&gt;&gt;&quot;&gt;&gt;&lt;&lt;if $roll20Investigasi gte 10&gt;&gt;
 &lt;&lt;notify 5s&gt;&gt;roll investigasi berhasil!&lt;&lt;/notify&gt;&gt;
-[[&gt;&gt;&gt;&gt;&gt;|9]]
+&lt;&lt;link [[&gt;&gt;&gt;&gt;&gt;|9]]&gt;&gt;&lt;&lt;set $player.mod.investigasi++&gt;&gt;&lt;&lt;/link&gt;&gt;
 &lt;&lt;else&gt;&gt;
 &lt;&lt;notify 5s&gt;&gt;roll investigasi gagal!&lt;&lt;/notify&gt;&gt;
 [[&gt;&gt;&gt;&gt;&gt;|18]]
@@ -2801,16 +2801,16 @@ Dia turun dari podium dan bergabung dengan para pengunjung, tapi kamu lebih tert
 Kamu dapat menggunakan [[ilmu klenik|38]] atau [[persepsi|14]] untuk mendapatkan pemahaman lebih baik dari yang kamu lihat.</tw-passagedata><tw-passagedata pid="6" name="14" tags="" position="612.5,2225" size="100,100">Kamu fokus memperhatikan si kuncen berjanggut tebal, terutama perubahan anehnya ketika sedang bersin.
 
 &lt;&lt;linkreplace &quot;&gt;&gt;&gt;&gt;&gt;&quot;&gt;&gt; 
-&lt;&lt;if $roll20Persepsi gte 10&gt;&gt;&lt;&lt;notify 5s&gt;&gt;roll persepsi berhasil!&lt;&lt;/notify&gt;&gt;[[&gt;&gt;&gt;&gt;&gt;|42]]&lt;&lt;else&gt;&gt;&lt;&lt;notify 5s&gt;&gt;roll persepsi gagal!&lt;&lt;/notify&gt;&gt;[[&gt;&gt;&gt;&gt;&gt;|10]]&lt;&lt;/if&gt;&gt;
-&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="15" tags="" position="800,1350" size="100,100">&lt;&lt;set $player.mod.intimidasi += 1&gt;&gt;&lt;&lt;notify 5s&gt;&gt;Kamu mendapat +1 mod Intimidasi sebagai inspirasi&lt;&lt;/notify&gt;&gt;
+&lt;&lt;if $roll20Persepsi gte 10&gt;&gt;&lt;&lt;notify 5s&gt;&gt;roll persepsi berhasil!&lt;&lt;/notify&gt;&gt;&lt;&lt;link [[&gt;&gt;&gt;&gt;&gt;|42]]&gt;&gt;&lt;&lt;set $player.mod.persepsi++&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;notify 5s&gt;&gt;roll persepsi gagal!&lt;&lt;/notify&gt;&gt;[[&gt;&gt;&gt;&gt;&gt;|10]]&lt;&lt;/if&gt;&gt;
+&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="15" tags="" position="800,1350" size="100,100">&lt;&lt;notify 5s&gt;&gt;Kamu mendapat +1 mod Intimidasi sebagai inspirasi&lt;&lt;/notify&gt;&gt;
 Dia meninggalkanmu saat kamu memberikan tatapan kepadanya setajam belati. Para pengunjung lain tertawa kecil tapi pria mabuk ini mengabaikan olokan tersebut.
 
-Saat pria pemabuk itu sudah pergi, wanita siluman kucing yang tadi berdebat dengannya [[menghampirimu|44]].</tw-passagedata><tw-passagedata pid="8" name="16" tags="" position="612.5,2725" size="100,100">&lt;&lt;set $player.mod.agama++&gt;&gt;&lt;&lt;notify 5s&gt;&gt;Kamu mendapat 1 mod Agama sebagai inspirasi&lt;&lt;/notify&gt;&gt;
+Saat pria pemabuk itu sudah pergi, wanita siluman kucing yang tadi berdebat dengannya [[menghampirimu|44]].</tw-passagedata><tw-passagedata pid="8" name="16" tags="" position="612.5,2725" size="100,100">&lt;&lt;notify 5s&gt;&gt;Kamu mendapat 1 mod Agama sebagai inspirasi&lt;&lt;/notify&gt;&gt;
 Ayat-ayat pemakaman pada kitab Wacana hanyalah teks biasa yang diajarkan di agama manapun yang menjelaskan prosedur pemakaman masyarakat umum. Tapi bagaimanapun, tidak ada doa-doa pada ayat tersebut, hanya deskripsi mengenai proses pemakaman.
 
 Kamu tidak tahu pasti ayat apa yang digunakan oleh Ispasir, tapi bisa jadi itu  ajaran dari  Istana Tinta Cair. Mengingat mereka hanyalah sekte kecil, kemungkinan ajarannya hanya untuk kalangan mereka sendiri.
 
-Walikota berdiri di belakang Ispasir, menanti sang imam menyadari keberadaannya. Setelah momen di mana Ispasir melihat walikota, dia segera menyerahkan tempatnya [[berada|25]].</tw-passagedata><tw-passagedata pid="9" name="17" tags="" position="737.5,3100" size="100,100">&lt;&lt;set $player.mod.sejarah++&gt;&gt;&lt;&lt;notify 5s&gt;&gt;Kamu mendapat 1 mod sejarah sebagai inspirasi&lt;&lt;/notify&gt;&gt;
+Walikota berdiri di belakang Ispasir, menanti sang imam menyadari keberadaannya. Setelah momen di mana Ispasir melihat walikota, dia segera menyerahkan tempatnya [[berada|25]].</tw-passagedata><tw-passagedata pid="9" name="17" tags="" position="737.5,3100" size="100,100">&lt;&lt;notify 5s&gt;&gt;Kamu mendapat 1 mod sejarah sebagai inspirasi&lt;&lt;/notify&gt;&gt;
 Sang walikota salah dalam menjelaskan peperangan yang dia ikuti.
 
 Perang Agni bukanlah perang mempertahankan diri dari serangan ras Goganmagu, justru sebaliknya, ini adalah perang antara aliansi negeri Javat dan Borneov dalam menumpas faksi Terea, terlepas faksi Terea merupakan faksi terkuat ras Goganmagu.
@@ -2827,7 +2827,7 @@ Kamu menjelaskan bahwa dirimu seorang musafir.
 
 &quot;Kalau begitu sebaiknya kamu masuk,&quot; katanya dengan senyum kecil. &quot;Walikota akan menyambutmu setelah prosesi pemakaman. Kau tahu, warga Were terkenal dengan keramahannya meski setelah terjadi tragedi besar. Semasa hidupnya, Riri adalah wanita paling ramah, dia pasti ingin siapapun menghadiri pemakamannya, jadi masuklah.&quot;
 
-Kamu mengikuti pelayan tersebut masuk ke [[kedai|34]].</tw-passagedata><tw-passagedata pid="12" name="2" tags="" position="550,1350" size="100,100">&lt;&lt;set $player.mod.persuasif += 1&gt;&gt;&lt;&lt;notify 5s&gt;&gt;Kamu mendapat +1 mod Bujuk Rayu sebagai inspirasi&lt;&lt;/notify&gt;&gt;
+Kamu mengikuti pelayan tersebut masuk ke [[kedai|34]].</tw-passagedata><tw-passagedata pid="12" name="2" tags="" position="550,1350" size="100,100">&lt;&lt;notify 5s&gt;&gt;Kamu mendapat +1 mod Bujuk Rayu sebagai inspirasi&lt;&lt;/notify&gt;&gt;
 Pria tua itu mulai tenang lalu meninggalkanmu sambil menggurutu tentang niat buruk para musafir. Dia mengambil segelas arak dari nampan, dan meminumnya.
 
 Saat pria tua itu sudah pergi, seorang wanita siluman kucing [[menghampirimu|44]].</tw-passagedata><tw-passagedata pid="13" name="20" tags="" position="675,1225" size="100,100">Kamu mengambil sikap agresif dengan tatapan mata yang tajam ke arahnya, lalu menyatakan bahwa kamu biasanya tidak berkelahi di acara pemakaman, tapi kamu tekankan kepadanya bahwa kamu tidak segan untuk melakukannya.
@@ -2836,7 +2836,7 @@ Saat pria tua itu sudah pergi, seorang wanita siluman kucing [[menghampirimu|44]
 &lt;&lt;linkreplace &quot;&gt;&gt;&gt;&gt;&gt;&quot;&gt;&gt;
 &lt;&lt;if $roll20Intimidasi gte 10&gt;&gt;
 &lt;&lt;notify 5s&gt;&gt;roll intimidasi berhasil!&lt;&lt;/notify&gt;&gt;
-[[&gt;&gt;&gt;&gt;&gt;|15]]
+&lt;&lt;link [[&gt;&gt;&gt;&gt;&gt;|15]]&gt;&gt;&lt;&lt;set $player.mod.intimidasi += 1&gt;&gt;&lt;&lt;/link&gt;&gt;
 &lt;&lt;else&gt;&gt;
 &lt;&lt;notify 5s&gt;&gt;roll intimidasi gagal!&lt;&lt;/notify&gt;&gt;
 [[&gt;&gt;&gt;&gt;&gt;|36]]
@@ -2862,7 +2862,7 @@ Kamu memutar badan, tapi ada banyak pasangan mata yang sedang mengintaimu. Sebel
 
 Terang saja kamu kalah jumlah. Kamu dapat mencoba [[bertarung dengan mereka|33]] atau [[segera lari menuju kota|40]].</tw-passagedata><tw-passagedata pid="17" name="24" tags="" position="612.5,2600" size="100,100">Doa pada ayat-ayat yang dibacakan sangatlah menyentuh, tapi kamu merasa bahwa Ispasir beberapa kali membenarkan bacaannya.
 
-&lt;&lt;linkreplace &quot;&gt;&gt;&gt;&gt;&gt;&quot;&gt;&gt;&lt;&lt;if $roll20Agama gte 10&gt;&gt;&lt;&lt;notify 5s&gt;&gt;roll agama berhasil!&lt;&lt;/notify&gt;&gt;[[&gt;&gt;&gt;&gt;&gt;|16]]&lt;&lt;else&gt;&gt;&lt;&lt;notify 5s&gt;&gt;roll agama gagal!&lt;&lt;/notify&gt;&gt;[[&gt;&gt;&gt;&gt;&gt;|7]]&lt;&lt;/if&gt;&gt;
+&lt;&lt;linkreplace &quot;&gt;&gt;&gt;&gt;&gt;&quot;&gt;&gt;&lt;&lt;if $roll20Agama gte 10&gt;&gt;&lt;&lt;notify 5s&gt;&gt;roll agama berhasil!&lt;&lt;/notify&gt;&gt;&lt;&lt;link [[&gt;&gt;&gt;&gt;&gt;|16]]&gt;&gt;&lt;&lt;set $player.mod.agama++&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;notify 5s&gt;&gt;roll agama gagal!&lt;&lt;/notify&gt;&gt;[[&gt;&gt;&gt;&gt;&gt;|7]]&lt;&lt;/if&gt;&gt;
 &lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="25" tags="" position="737.5,2850" size="100,100">Saat Ispasir berbaur ke belakang, seorang siluman kucing yang merupakan walikota Were berdiri tegap dengan posisi tangan di belakang. Bahunya yang bidang dan luka bekas perang sangat menggambarkan dirinya sebagai figur yang kuat, tapi dia cukup modis dengan pakaian ala ningrat yang cocok dengannya. Seekor anjing besar berdiri di sampingnya seolah mereka setara. 
 
 &quot;Duduklah, Kliwon,&quot; dia berkata kepada anjing besar dengan suara yang berat. Si anjing segera duduk di samping walikota, tidak berhenti menatapnya. Walikota kembali mengarahkan perhatiannya kepada warga yang hadir.
@@ -2926,7 +2926,7 @@ Saat ayah mendiang berbicara, para pengunjung menoleh ke arah walikota yang meng
 
 &quot;Tapi bukan hanya kami yang merasa kehilangan sangat dalam,&quot; dia mengatakannya dengan suara gemetar. &quot;Riri pernah mencintai dan dicintai oleh orang selain kami. Kenny, sayang, ada yang ingin kamu sampaikan, nak?&quot;
 
-Orang tua mendiang bergeser ke sisi podium, mempersilahkan [[tunangan Riri untuk berbicara|32]].</tw-passagedata><tw-passagedata pid="22" name="29" tags="" position="800,1975" size="100,100">&lt;&lt;set $player.mod.wawasan++&gt;&gt;&lt;&lt;notify 5s&gt;&gt;kamu mendapat +1 mod wawasan sebagai inspirasi&lt;&lt;/notify&gt;&gt;
+Orang tua mendiang bergeser ke sisi podium, mempersilahkan [[tunangan Riri untuk berbicara|32]].</tw-passagedata><tw-passagedata pid="22" name="29" tags="" position="800,1975" size="100,100">&lt;&lt;notify 5s&gt;&gt;kamu mendapat +1 mod kepekaan sebagai inspirasi&lt;&lt;/notify&gt;&gt;
 Meskipun kedukaan Kenny begitu tulus, tetapi tergambar perasaan lega atau mungkin kegembiraan darinya.
 
 Dan jumlah wanita yang menghadiri prosesi pemakaman, saling berbisik satu sama lain, dengan senyuman sambil melirik ke arah Kenny. Dan para istri yang jengkel dengan perasaan malu yang terpendam karena suami mereka saling melempar lelucon rahasia  dengan harap Kenny sadar dan mengalihkan perhatiannya kepada para istri-istri kota Were yang membosankan.
@@ -2967,7 +2967,7 @@ Kamu menjelaskan bahwa dirimu baru saja tiba di kota ini, dan walikota menyewamu
 
 &quot;Ah, selamat datang kalau begitu. Terima kasih sudah melakukan ini untuk kami. Datanglah ke kediaman saya jika butuh sesuatu. Saya juga ingin... tidak, saya perlu tahu apa yang terjadi pada Ririku.&quot;
 
-Setelah obrolan sesaat, kamu mengucapkan selamat malam kepada pria yang tengah berduka ini. Dia membalasnya dengan senyuman walau ekspresi wajahnya begitu sedih. Dia kembali kepada para pengunjung, dan kamu menuju ke [[kamarmu|26]].</tw-passagedata><tw-passagedata pid="25" name="31" tags="" position="487.5,2350" size="100,100">&lt;&lt;set $player.mod.sihir++&gt;&gt;&lt;&lt;notify 5s&gt;&gt;Kamu mendapat 1 mod ilmu klenik sebagai inspirasi&lt;&lt;/notify&gt;&gt;
+Setelah obrolan sesaat, kamu mengucapkan selamat malam kepada pria yang tengah berduka ini. Dia membalasnya dengan senyuman walau ekspresi wajahnya begitu sedih. Dia kembali kepada para pengunjung, dan kamu menuju ke [[kamarmu|26]].</tw-passagedata><tw-passagedata pid="25" name="31" tags="" position="487.5,2350" size="100,100">&lt;&lt;notify 5s&gt;&gt;Kamu mendapat 1 mod ilmu klenik sebagai inspirasi&lt;&lt;/notify&gt;&gt;
 Kamu ingat bahwa seorang kuncen dapat berubah menjadi hewan. Ini menjelaskan kenapa suara dia terdengar seperti geraman hewan.
 
 Tapi dia tidak dapat mengendalikan perubahannya ketika bersin. Mungkin ini bagian dari penyakit klenik?
@@ -2993,7 +2993,7 @@ Para pendengar bertepuk tangan penuh hormat, dan mengucapkan bela sungkawa. Tapi
 &lt;&lt;set $roll20Investigasi to dice(&#39;1d20&#39;) + $player.mod.investigasi&gt;&gt;
 &lt;&lt;set $roll20Wawasan to dice(&#39;1d20&#39;) + $player.mod.wawasan&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;
-Kamu dapat menggunakan kemampuan [[investigasi|12]] atau [[wawasan|46]] untuk mencari tahu yang menarik perhatianmu.</tw-passagedata><tw-passagedata pid="27" name="33" tags="" position="550,600" size="100,100">Kamu memasang kuda-kuda bersiap melawan para serigala. Ada sekitar 10 ekor serigala mengelilingimu yang berjalan perlahan mencoba mencari celah untuk menyerangmu. Kamu melihat masih ada beberapa pasang mata di depan jalan, di antara semak belukar.
+Kamu dapat menggunakan kemampuan [[investigasi|12]] atau [[kepekaan|46]] untuk mencari tahu yang menarik perhatianmu.</tw-passagedata><tw-passagedata pid="27" name="33" tags="" position="550,600" size="100,100">Kamu memasang kuda-kuda bersiap melawan para serigala. Ada sekitar 10 ekor serigala mengelilingimu yang berjalan perlahan mencoba mencari celah untuk menyerangmu. Kamu melihat masih ada beberapa pasang mata di depan jalan, di antara semak belukar.
 
 Mungkin ini adalah akhir petualanganmu, tapi kamu tidak mau menyerah tanpa melakukan perlawanan.
 
@@ -3041,7 +3041,7 @@ Pria pemabuk itu pergi meninggalkan kedai dengan sempoyongan. Kamu hendak mengat
 &lt;&lt;linkreplace &quot;&gt;&gt;&gt;&gt;&gt;&quot;&gt;&gt;
 &lt;&lt;if $roll20Sejarah gte 10&gt;&gt;
 &lt;&lt;notify 5s&gt;&gt;roll sejarah berhasil!&lt;&lt;/notify&gt;&gt;
-[[&gt;&gt;&gt;&gt;&gt;|17]]
+&lt;&lt;link [[&gt;&gt;&gt;&gt;&gt;|17]]&gt;&gt;&lt;&lt;set $player.mod.sejarah++&gt;&gt;&lt;&lt;/link&gt;&gt;
 &lt;&lt;else&gt;&gt;
 &lt;&lt;notify 5s&gt;&gt;roll sejarah gagal!&lt;&lt;/notify&gt;&gt;
 [[&gt;&gt;&gt;&gt;&gt;|47]]
@@ -3050,7 +3050,7 @@ Pria pemabuk itu pergi meninggalkan kedai dengan sempoyongan. Kamu hendak mengat
 &lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="32" name="38" tags="" position="487.5,2225" size="100,100">Jelas ini adalah perkara klenik. Kamu memikirkan kembali apa yang kamu ketahui tentang ilmu klenik.
 
 &lt;&lt;linkreplace &quot;&gt;&gt;&gt;&gt;&gt;&quot;&gt;&gt; 
-&lt;&lt;if $roll20Sihir gte 10&gt;&gt;&lt;&lt;notify 5s&gt;&gt;roll ilmu klenik berhasil!&lt;&lt;/notify&gt;&gt;[[&gt;&gt;&gt;&gt;&gt;|31]]&lt;&lt;else&gt;&gt;&lt;&lt;notify 5s&gt;&gt;roll ilmu klenik gagal!&lt;&lt;/notify&gt;&gt;[[&gt;&gt;&gt;&gt;&gt;|10]]&lt;&lt;/if&gt;&gt;
+&lt;&lt;if $roll20Sihir gte 10&gt;&gt;&lt;&lt;notify 5s&gt;&gt;roll ilmu klenik berhasil!&lt;&lt;/notify&gt;&gt;&lt;&lt;link [[&gt;&gt;&gt;&gt;&gt;|31]]&gt;&gt;&lt;&lt;set $player.mod.sihir++&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;notify 5s&gt;&gt;roll ilmu klenik gagal!&lt;&lt;/notify&gt;&gt;[[&gt;&gt;&gt;&gt;&gt;|10]]&lt;&lt;/if&gt;&gt;
 &lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="33" name="39" tags="" position="612.5,2475" size="100,100">Terlepas kamu pernah melihatnya di jalan, imam muda ini terlihat seperti orang yang berbeda ketika berada di podium. Dia berbicara dengan jelas dan berdiri dengan tegap. Dia memiliki kepercayaan diri yang tidak kamu temukan pada orang yang sama--wanita muda yang kamu lihat di perjalanan ke Kigantung.
 
 &quot;Hampir semua di antara kalian telah mengenal saya, tapi saya melihat ada beberapa wajah asing,&quot; ucapnya. &quot;Saya Ispasir, anggota Istana Tinta Cair sekaligus penjaga kuil barat kota Were. Semoga Sang Cahaya membimbing kalian semua.&quot;
@@ -3071,7 +3071,7 @@ Terlepas kesungguhan yang kamu lihat padanya saat ini, ada perbedaan yang signif
 &lt;&lt;set $roll20Agama to dice(&#39;1d20&#39;) + $player.mod.agama&gt;&gt;
 &lt;&lt;set $roll20Wawasan to dice(&#39;1d20&#39;) + $player.mod.wawasan&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;
-Kamu dapat mengecek menggunakan ilmu [[agamamu|24]] atau menggunakan [[wawasanmu|43]].</tw-passagedata><tw-passagedata pid="34" name="4" tags="" position="550,725" size="100,100">&quot;Jiahahahaha... untung saja saya ada di sekitar sini,&quot; katanya sambil tertawa yang terdengar menyebalkan. Dia menepuk pinggangmu dengan tenaga yang cukup membuatmu sempoyongan. Dia membuka mulut tapi tidak ada sepatah katapun sampai kemudian dia bersin. Kamu menunggu dia menyelesaikan bersinnya.
+Kamu dapat mengecek menggunakan ilmu [[agamamu|24]] atau menggunakan [[kepekaanmu|43]].</tw-passagedata><tw-passagedata pid="34" name="4" tags="" position="550,725" size="100,100">&quot;Jiahahahaha... untung saja saya ada di sekitar sini,&quot; katanya sambil tertawa yang terdengar menyebalkan. Dia menepuk pinggangmu dengan tenaga yang cukup membuatmu sempoyongan. Dia membuka mulut tapi tidak ada sepatah katapun sampai kemudian dia bersin. Kamu menunggu dia menyelesaikan bersinnya.
 
 &quot;Ah, kamu pasti lapar dan lelah. Ikuti saja jalan ini, nanti kamu akan tiba di kota Were. Carilah penginapan //Kigantung// dan jika ada orang yang bertanya, bilang saja kalau Eboy yang mengirimmu.&quot;
 
@@ -3099,13 +3099,13 @@ Pria cebol ini menunjuk ke kawanan serigala dengan tatapan seperti seorang guru,
 &lt;&lt;linkreplace &quot;&gt;&gt;&gt;&gt;&gt;&quot;&gt;&gt;
 &lt;&lt;if $roll20Persuasif gte 12&gt;&gt;
 &lt;&lt;notify 5s&gt;&gt;Roll Bujuk rayu berhasil!&lt;&lt;/notify&gt;&gt;
-[[&gt;&gt;&gt;&gt;&gt;|2]]
+&lt;&lt;link [[&gt;&gt;&gt;&gt;&gt;|2]]&gt;&gt;&lt;&lt;set $player.mod.persuasif += 1&gt;&gt;&lt;&lt;/link&gt;&gt;
 &lt;&lt;else&gt;&gt;
 &lt;&lt;notify 5s&gt;&gt;Roll Bujuk rayu gagal!&lt;&lt;/notify&gt;&gt;
 [[&gt;&gt;&gt;&gt;&gt;|36]]
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;/linkreplace&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="37" name="42" tags="" position="737.5,2350" size="100,100">&lt;&lt;set $player.mod.persepsi++&gt;&gt;&lt;&lt;notify 5s&gt;&gt;kamu mendapat 1 mod persepsi sebagai inspirasi&lt;&lt;/notify&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="37" name="42" tags="" position="737.5,2350" size="100,100">&lt;&lt;notify 5s&gt;&gt;kamu mendapat 1 mod persepsi sebagai inspirasi&lt;&lt;/notify&gt;&gt;
 Wajah dan hidung kuncen terlihat kemerahan, pria cebol itu tidak terlihat sedang mabuk.
 
 Dengan bersin dan suaranya yang serak, dia tampak tidak enak badan. Dan itu tidak terlihat seperti mempengaruhi tenaganya, tapi yang jelas itu mempengaruhi suatu perubahannya.
@@ -3117,7 +3117,7 @@ Sebelum kamu mengamati sang kuncen cebol lebih lanjut, seorang wanita muda denga
 &lt;&lt;nobr&gt;&gt;
 &lt;&lt;linkreplace &quot;&gt;&gt;&gt;&gt;&gt;&quot;&gt;&gt;
 &lt;&lt;if $roll20Wawasan gte 10&gt;&gt;
-&lt;&lt;notify 5s&gt;&gt;roll wawasan berhasil!&lt;&lt;/notify&gt;&gt;[[&gt;&gt;&gt;&gt;&gt;|45]]&lt;&lt;else&gt;&gt;&lt;&lt;notify 5s&gt;&gt;roll wawasan gagal!&lt;&lt;/notify&gt;&gt;[[&gt;&gt;&gt;&gt;&gt;|7]]&lt;&lt;/if&gt;&gt;
+&lt;&lt;notify 5s&gt;&gt;roll kepekaan berhasil!&lt;&lt;/notify&gt;&gt;[[&gt;&gt;&gt;&gt;&gt;|45]]&lt;&lt;else&gt;&gt;&lt;&lt;notify 5s&gt;&gt;roll kepekaan gagal!&lt;&lt;/notify&gt;&gt;[[&gt;&gt;&gt;&gt;&gt;|7]]&lt;&lt;/if&gt;&gt;
 &lt;&lt;/linkreplace&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="39" name="44" tags="" position="550,1475" size="100,100">Wanita siluman kucing dengan setelan pakaian yang pas ini melihatmu dari ujung kepala sampai ujung kaki.
 
@@ -3130,10 +3130,10 @@ Cukup banyak terlihat bagaimana sang imam berbicara dan bersikap, terutama kepad
 Sosok walikota ada di belakang sang imam sesaat sebelum dia menyadari dan undur diri menyerahkan tempatnya kepada [[walikota|25]].</tw-passagedata><tw-passagedata pid="41" name="46" tags="" position="675,1850" size="100,100">Orang-orang berkelakuan aneh, tapi tidak yakin apa yang aneh.
 
 &lt;&lt;linkreplace &quot;&gt;&gt;&gt;&gt;&gt;&quot;&gt;&gt;&lt;&lt;if $roll20Wawasan gte 10&gt;&gt;
-&lt;&lt;notify 5s&gt;&gt;roll wawasan berhasil!&lt;&lt;/notify&gt;&gt;
-[[&gt;&gt;&gt;&gt;&gt;|29]]
+&lt;&lt;notify 5s&gt;&gt;roll kepekaan berhasil!&lt;&lt;/notify&gt;&gt;
+&lt;&lt;link [[&gt;&gt;&gt;&gt;&gt;|29]]&gt;&gt;&lt;&lt;set $player.mod.wawasan++&gt;&gt;&lt;&lt;/link&gt;&gt;
 &lt;&lt;else&gt;&gt;
-&lt;&lt;notify 5s&gt;&gt;roll wawasan gagal!&lt;&lt;/notify&gt;&gt;
+&lt;&lt;notify 5s&gt;&gt;roll kepekaan gagal!&lt;&lt;/notify&gt;&gt;
 [[&gt;&gt;&gt;&gt;&gt;|18]]
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="42" name="47" tags="" position="862.5,3100" size="100,100">Esti Utami terlihat sangat tenang, dapat mengendalikan diri, membuat kamu berpikir ada yang dia tahan atau sembunyikan. Pun anjingnya sangatlah menakjubkan, tapi itu tidak membantu sama sekali.
@@ -3169,7 +3169,7 @@ Kamu punya sekali lagi kesempatan untuk [[mempertimbangkan permintaan walikota|4
 
 Walikota melangkah menuju podium,  berdiri di belakang Ispasir menunggu giliran dia berbicara, dan sang imam menyadarinya dengan sekilas pandang lalu menyerahkan tempatnya kepada [[walikota|25]].</tw-passagedata><tw-passagedata pid="48" name="8" tags="" position="987.5,3725" size="100,100">Walikota memanggil salah seorang anggota penjaga kota dengan menekan bel kecil. Penjaga kota masuk, dia mengenakan seragam militer lengkap dengan pentungan kayu yang tergantung di pinggangnya. Walikota meminta penjaga kota untuk mengawalmu ke penginapan agar kamu bisa membereskan barangmu, lalu mengantarmu ke gerbang kota.
 
-Walikota turut mengantar sampai gerbang, dan mempersilahkanmu untuk pergi.</tw-passagedata><tw-passagedata pid="49" name="9" tags="" position="487.5,1975" size="100,100">&lt;&lt;set $player.mod.investigasi++&gt;&gt;&lt;&lt;notify 5s&gt;&gt;kamu mendapat +1 mod investigasi sebagai inspirasi&lt;&lt;/notify&gt;&gt;
+Walikota turut mengantar sampai gerbang, dan mempersilahkanmu untuk pergi.</tw-passagedata><tw-passagedata pid="49" name="9" tags="" position="487.5,1975" size="100,100">&lt;&lt;notify 5s&gt;&gt;kamu mendapat +1 mod investigasi sebagai inspirasi&lt;&lt;/notify&gt;&gt;
 Saat Kenny berbicara, beberapa gadis dan wanita paruh baya tersenyum dan saling berbisik. Tidak ada yang terlihat bahagia atas kematian Riri, hanya saja para perempuan cantik ini tidak sesedih yang lain.
 
 Juga, sudah jelas bahwa Kenny adalah ahli ramuan dan jamu di kota ini.
@@ -3347,7 +3347,7 @@ Ketahanan: $pendekar.atribut.ketahanan
 &lt;span class=&quot;kecerdasan&quot;&gt;Pengetahuan Alam: $pendekar.mod.alam&lt;/span&gt;
 &lt;span class=&quot;kecerdasan&quot;&gt;Agama: $pendekar.mod.agama&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Menjinakan Hewan: $pendekar.mod.hewan&lt;/span&gt;
-&lt;span class=&quot;kebijaksanaan&quot;&gt;Wawasan: $pendekar.mod.wawasan&lt;/span&gt;
+&lt;span class=&quot;kebijaksanaan&quot;&gt;Kepekaan: $pendekar.mod.wawasan&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Pengobatan: $pendekar.mod.obat&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Persepsi: $pendekar.mod.persepsi&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Bertahan Hidup: $pendekar.mod.survival&lt;/span&gt;
@@ -3420,7 +3420,7 @@ Ketahanan: $player.atribut.ketahanan [$player.mod.ketahanan]
 &lt;span class=&quot;kecerdasan&quot;&gt;Pengetahuan Alam: $player.mod.alam&lt;/span&gt;
 &lt;span class=&quot;kecerdasan&quot;&gt;Agama: $player.mod.agama&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Menjinakan Hewan: $player.mod.hewan&lt;/span&gt;
-&lt;span class=&quot;kebijaksanaan&quot;&gt;Wawasan: $player.mod.wawasan&lt;/span&gt;
+&lt;span class=&quot;kebijaksanaan&quot;&gt;Kepekaan: $player.mod.wawasan&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Pengobatan: $player.mod.obat&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Persepsi: $player.mod.persepsi&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Bertahan Hidup: $player.mod.survival&lt;/span&gt;
@@ -3492,7 +3492,7 @@ Ketahanan: $pendekar.atribut.ketahanan [$pendekar.mod.ketahanan]
 &lt;span class=&quot;kecerdasan&quot;&gt;Pengetahuan Alam: $pendekar.mod.alam&lt;/span&gt;
 &lt;span class=&quot;kecerdasan&quot;&gt;Agama: $pendekar.mod.agama&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Menjinakan Hewan: $pendekar.mod.hewan&lt;/span&gt;
-&lt;span class=&quot;kebijaksanaan&quot;&gt;Wawasan: $pendekar.mod.wawasan&lt;/span&gt;
+&lt;span class=&quot;kebijaksanaan&quot;&gt;Kepekaan: $pendekar.mod.wawasan&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Pengobatan: $pendekar.mod.obat&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Persepsi: $pendekar.mod.persepsi&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Bertahan Hidup: $pendekar.mod.survival&lt;/span&gt;
@@ -3568,7 +3568,7 @@ Ketahanan: $tabib.atribut.ketahanan [$tabib.mod.ketahanan]
 &lt;span class=&quot;kecerdasan&quot;&gt;Pengetahuan Alam: $tabib.mod.alam&lt;/span&gt;
 &lt;span class=&quot;kecerdasan&quot;&gt;Agama: $tabib.mod.agama&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Menjinakan Hewan: $tabib.mod.hewan&lt;/span&gt;
-&lt;span class=&quot;kebijaksanaan&quot;&gt;Wawasan: $tabib.mod.wawasan&lt;/span&gt;
+&lt;span class=&quot;kebijaksanaan&quot;&gt;Kepekaan: $tabib.mod.wawasan&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Pengobatan: $tabib.mod.obat&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Persepsi: $tabib.mod.persepsi&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Bertahan Hidup: $tabib.mod.survival&lt;/span&gt;
@@ -3649,7 +3649,7 @@ Ketahanan: $pemburu.atribut.ketahanan [$pemburu.mod.ketahanan]
 &lt;span class=&quot;kecerdasan&quot;&gt;Pengetahuan Alam: $pemburu.mod.alam&lt;/span&gt;
 &lt;span class=&quot;kecerdasan&quot;&gt;Agama: $pemburu.mod.agama&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Menjinakan Hewan: $pemburu.mod.hewan&lt;/span&gt;
-&lt;span class=&quot;kebijaksanaan&quot;&gt;Wawasan: $pemburu.mod.wawasan&lt;/span&gt;
+&lt;span class=&quot;kebijaksanaan&quot;&gt;Kepekaan: $pemburu.mod.wawasan&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Pengobatan: $pemburu.mod.obat&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Persepsi: $pemburu.mod.persepsi&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Bertahan Hidup: $pemburu.mod.survival&lt;/span&gt;
@@ -3726,7 +3726,7 @@ Ketahanan: $pustakawan.atribut.ketahanan [$pustakawan.mod.ketahanan]
 &lt;span class=&quot;kecerdasan&quot;&gt;Pengetahuan Alam: $pustakawan.mod.alam&lt;/span&gt;
 &lt;span class=&quot;kecerdasan&quot;&gt;Agama: $pustakawan.mod.agama&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Menjinakan Hewan: $pustakawan.mod.hewan&lt;/span&gt;
-&lt;span class=&quot;kebijaksanaan&quot;&gt;Wawasan: $pustakawan.mod.wawasan&lt;/span&gt;
+&lt;span class=&quot;kebijaksanaan&quot;&gt;Kepekaan: $pustakawan.mod.wawasan&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Pengobatan: $pustakawan.mod.obat&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Persepsi: $pustakawan.mod.persepsi&lt;/span&gt;
 &lt;span class=&quot;kebijaksanaan&quot;&gt;Bertahan Hidup: $pustakawan.mod.survival&lt;/span&gt;
