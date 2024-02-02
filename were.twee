@@ -275,7 +275,7 @@ Orang tua mendiang bergeser ke sisi podium, mempersilahkan [[tunangan Riri untuk
 
 
 :: 29 {"position":"800,1975","size":"100,100"}
-<<notify 5s>>kamu mendapat +1 mod wawasan sebagai inspirasi<</notify>>
+<<notify 5s>>kamu mendapat +1 mod kepekaan sebagai inspirasi<</notify>>
 Meskipun kedukaan Kenny begitu tulus, tetapi tergambar perasaan lega atau mungkin kegembiraan darinya.
 
 Dan jumlah wanita yang menghadiri prosesi pemakaman, saling berbisik satu sama lain, dengan senyuman sambil melirik ke arah Kenny. Dan para istri yang jengkel dengan perasaan malu yang terpendam karena suami mereka saling melempar lelucon rahasia  dengan harap Kenny sadar dan mengalihkan perhatiannya kepada para istri-istri kota Were yang membosankan.
@@ -358,7 +358,7 @@ Para pendengar bertepuk tangan penuh hormat, dan mengucapkan bela sungkawa. Tapi
 <<set $roll20Investigasi to dice('1d20') + $player.mod.investigasi>>
 <<set $roll20Wawasan to dice('1d20') + $player.mod.wawasan>>
 <</nobr>>
-Kamu dapat menggunakan kemampuan [[investigasi|12]] atau [[wawasan|46]] untuk mencari tahu yang menarik perhatianmu.
+Kamu dapat menggunakan kemampuan [[investigasi|12]] atau [[kepekaan|46]] untuk mencari tahu yang menarik perhatianmu.
 
 
 :: 33 {"position":"550,600","size":"100,100"}
@@ -464,7 +464,7 @@ Terlepas kesungguhan yang kamu lihat padanya saat ini, ada perbedaan yang signif
 <<set $roll20Agama to dice('1d20') + $player.mod.agama>>
 <<set $roll20Wawasan to dice('1d20') + $player.mod.wawasan>>
 <</nobr>>
-Kamu dapat mengecek menggunakan ilmu [[agamamu|24]] atau menggunakan [[wawasanmu|43]].
+Kamu dapat mengecek menggunakan ilmu [[agamamu|24]] atau menggunakan [[kepekaanmu|43]].
 
 
 :: 4 {"position":"550,725","size":"100,100"}
@@ -530,7 +530,7 @@ Peran imam sebagai pemimpin spiritual sangat bertolak belakang dengan sikap pema
 <<nobr>>
 <<linkreplace ">>>>>">>
 <<if $roll20Wawasan gte 10>>
-<<notify 5s>>roll wawasan berhasil!<</notify>>[[>>>>>|45]]<<else>><<notify 5s>>roll wawasan gagal!<</notify>>[[>>>>>|7]]<</if>>
+<<notify 5s>>roll kepekaan berhasil!<</notify>>[[>>>>>|45]]<<else>><<notify 5s>>roll kepekaan gagal!<</notify>>[[>>>>>|7]]<</if>>
 <</linkreplace>>
 <</nobr>>
 
@@ -555,10 +555,10 @@ Sosok walikota ada di belakang sang imam sesaat sebelum dia menyadari dan undur 
 Orang-orang berkelakuan aneh, tapi tidak yakin apa yang aneh.
 
 <<linkreplace ">>>>>">><<if $roll20Wawasan gte 10>>
-<<notify 5s>>roll wawasan berhasil!<</notify>>
+<<notify 5s>>roll kepekaan berhasil!<</notify>>
 <<link [[>>>>>|29]]>><<set $player.mod.wawasan++>><</link>>
 <<else>>
-<<notify 5s>>roll wawasan gagal!<</notify>>
+<<notify 5s>>roll kepekaan gagal!<</notify>>
 [[>>>>>|18]]
 <</if>>
 <</linkreplace>>
@@ -828,7 +828,7 @@ Ketahanan: $pendekar.atribut.ketahanan
 <span class="kecerdasan">Pengetahuan Alam: $pendekar.mod.alam</span>
 <span class="kecerdasan">Agama: $pendekar.mod.agama</span>
 <span class="kebijaksanaan">Menjinakan Hewan: $pendekar.mod.hewan</span>
-<span class="kebijaksanaan">Wawasan: $pendekar.mod.wawasan</span>
+<span class="kebijaksanaan">Kepekaan: $pendekar.mod.wawasan</span>
 <span class="kebijaksanaan">Pengobatan: $pendekar.mod.obat</span>
 <span class="kebijaksanaan">Persepsi: $pendekar.mod.persepsi</span>
 <span class="kebijaksanaan">Bertahan Hidup: $pendekar.mod.survival</span>
@@ -913,7 +913,7 @@ Ketahanan: $player.atribut.ketahanan [$player.mod.ketahanan]
 <span class="kecerdasan">Pengetahuan Alam: $player.mod.alam</span>
 <span class="kecerdasan">Agama: $player.mod.agama</span>
 <span class="kebijaksanaan">Menjinakan Hewan: $player.mod.hewan</span>
-<span class="kebijaksanaan">Wawasan: $player.mod.wawasan</span>
+<span class="kebijaksanaan">Kepekaan: $player.mod.wawasan</span>
 <span class="kebijaksanaan">Pengobatan: $player.mod.obat</span>
 <span class="kebijaksanaan">Persepsi: $player.mod.persepsi</span>
 <span class="kebijaksanaan">Bertahan Hidup: $player.mod.survival</span>
@@ -989,7 +989,7 @@ Ketahanan: $pendekar.atribut.ketahanan [$pendekar.mod.ketahanan]
 <span class="kecerdasan">Pengetahuan Alam: $pendekar.mod.alam</span>
 <span class="kecerdasan">Agama: $pendekar.mod.agama</span>
 <span class="kebijaksanaan">Menjinakan Hewan: $pendekar.mod.hewan</span>
-<span class="kebijaksanaan">Wawasan: $pendekar.mod.wawasan</span>
+<span class="kebijaksanaan">Kepekaan: $pendekar.mod.wawasan</span>
 <span class="kebijaksanaan">Pengobatan: $pendekar.mod.obat</span>
 <span class="kebijaksanaan">Persepsi: $pendekar.mod.persepsi</span>
 <span class="kebijaksanaan">Bertahan Hidup: $pendekar.mod.survival</span>
@@ -1065,7 +1065,7 @@ Ketahanan: $tabib.atribut.ketahanan [$tabib.mod.ketahanan]
 <span class="kecerdasan">Pengetahuan Alam: $tabib.mod.alam</span>
 <span class="kecerdasan">Agama: $tabib.mod.agama</span>
 <span class="kebijaksanaan">Menjinakan Hewan: $tabib.mod.hewan</span>
-<span class="kebijaksanaan">Wawasan: $tabib.mod.wawasan</span>
+<span class="kebijaksanaan">Kepekaan: $tabib.mod.wawasan</span>
 <span class="kebijaksanaan">Pengobatan: $tabib.mod.obat</span>
 <span class="kebijaksanaan">Persepsi: $tabib.mod.persepsi</span>
 <span class="kebijaksanaan">Bertahan Hidup: $tabib.mod.survival</span>
@@ -1146,7 +1146,7 @@ Ketahanan: $pemburu.atribut.ketahanan [$pemburu.mod.ketahanan]
 <span class="kecerdasan">Pengetahuan Alam: $pemburu.mod.alam</span>
 <span class="kecerdasan">Agama: $pemburu.mod.agama</span>
 <span class="kebijaksanaan">Menjinakan Hewan: $pemburu.mod.hewan</span>
-<span class="kebijaksanaan">Wawasan: $pemburu.mod.wawasan</span>
+<span class="kebijaksanaan">Kepekaan: $pemburu.mod.wawasan</span>
 <span class="kebijaksanaan">Pengobatan: $pemburu.mod.obat</span>
 <span class="kebijaksanaan">Persepsi: $pemburu.mod.persepsi</span>
 <span class="kebijaksanaan">Bertahan Hidup: $pemburu.mod.survival</span>
@@ -1223,7 +1223,7 @@ Ketahanan: $pustakawan.atribut.ketahanan [$pustakawan.mod.ketahanan]
 <span class="kecerdasan">Pengetahuan Alam: $pustakawan.mod.alam</span>
 <span class="kecerdasan">Agama: $pustakawan.mod.agama</span>
 <span class="kebijaksanaan">Menjinakan Hewan: $pustakawan.mod.hewan</span>
-<span class="kebijaksanaan">Wawasan: $pustakawan.mod.wawasan</span>
+<span class="kebijaksanaan">Kepekaan: $pustakawan.mod.wawasan</span>
 <span class="kebijaksanaan">Pengobatan: $pustakawan.mod.obat</span>
 <span class="kebijaksanaan">Persepsi: $pustakawan.mod.persepsi</span>
 <span class="kebijaksanaan">Bertahan Hidup: $pustakawan.mod.survival</span>
