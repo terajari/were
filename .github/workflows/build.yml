@@ -31,9 +31,6 @@ jobs:
           cd ../
           mkdir dist
           tweego were.twee -o dist/index.html
-      
-      - name: Copy assets
-        run: cp -r assets dist/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2
